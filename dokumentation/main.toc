@@ -1,0 +1,20 @@
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\contentsline {chapter}{Abstract}{ii}{section*.1}%
+\contentsline {subparagraph}{\nonumberline Projektergebnis}{iv}{section*.3}%
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Vertiefende Aufgabenstellung}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Schüler*innen Name 1}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Schüler*innen Name 2}{1}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Dokumentation der Arbeit}{1}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Latex-Beispiele}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Auflistungen}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Tabellen}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Abbildungen}{5}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Quellcode}{5}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Java-Code}{5}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Python-Code}{6}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Lesen von Dateien}{6}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Referenzen}{6}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Zitate}{7}{section.2.6}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{17}{chapter*.11}%

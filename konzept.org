@@ -1,0 +1,29 @@
+#+OPTIONS: toc:nil num:nil
+
+* Eurorack synthesizer
+1996 veröffentlichte Doepfer Musikelektronik GmbH eine Reihe an Synthesizermodulen. Schnell wurden kompatible Module von anderen Herstellern hergestellt, wodurch das Eurorack Format entstand. Heute gibt es tausende von Eurorack Modulen, hergestellt von bekannten Firmen wie Moog, Roland, Behringer, auf Eurorack spezialisierten Herstellern wie Make Noise und es gibt eine lebendige DIY-szene mit vielen öffentlichen Designs, Anleitungen, Schematics, vorbereiteten Kits zum zusammenbauen und mehr.
+
+Wichtig bei Eurorack Modulen ist, dass viele Funktionen nicht nur durch den Benutzer (durch Knöpfe, Potentiometer, etc) sondern auch durch andere Module mithilfe von sog. Kontrollspannung
+(CV) ansteuerbar sind. So kann z.B die Frequenz eines Oszillators, der Cutoff eines Filters, Attack und Releaselänge eines Envelopes usw. durch ein anderes Signal kontrolliert werden; Diese Kontrollspannung kann wiederum aus verschiedensten Modulen wie z.B. einem MIDI Interface, einem LFO oder sogar einem anderen Audiosignal kommen. Die Module sind nicht fest verkabelt,, sondern werden vom Benutzer "on the fly" mit Patchkabeln (3.5mm mono) verbunden. Dadurch entsteht ein Netzwerk
+an elektronischen Schaltungen welche sich gegenseitig beeinflussen und hochschaukeln, was zu idealerweise wohlklingenden, jedoch in jedem Fall interessanten Effekten führt.
+
+Wichtige Zahlen die einzuhalten sind, um Kompatibilität sicherzustellen sind:
++ 3.5mm mono klinkenstecker/klinken für Patchkabel
++ Signale sind typischerweise:
+  + -5v bis +5v für Audiosignale,
+  + -2.5v bis +2.5v oder 0-8v für Kontrollspannung
+  + 5v oder 0v (HIGH/LOW) für Trigger und ähnliches
+  + in Extremfällen sind Spannungen von -12v bis +12v möglich
+
+Unser Ziel ist es, einen Synthesizer bauen, welcher alleinstehend funktionieren kann, jedoch auch mit dem Eurorack Format kompatibel ist, damit er bei Bedarf mit Modulen aus anderen Quellen erweitert werden kann. zu diesem Zweck sind folgende Module
+
++ essenziell:
+  + Oszillatoren (verschiedene Wellenformen, hohe Frequenzen für Audiosignale, niedrige Frequenzen für Kontrollspannung) + Vactrols (LDR+LED) um einen Voltage controlled Oszillator zu bauen
+  + Mixer um verschiedene Signale zusammenzuführen
+  + Voltage controlled amplifier
+  + Filter, Envelopes
+  + Sequencer (=> Arduino)
++ optional:
+  + Reverb + Delay
+  + Noise generatoren (zB white noise)
+  + Distortion

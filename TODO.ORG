@@ -1,0 +1,5 @@
+* Hardware
+** TODO Powerkabel bestellen
+* Software
+* Dokumentation
+** TODO Abstract

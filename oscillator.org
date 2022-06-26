@@ -1,5 +1,6 @@
 #+OPTIONS: toc:nil num:nil tex:t
 #+LATEX_HEADER: \usepackage{circuitikz}
+#+LATEX_HEADER: \usepackage{siunitx}
 
 * sqr oscillator logisch
 \begin{circuitikz}[european]
@@ -54,9 +55,9 @@ to[pR, name=R3, l_=R3] ++(0, 3.5)
 
 
 %% Input/Output Terminals
-(-4, 5) node[circ, name=+12V]{+12V}
+(-4, 5) node[circ, name=+12V]{\SI{12}{V}}
 (-4.5, 4.25) node[circ, name=GND]{GND}
-(-5, 3.5) node[circ, name=-12V]{-12V}
+(-5, 3.5) node[circ, name=-12V]{\SI{-12}{V}}
 
 
 %% Connections Schmitt trigger inputs to GND

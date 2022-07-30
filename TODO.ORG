@@ -1,6 +1,7 @@
 * Hardware
-** TODO Powerkabel, Litzen, Lötzinn bestellen
+** DONE Powerkabel, Litzen, Lötzinn bestellen
 * Software
 * Dokumentation
 ** TODO Abstract
 ** TODO polish 2x sqr wave osci schematics
+** TODO mixer schematics

@@ -1,14 +1,24 @@
 \babel@toc {ngerman}{}\relax 
 \babel@toc {ngerman}{}\relax 
-\contentsline {chapter}{Abstract}{ii}{section*.1}%
 \contentsline {subparagraph}{\nonumberline Projektergebnis}{iii}{subparagraph*.4}%
+\contentsline {chapter}{Abstract}{ii}{section*.1}%
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Vertiefende Aufgabenstellung}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Schüler*innen Name 1}{1}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2}Schüler*innen Name 2}{1}{subsection.1.1.2}%
 \contentsline {section}{\numberline {1.2}Dokumentation der Arbeit}{1}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Das Eurorack Format}{2}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Vokabular}{2}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.1}Jargon}{2}{subsection.1.3.1}%
 \contentsline {subsubsection}{\nonumberline Kontrollspannung, Control Voltage}{2}{subsubsection*.8}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{11}{chapter*.14}%
+\contentsline {subsubsection}{\nonumberline Audiosignale}{3}{subsubsection*.10}%
+\contentsline {subsubsection}{\nonumberline Trigger}{3}{subsubsection*.12}%
+\contentsline {subsubsection}{\nonumberline Patchkabel}{3}{subsubsection*.14}%
+\contentsline {subsubsection}{\nonumberline Voltage Controlled Modules}{4}{subsubsection*.16}%
+\contentsline {section}{\numberline {1.4}Module}{4}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Oszillator}{4}{subsection.1.4.1}%
+\contentsline {subsubsection}{\nonumberline Beschreibung}{4}{subsubsection*.18}%
+\contentsline {subsubsection}{\nonumberline Schematics}{4}{subsubsection*.20}%
+\contentsline {subsubsection}{\nonumberline Elektronik}{4}{subsubsection*.22}%
+\contentsline {subsubsection}{\nonumberline Benutzung}{4}{subsubsection*.24}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{13}{chapter*.30}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

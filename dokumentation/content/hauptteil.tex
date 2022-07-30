@@ -1,12 +1,52 @@
 \section{Das Eurorack Format}
-\label{sec:orgc35feee}
+\label{sec:orgc10323e}
 
 1996 veröffentlichte Doepfer Musikelektronik GmbH eine Reihe an Synthesizermodulen. Schnell wurden kompatible Module von anderen Herstellern hergestellt, wodurch das Eurorack Format zum de-facto Standard für modulare Synthesizer wurde. Heute gibt es tausende von Eurorack Modulen, hergestellt von bekannten Firmen wie Moog, Roland, Behringer, auf Eurorack spezialisierten Herstellern wie Make Noise und es gibt eine lebendige DIY-szene mit vielen öffentlichen Designs, Anleitungen, Schematics, vorbereiteten Kits zum zusammenbauen und mehr.
 
 Essentiell bei Eurorack Modulen ist, dass viele Funktionen nicht nur durch den Benutzer (durch Knöpfe, Potentiometer, etc) sondern auch durch andere Module mithilfe von sog. Kontrollspannung (CV) ansteuerbar sind. So kann z.B die Frequenz eines Oszillators, der Cutoff eines Filters, Attack und Releaselänge eines Envelopes usw. durch ein anderes Signal kontrolliert werden; Diese Kontrollspannung kann wiederum aus verschiedensten Modulen wie z.B. einem MIDI Interface, einem LFO oder sogar einem anderen Audiosignal kommen. Die Module sind nicht fest verkabelt, sondern werden vom Benutzer "on the fly" mit Patchkabeln (3.5mm mono) verbunden. Dadurch entsteht ein Netzwerk an elektronischen Schaltungen welche sich gegenseitig beeinflussen und hochschaukeln, was zu idealerweise wohlklingenden, jedoch in jedem Fall interessanten Effekten führt.
 
-\subsection{Vokabular}
-\label{sec:orgbb4ceab}
+\subsection{Jargon}
+\label{sec:orgd272e55}
 \subsubsection{Kontrollspannung, Control Voltage}
-\label{sec:orgfd3fe14}
-Kontrollspannung (CV) ist das Herz des Konzepts eines Modularen Synthesizer. Während normale Synthesizer wie der Moog mini 
+\label{sec:org93588ce}
+Kontrollspannung (CV) ist die Quintessenz eines Modularen Synthesizers. Während normale Synthesizer wie der Minimoog intern mit Kontrollspannung arbeiten und oft auch Kontrollspannung ausgeben können (oder zumindest Audiospannung welche als Kontrollspannung misbraucht werden kann), sind die Leitungen für diese Kontrollspannungen fest verlötet. Das bedeutet dass der Benutzer nicht frei entscheiden kann, welcher Teil des Synthesizers welchen anderen Teil beeinflusst. Bei modularen Synthesizern liegen Audiobuchsen auf welchen Kontrollspannung anliegt / angelegt werden kann frei, diese Schnittstellen können vom Benutzer mehr oder weniger beliebig mit Patchkabeln zusammengeschlossen werden. Dadurch entsteht die Modularität des Eurorack Formats.
+
+Kontrollspannungen sind im Regelfall entweder -2.5V bis +2.5V oder 0-8V, können jedoch im Extremfall den vollen möglichen Spannungsumfang von -12V bis +12V ausnutzen.
+
+\subsubsection{Audiosignale}
+\label{sec:orgd63de81}
+Audiosignale sind Spannungen zwischen -5V und +5V welche an einen Verstärker oder Lautsprecher angelegt werden können um Schall zu erzeugen. Sie können auch zur Weiterverarbeitung von einem Modul zum anderen geschickt werden und sogar als Kontrollspannung verwendet werden. Man kann Audiosignale als Kontrollspannungen, welche zum Ansteuern von Lautsprechern geeignet sind, sehen.
+
+\subsubsection{Trigger}
+\label{sec:org73c00e3}
+Auch bei einem analogen Synthesizer werden manchmal binäre Signale benötigt. Diese werden durch 5V (HIGH) bzw 0V (LOW) dargestellt. Aus diesem Grund (und für die Versorgung von zB Mikrocontrollern) wird eine eigene 5V Spannungsquelle vom Netzteil bereitgestellt.
+
+\subsubsection{Patchkabel}
+\label{sec:org991890f}
+Patchkabel sind 3.5mm mono Klinkenstecker. Sie dienen dazu, Verbindungen zwischen verschiedenen Modulen herzustellen über welche Kontrollspannungen und Audiosignale übertragen werden können.
+
+\subsubsection{Voltage Controlled Modules}
+\label{sec:org0ea57e6}
+Module, welche durch Kontrollspannung angesteuert werden, haben oft das präfix VC (Voltage Controlled) im Namen. Beispiele dafür sind VCOs (Voltage Controlled Oscillator) und VCAs (Voltage Controlled Amplifier).
+
+\section{Module}
+\label{sec:org480f352}
+
+Im Folgenden werden die Module, welche den Synthesizer ausmachen, beschrieben. Alle dieser Module haben gemeinsam, dass sie:
+
+\begin{itemize}
+\item Einen Kippschalter besitzen, welcher es ermöglicht das Modul zu deaktivieren um die Stromversorgung zu entlasten
+\item Mindestens eine Audiobuchse besitzen um CV, Audio, Triggersignale und andere Arten von Spannungssignalen auszugeben
+\item \textasciitilde{}13cm Hoch sind und ein Vielfaches von \textasciitilde{}4.445cm breit sind, was im Eurorack format 1U entspricht
+\end{itemize}
+
+\subsection{Oszillator}
+\label{sec:org61c967a}
+\subsubsection{Beschreibung}
+\label{sec:org790070d}
+\subsubsection{Schematics}
+\label{sec:org1a003ce}
+\subsubsection{Elektronik}
+\label{sec:org2c01623}
+\subsubsection{Benutzung}
+\label{sec:org81645dd}

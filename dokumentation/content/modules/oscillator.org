@@ -1,0 +1,7 @@
+* Oszillator x2
+** Beschreibung
+Das Oszillator x2 Modul enthält zwei Squarewave Oszillatoren mit einer Hertz-Anzahl von xx-xx
+** Schematics
+#+INCLUDE: "schematics/oscillator.org
+** Elektronik
+** Benutzung

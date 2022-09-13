@@ -1,14 +1,26 @@
+#+TITLE: Theoretische Grundlagen
+\chapter{Theoretische Grundlagen}
+
 * Das Eurorack Format
 
 1996 veröffentlichte Doepfer Musikelektronik GmbH eine Reihe an Synthesizermodulen. Schnell wurden kompatible Module von anderen Herstellern hergestellt, wodurch das Eurorack Format zum de-facto Standard für modulare Synthesizer wurde. Heute gibt es tausende von Eurorack Modulen, hergestellt von bekannten Firmen wie Moog, Roland, Behringer, auf Eurorack spezialisierten Herstellern wie Make Noise und es gibt eine lebendige DIY-szene mit vielen öffentlichen Designs, Anleitungen, Schematics, vorbereiteten Kits zum zusammenbauen und mehr.
 
-Essentiell bei Eurorack Modulen ist, dass viele Funktionen nicht nur durch den Benutzer (durch Knöpfe, Potentiometer, etc) sondern auch durch andere Module mithilfe von sog. Kontrollspannung (CV) ansteuerbar sind. So kann z.B die Frequenz eines Oszillators, der Cutoff eines Filters, Attack und Releaselänge eines Envelopes usw. durch ein anderes Signal kontrolliert werden; Diese Kontrollspannung kann wiederum aus verschiedensten Modulen wie z.B. einem MIDI Interface, einem LFO oder sogar einem anderen Audiosignal kommen. Die Module sind nicht fest verkabelt, sondern werden vom Benutzer "on the fly" mit Patchkabeln (3.5mm mono) verbunden. Dadurch entsteht ein Netzwerk an elektronischen Schaltungen welche sich gegenseitig beeinflussen und hochschaukeln, was zu idealerweise wohlklingenden, jedoch in jedem Fall interessanten Effekten führt.
+Essentiell bei Eurorack Modulen ist, dass viele Funktionen nicht nur durch den Benutzer (durch Knöpfe, Potentiometer, etc) sondern auch durch andere Module mithilfe von sog. Kontrollspannung (CV) ansteuerbar sind. So kann z.B die Frequenz eines Oszillators, der Cutoff eines Filters, Attack und Releaselänge eines Envelopes usw. durch ein anderes Signal kontrolliert werden; Diese Kontrollspannung kann wiederum aus verschiedensten Modulen wie z.B. einem MIDI Interface, einem LFO oder sogar einem anderen Audiosignal kommen. Die Module sind nicht fest verkabelt, sondern werden vom Benutzer ``on the fly'' mit Patchkabeln (3.5mm mono) verbunden. Dadurch entsteht ein Netzwerk an elektronischen Schaltungen welche sich gegenseitig beeinflussen und hochschaukeln, was zu idealerweise wohlklingenden, jedoch in jedem Fall interessanten Effekten führt.
 
 ** Jargon
+*** Frequenz
+Die Frequenz einer Welle gibt an, wie schnell diese Welle "schwingt", bzw wie oft in einem bestimmten Zeitraum sie ihren Kreislauf wiederholt. Die Einheit ist Hertz, 1Hz entspricht 1/s, das bedeutet die Hertz Anzahl einer Welle gibt an, wie oft das Signal pro Sekunde schwingt. Die Frequenz einer Schallwelle entspricht ihrer Tonhöhe, eine höhere Frequenz entspricht einem höheren Ton.
+
+*** Amplitude
+Die Amplitude einer Welle gibt an, wie hoch die Differenz zwischen den Höhepunkten und den Tiefpunkten dieser Welle ist. Die Einheit der Amplitude hängt vom Medium ab, in welchem die Welle schwingt, bei einer Spannungswelle die von einem Oszillator generiert wird wäre die Amplitude beispielsweise in Volt angegeben (bzw in [[*Vpp][Vpp]]). Die Amplitude einer Schallwelle entspricht ihrer Lautstärke, eine höhere Amplitude entspricht einer höheren Lautstärke.
+
+*** Vpp
+Vpp steht für Voltage peak-to-peak, beschreibt also die Differenz zwischen Minimaler und Maximaler Spannung eines gegebenen In- oder Outputs. Wenn nicht anderst angegeben, sind Spannungen/Spannungsbereiche, welche in Vpp ausgedrückt sind, symmetrisch um 0V. Beispielsweise würde ein Audiosignal von 10Vpp einen Spannungsbereich -5V bis +5V besitzen.
+
 *** Kontrollspannung, Control Voltage
 Kontrollspannung (CV) ist die Quintessenz eines Modularen Synthesizers. Während normale Synthesizer wie der Minimoog intern mit Kontrollspannung arbeiten und oft auch Kontrollspannung ausgeben können (oder zumindest Audiospannung welche als Kontrollspannung misbraucht werden kann), sind die Leitungen für diese Kontrollspannungen fest verlötet. Das bedeutet dass der Benutzer nicht frei entscheiden kann, welcher Teil des Synthesizers welchen anderen Teil beeinflusst. Bei modularen Synthesizern liegen Audiobuchsen auf welchen Kontrollspannung anliegt / angelegt werden kann frei, diese Schnittstellen können vom Benutzer mehr oder weniger beliebig mit Patchkabeln zusammengeschlossen werden. Dadurch entsteht die Modularität des Eurorack Formats.
 
-Kontrollspannungen sind im Regelfall entweder -2.5V bis +2.5V oder 0-8V, können jedoch im Extremfall den vollen möglichen Spannungsumfang von -12V bis +12V ausnutzen.
+Kontrollspannungen sind im Regelfall entweder -2.5V bis +2.5V oder 0-8V, können jedoch theoretisch den vollen möglichen Spannungsumfang von -12V bis +12V ausnutzen.
 
 *** Audiosignale
 Audiosignale sind Spannungen zwischen -5V und +5V welche an einen Verstärker oder Lautsprecher angelegt werden können um Schall zu erzeugen. Sie können auch zur Weiterverarbeitung von einem Modul zum anderen geschickt werden und sogar als Kontrollspannung verwendet werden. Man kann Audiosignale als Kontrollspannungen, welche zum Ansteuern von Lautsprechern geeignet sind, sehen.
@@ -21,13 +33,3 @@ Patchkabel sind 3.5mm mono Klinkenstecker. Sie dienen dazu, Verbindungen zwische
 
 *** Voltage Controlled Modules
 Module, welche durch Kontrollspannung angesteuert werden, haben oft das präfix VC (Voltage Controlled) im Namen. Beispiele dafür sind VCOs (Voltage Controlled Oscillator) und VCAs (Voltage Controlled Amplifier).
-
-* Module
-
-Im Folgenden werden die Module, welche den Synthesizer ausmachen, beschrieben. Alle dieser Module haben gemeinsam, dass sie:
-
-+ Einen Kippschalter besitzen, welcher es ermöglicht das Modul zu deaktivieren um die Stromversorgung zu entlasten
-+ Mindestens eine Audiobuchse besitzen um CV, Audio, Triggersignale und andere Arten von Spannungssignalen auszugeben
-+ ~13cm Hoch sind und ein Vielfaches von ~4.445cm breit sind, was im Eurorack format 1U entspricht
-
-#+INCLUDE: "modules/oscillator.org"

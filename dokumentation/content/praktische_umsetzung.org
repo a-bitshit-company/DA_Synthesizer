@@ -1,0 +1,12 @@
+#+TITLE: Praktische Umsetzung
+\chapter{Praktische Umsetzung}
+
+* Module
+
+Im Folgenden werden die Module, welche den Synthesizer ausmachen, beschrieben. Alle dieser Module besitzen mindestens eine Audiobuchse um CV, Audio, Triggersignale und andere Arten von Spannungssignalen auszugeben.
+
+Die elektronischen Komponenten aller unserer Module sind auf THT-Platinen gelötet. Die Interface-Komponenten welche vom Benutzerpanel aus zugänglich sein sollen werden über längere Kabel und Schraubklemmen auf die Platine verbunden.
+
+#+INCLUDE: modules/oscillator.org
+
+#+INCLUDE: modules/mixer.org

@@ -1,0 +1,65 @@
+% Created 2022-05-19 Thu 14:09
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 28.1 (Org mode 9.5.2)}, 
+ pdflang={English}}
+\begin{document}
+
+
+\section*{Eurorack synthesizer}
+\label{sec:org836c237}
+1996 veröffentlichte Doepfer Musikelektronik GmbH eine Reihe an Synthesizermodulen unter dem Eurorack Namen. Schnell wurden kompatible Module von anderen Herstellern hergestellt, wodurch das Eurorack Format zu einem de-facto Standard für modulare Synthesizer wurde. Heute gibt es tausende von Eurorack Modulen, hergestellt von bekannten Firmen wie Moog, Roland, Behringer, auf Eurorack spezialisierten Herstellern wie Make Noise und es gibt eine lebendige DIY-szene mit vielen öffentlichen Designs, Anleitungen, Schematics, vorbereiteten Kits zum zusammenbauen und mehr.
+
+Wichtig bei Eurorack Modulen ist, dass viele Funktionen nicht nur durch den Benutzer (durch Knöpfe, Potentiometer, etc) sondern auch durch andere Module mithilfe von sog. Kontrollspannung
+(CV) ansteuerbar sind. So kann z.B die Frequenz eines Oszillators, der Cutoff eines Filters, Attack und Releaselänge eines Envelopes usw. durch ein anderes Signal kontrolliert werden; Diese Kontrollspannung kann wiederum aus verschiedensten Modulen wie z.B. einem MIDI Interface, einem LFO oder sogar einem anderen Audiosignal kommen. Die Module sind nicht fest verkabelt,, sondern werden vom Benutzer "on the fly" mit Patchkabeln (3.5mm mono) verbunden. Dadurch entsteht ein Netzwerk
+an elektronischen Schaltungen welche sich gegenseitig beeinflussen und hochschaukeln, was zu idealerweise wohlklingenden, jedoch in jedem Fall interessanten Effekten führt.
+
+Wichtige Zahlen die einzuhalten sind, um Kompatibilität sicherzustellen sind:
+\begin{itemize}
+\item 3.5mm mono klinkenstecker/klinken für Patchkabel
+\item Signale sind typischerweise:
+\begin{itemize}
+\item -5v bis +5v für Audiosignale,
+\item -2.5v bis +2.5v oder 0-8v für Kontrollspannung
+\item 5v oder 0v (HIGH/LOW) für Trigger und ähnliches
+\item in Extremfällen sind Spannungen von -12v bis +12v möglich
+\end{itemize}
+\end{itemize}
+
+Unser Ziel ist es, einen Synthesizer bauen, welcher alleinstehend funktionieren kann, jedoch auch mit dem Eurorack Format kompatibel ist, damit er bei Bedarf mit Modulen aus anderen Quellen erweitert werden kann. zu diesem Zweck sind folgende Module
+
+\begin{itemize}
+\item essenziell:
+\begin{itemize}
+\item Oszillatoren (verschiedene Wellenformen, hohe Frequenzen für Audiosignale, niedrige Frequenzen für Kontrollspannung) + Vactrols (LDR+LED) um einen Voltage controlled Oszillator zu bauen
+\item Mixer um verschiedene Signale zusammenzuführen
+\item Voltage controlled amplifier
+\item Filter, Envelopes
+\item Sequencer (=> Arduino)
+\end{itemize}
+\item optional:
+\begin{itemize}
+\item Reverb + Delay
+\item Noise generatoren (zB white noise)
+\item Distortion
+\end{itemize}
+\end{itemize}
+\end{document}

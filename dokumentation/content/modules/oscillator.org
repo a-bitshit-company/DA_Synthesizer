@@ -1,7 +1,22 @@
 * Oszillator x2
-** Beschreibung
-Das Oszillator x2 Modul enthält zwei Squarewave Oszillatoren mit einer Hertz-Anzahl von xx-xx
-** Schematics
-#+INCLUDE: "schematics/oscillator.org
+** Einleitende Beschreibung
+Das 2xSqr Modul ist ein Signalerzeugendes Modul, welches zwei voneinander unabhängige Rechteckswellen generiert. Es besitzt zwei Audiobuchsen am Panel an welchen die Spannung der generierten Wellen anliegt und vier Potentiometer mit welchen jeweils Lautstärke und Frequenz der beiden Oszillatoren angesteuert werden können.
+
+** Spezifikationen
+Oszillator 1:
++ Spannung: bis zu 10[[file:~/Documents/diplomarbeit/dokumentation/content/hauptteil.org::*Vpp][Vpp]]
++ Frequenzbereich:
+
+Oszillator 2:
++ Spannung: bis zu 10[[file:~/Documents/diplomarbeit/dokumentation/content/hauptteil.org::*Vpp][Vpp]]
++ Frequenzbereich
+  
 ** Elektronik
+Resistor-Capacitor type Oszillator
+
+** Schematics
+
+#+INCLUDE: schematics/oscillator.org
+
 ** Benutzung
+Das Panel ist aufgeteilt in einen linken und rechten oszillator, alle Elemente auf einer Seite gehören zu jeweils einem Oszillator. Die oberen beiden Potentiometer dienen zur Steuerung der [[file:~/Documents/diplomarbeit/dokumentation/content/theoretische_grundlagen.org::*Frequenz][Frequenz]], die unteren beiden dienen zur Steuerung der [[file:~/Documents/diplomarbeit/dokumentation/content/theoretische_grundlagen.org::*Amplitude][Amplitude]] des Signals. Die Audiobuchsen dienen als Output. Der Schalter links oben aktiviert das Modul, die Oszillatoren sind nicht seperat voneinander an/ausschaltbar.

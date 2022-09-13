@@ -1,10 +1,141 @@
-\section{Oszillator}
-\label{sec:orgd73ed82}
-\subsection{Beschreibung}
-\label{sec:orgfcca2df}
-\subsection{Schematics}
-\label{sec:org452e38a}
+\section{Oszillator x2}
+\label{sec:org6af5bd5}
+\subsection{Einleitende Beschreibung}
+\label{sec:orgdeaa858}
+Das 2xSqr Modul ist ein Signalerzeugendes Modul, welches zwei voneinander unabhängige Rechteckswellen generiert. Es besitzt zwei Audiobuchsen am Panel an welchen die Spannung der generierten Wellen anliegt und vier Potentiometer mit welchen jeweils Lautstärke und Frequenz der beiden Oszillatoren angesteuert werden können.
+
+\subsection{Spezifikationen}
+\label{sec:orge6101a8}
+Oszillator 1:
+\begin{itemize}
+\item Spannung: bis zu 10\href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/hauptteil.org}{Vpp}
+\item Frequenzbereich:
+\end{itemize}
+
+Oszillator 2:
+\begin{itemize}
+\item Spannung: bis zu 10\href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/hauptteil.org}{Vpp}
+\item Frequenzbereich
+\end{itemize}
+
 \subsection{Elektronik}
-\label{sec:orgd5e4ddb}
+\label{sec:org9f67528}
+Resistor-Capacitor type Oszillator
+
+\subsection{Schematics}
+\label{sec:org6758415}
+
+Oscillator logisch:
+
+\begin{circuitikz}[european]
+\draw{
+(0,0) node[ground, anchor=center, name=G]{}
+to[cC, invert, name=C1] ++(0,1)
+-- ++(0.5,0)
+node[schmitt, anchor=in](S){} (S.out)
+-- ++(0,1)
+to[pR, l_=R1, name=R1] ++(0,1)
+(R1.wiper) -- (R1.wiper -| C1)
+-- (C1)
+
+(R1.wiper -| C1)
+-- ++(0,1)
+-- ++(3,0)
+-- ++(0,-2)
+-- ++(1,0)
+
+node[op amp, anchor=+](OA1){}
+(OA1.out) -- ++(0,1.2)
+coordinate (T) -- (T -| OA1.-) -- (OA1.-)
+
+(OA1.out)
+to[C, name=C2, l=C2] ++(1,0)
+-- ++(0,-0.5)
+to[R, name=R2, l=R2] ++(0,-1.5)
+node[ground]{}
+(C2) -- ++(1,0)
+
+node[op amp, anchor=+](OA2){}
+(OA2.out) -- ++(0,1.2)
+coordinate (T) -- (T -| OA2.-) -- (OA2.-)
+
+(OA2.out) ++(1,-2.5)
+node[ground]{}
+to[pR, name=R3, l_=R3] ++(0, 3.5)
+-- ++(1,0)
+++(0.55,0) node[draw]{OUT}
+(R3.wiper) -- (R3.wiper -| OA2.out) -- (OA2.out)
+};
+
+\end{circuitikz}
+
+2x sqr Oszillator Modul:
+
+\begin{circuitikz}[european]
+\draw{
+%% DIPs
+(0, -7) node[dipchip, num pins=14, rotate=0](OPAMP){TL074}
+(0, 0) node[dipchip, num pins=14, rotate=0](ST){CD1406}
+
+
+%% Input/Output Terminals
+(-4, 5) node[circ, name=+12V]{\SI{12}{V}}
+(-4.5, 4.25) node[circ, name=GND]{GND}
+(-5, 3.5) node[circ, name=-12V]{\SI{-12}{V}}
+
+
+%% Connections Schmitt trigger inputs to GND
+(ST.pin 3) -- (ST.pin 3 -| ST.center) -- (ST.south)
+(ST.pin 5) -- (ST.pin 5 -| ST.center) -- (ST.south)
+(ST.pin 7) -- (ST.pin 7 -| ST.center) -- (ST.south)
+(ST.pin 9) -- (ST.pin 9 -| ST.center) -- (ST.south)
+(ST.pin 11) -- (ST.pin 11 -| ST.center) -- (ST.south)
+(ST.south) -- ++(0, -1) coordinate (GND2) node[circ]{}
+
+
+(ST.pin 1) -- ++(-0.6, 0)
+to[pR, l_=R1A, name=R1A]
+++(0, -1.5)
+(ST.pin 2) -- (ST.pin 2 -| R1A.wiper) -- (R1A.wiper)
+(ST.pin 1 -| R1A) node[circ]{} -- ++(-1, 0)
+coordinate (T) -- (T |- OPAMP.pin 3) -- (OPAMP.pin 3)
+
+(ST.pin 13) -- ++(0.6, 0)
+to[pR, l=R1B, name=R1B, mirror]
+++(0, -1.5)
+(ST.pin 12) -- (ST.pin 12 -| R1B.wiper) -- (R1B.wiper)
+(ST.pin 13 -| R1B) node[circ]{} -- ++(1,0)
+coordinate (T) -- (T |- OPAMP.pin 12) -- (OPAMP.pin 12)
+
+
+(OPAMP.pin 2) -- (OPAMP.pin 1) node[circ]{} to[C, name=C2A, l=C2A] ++(-1,0)
+coordinate (T) node[circ]{} -- (T |- OPAMP.pin 5) -- (OPAMP.pin 5)
+(T) to[R, name=R2A] (T |- GND2) node[circ]{} -- (GND2)
+(OPAMP.pin 6) -- (OPAMP.pin 7)
+
+(OPAMP.pin 13) -- (OPAMP.pin 14) node[circ]{} to[C, name=C2B, l_=C2B] ++(1,0)
+coordinate (T) node[circ]{} -- (T |- OPAMP.pin 10) -- (OPAMP.pin 10)
+(T) to[R, name=R2B] (T |- GND2) node[circ]{} -- (GND2)
+(OPAMP.pin 9) -- (OPAMP.pin 8)
+
+
+(+12V) -- ++(1, 0) coordinate (T) to[nos] (T -| ST.pin 14) -- (ST.pin 14)
+(+12V) ++(0.8, 0) coordinate (T) -- (T |- OPAMP.pin 4) -- (OPAMP.pin 4)
+(-12V) -- ++(8.2, 0) coordinate (T) -- (T |- OPAMP.pin 11) -- (OPAMP.pin 11)
+
+(GND) -- (GND -| R1B) node[circ]{} to[cC, invert, name=C1A] (R1B |- ST.pin 13)
+(GND -| R1A) node[circ]{} to[cC, invert, name=C1B] (R1A |- ST.pin 1)
+
+(GND -| R1B) -- ++(2, 0) coordinate (T) -- (GND2 -| T) node[circ]{} -- (GND2)
+(T) -- (T |- OPAMP.pin 9) to[pR, mirror, name=R3B] ++(0, -1) -- ++(0, -1) node[draw]{OUT}
+(R3B.wiper) -- (R3B.wiper -| OPAMP.pin 9) node[circ]{}
+
+(GND2 -| R2A) -- ++(-1.5, 0) coordinate (T)
+-- (T |- OPAMP.pin 6) to[pR, name=R3A] ++(0, -1) -- ++(0, -1) node[draw]{OUT}
+(R3A.wiper) -- (R3A.wiper -| OPAMP.pin 6) node[circ]{}
+};
+\end{circuitikz}
+
 \subsection{Benutzung}
-\label{sec:org6bb74f5}
+\label{sec:org275fd08}
+Das Panel ist aufgeteilt in einen linken und rechten oszillator, alle Elemente auf einer Seite gehören zu jeweils einem Oszillator. Die oberen beiden Potentiometer dienen zur Steuerung der \href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/theoretische\_grundlagen.org}{Frequenz}, die unteren beiden dienen zur Steuerung der \href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/theoretische\_grundlagen.org}{Amplitude} des Signals. Die Audiobuchsen dienen als Output. Der Schalter links oben aktiviert das Modul, die Oszillatoren sind nicht seperat voneinander an/ausschaltbar.

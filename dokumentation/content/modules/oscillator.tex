@@ -1,11 +1,16 @@
 \section{Oszillator x2}
-\label{sec:org6af5bd5}
+\label{sec:org1521f58}
 \subsection{Einleitende Beschreibung}
-\label{sec:orgdeaa858}
-Das 2xSqr Modul ist ein Signalerzeugendes Modul, welches zwei voneinander unabhängige Rechteckswellen generiert. Es besitzt zwei Audiobuchsen am Panel an welchen die Spannung der generierten Wellen anliegt und vier Potentiometer mit welchen jeweils Lautstärke und Frequenz der beiden Oszillatoren angesteuert werden können.
+\label{sec:orgee2dd0e}
+Das 2xSqr Modul ist ein simples Signalerzeugendes Modul, welches zwei voneinander unabhängige Rechteckswellen generiert. Es besitzt zwei Audiobuchsen am Panel an welchen die Spannung der generierten Wellen anliegt und vier Potentiometer als verstellbare Wiederstände, mit welchen jeweils Amplitude und Frequenz der beiden Oszillatoren angesteuert werden können. Diese Potentiometer können durch Vactrols ersetzt werden, um das Modul Spannungssteuerbar zu machen.
+
+\begin{circuitikz}
+\ctikzset{bipoles/oscope/waveform=square}
+\draw{node[oscopeshape](){}};
+\end{circuitikz}
 
 \subsection{Spezifikationen}
-\label{sec:orge6101a8}
+\label{sec:org8e5c0d1}
 Oszillator 1:
 \begin{itemize}
 \item Spannung: bis zu 10\href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/hauptteil.org}{Vpp}
@@ -19,11 +24,11 @@ Oszillator 2:
 \end{itemize}
 
 \subsection{Elektronik}
-\label{sec:org9f67528}
+\label{sec:org4bafbe3}
 Resistor-Capacitor type Oszillator
 
 \subsection{Schematics}
-\label{sec:org6758415}
+\label{sec:org6edc7fe}
 
 Oscillator logisch:
 
@@ -137,5 +142,5 @@ coordinate (T) node[circ]{} -- (T |- OPAMP.pin 10) -- (OPAMP.pin 10)
 \end{circuitikz}
 
 \subsection{Benutzung}
-\label{sec:org275fd08}
+\label{sec:org1146e38}
 Das Panel ist aufgeteilt in einen linken und rechten oszillator, alle Elemente auf einer Seite gehören zu jeweils einem Oszillator. Die oberen beiden Potentiometer dienen zur Steuerung der \href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/theoretische\_grundlagen.org}{Frequenz}, die unteren beiden dienen zur Steuerung der \href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/theoretische\_grundlagen.org}{Amplitude} des Signals. Die Audiobuchsen dienen als Output. Der Schalter links oben aktiviert das Modul, die Oszillatoren sind nicht seperat voneinander an/ausschaltbar.

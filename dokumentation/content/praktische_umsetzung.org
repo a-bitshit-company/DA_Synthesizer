@@ -3,9 +3,30 @@
 
 * Module
 
-Im Folgenden werden die Module, welche den Synthesizer ausmachen, beschrieben. Alle dieser Module besitzen mindestens eine Audiobuchse um CV, Audio, Triggersignale und andere Arten von Spannungssignalen auszugeben.
+Im Folgenden werden die Module, welche den Synthesizer ausmachen, beschrieben. Alle dieser Module bestehen aus einem Panel, welches als User Interface dient und einer Platine, welche mit den elektronischen Komponenten bestückt ist. Panels besitzen mindestens eine Audiobuchse um CV, Audio, Triggersignale und andere Arten von Spannungssignalen auszugeben und oft eine beliebige Auswahl an Audioeingängen für Kontrollspannungen, Audio-Inputs und ähnlichem und andere Interfacekomponenten wie Potentiometern, Schaltern, Knöpfen, LEDs und weiterem.
 
-Die elektronischen Komponenten aller unserer Module sind auf THT-Platinen gelötet. Die Interface-Komponenten welche vom Benutzerpanel aus zugänglich sein sollen werden über längere Kabel und Schraubklemmen auf die Platine verbunden.
+Die elektronischen Komponenten können durch verschiedene Methoden zusammengeschalten werden, Beispiele dafür sind:
++ Breadboards:
+  vor allem geeignet zum erstellen von Prototypen
++ THT Platinen:
+  eine schnelle Methode um eine einzelne Platine zu fertigen
++ Selbst geätzte oder vorgefertigte Platinen:
+  eine Methode mit relativ geringem Fehlerpotential, ideal wenn eine größere Anzahl gleichartiger Platinen gefertigt werden sollen, beispielsweise für DIY-Kits
++ "Deadbug" Methode:
+  Eletronische Komponenten werden ohne Platine "point to point" miteinander verlötet. Resultiert meist in Spaghettiähnlichen Strukturen, kann bei gekonnter Ausführung jedoch in sehr ästhetischen Schaltkreisen resultieren.
+
+Die elektronischen Komponenten unserer Module sind auf THT-Platinen gelötet. Diese Platine wird im rechten Winkel in der Mitte des Panels befestigt. Interface-Komponenten welche vom Benutzerpanel aus zugänglich sein sollen werden über längere Kabel und Schraubklemmen auf der Platine verbunden.
+
+Als Material für Panels sind Bleche, Dünne Holz-/Plastikplatten oder ähnliches geeignet, zu bedenken ist dabei die 
+
++ Dicke des Materials:
+  Zum Bestücken sollte eine bestimmte Dicke nicht überschritten werden (abhängig von den gewählten Potentiometern, Audiobuchsen, Schaltern und Knöpfen)
++ Bearbeitbarkeit:
+  Es müssen Löcher für Interfacekomponenten gebohrt oder gestanzt werden, und das Material muss zugeschnitten werden
++ Bemalbarkeit:
+  Für einfachere Zugänglichkeit und für bessere Ästhetik sollten die Panels bemalt und/oder beschriftet werden
+
+Wir benutzen eine dünne, schwarz lackierte Holzplatte als Material für unsere Panels, diese bekleben wir mit transparenter Folie welche mit weißem permanent Marker beschriftet werden kann.
 
 #+INCLUDE: modules/oscillator.org
 

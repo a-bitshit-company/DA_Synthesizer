@@ -1,24 +1,36 @@
 \babel@toc {ngerman}{}\relax 
 \babel@toc {ngerman}{}\relax 
-\contentsline {subparagraph}{\nonumberline Projektergebnis}{iii}{subparagraph*.4}%
+\contentsline {subparagraph}{\nonumberline Projektergebnis}{iv}{subparagraph*.4}%
 \contentsline {chapter}{Abstract}{ii}{section*.1}%
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Vertiefende Aufgabenstellung}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Schüler*innen Name 1}{1}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2}Schüler*innen Name 2}{1}{subsection.1.1.2}%
 \contentsline {section}{\numberline {1.2}Dokumentation der Arbeit}{1}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Das Eurorack Format}{2}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Jargon}{2}{subsection.1.3.1}%
-\contentsline {subsubsection}{\nonumberline Kontrollspannung, Control Voltage}{2}{subsubsection*.8}%
-\contentsline {subsubsection}{\nonumberline Audiosignale}{3}{subsubsection*.10}%
-\contentsline {subsubsection}{\nonumberline Trigger}{3}{subsubsection*.12}%
-\contentsline {subsubsection}{\nonumberline Patchkabel}{3}{subsubsection*.14}%
-\contentsline {subsubsection}{\nonumberline Voltage Controlled Modules}{4}{subsubsection*.16}%
-\contentsline {section}{\numberline {1.4}Module}{4}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Oszillator}{4}{subsection.1.4.1}%
-\contentsline {subsubsection}{\nonumberline Beschreibung}{4}{subsubsection*.18}%
-\contentsline {subsubsection}{\nonumberline Schematics}{4}{subsubsection*.20}%
-\contentsline {subsubsection}{\nonumberline Elektronik}{4}{subsubsection*.22}%
-\contentsline {subsubsection}{\nonumberline Benutzung}{4}{subsubsection*.24}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{13}{chapter*.30}%
+\contentsline {chapter}{\numberline {2}Theoretische Grundlagen}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Das Eurorack Format}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Jargon}{4}{subsection.2.1.1}%
+\contentsline {subsubsection}{\nonumberline Frequenz}{4}{subsubsection*.8}%
+\contentsline {subsubsection}{\nonumberline Amplitude}{4}{subsubsection*.10}%
+\contentsline {subsubsection}{\nonumberline Vpp}{4}{subsubsection*.12}%
+\contentsline {subsubsection}{\nonumberline Kontrollspannung, Control Voltage}{4}{subsubsection*.14}%
+\contentsline {subsubsection}{\nonumberline Audiosignale}{5}{subsubsection*.16}%
+\contentsline {subsubsection}{\nonumberline Trigger}{5}{subsubsection*.18}%
+\contentsline {subsubsection}{\nonumberline Patchkabel}{5}{subsubsection*.20}%
+\contentsline {subsubsection}{\nonumberline Voltage Controlled Modules}{6}{subsubsection*.22}%
+\contentsline {chapter}{\numberline {3}Praktische Umsetzung}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Module}{7}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Oszillator x2}{8}{subsection.3.1.1}%
+\contentsline {subsubsection}{\nonumberline Einleitende Beschreibung}{8}{subsubsection*.24}%
+\contentsline {subsubsection}{\nonumberline Spezifikationen}{9}{subsubsection*.26}%
+\contentsline {subsubsection}{\nonumberline Elektronik}{9}{subsubsection*.28}%
+\contentsline {subsubsection}{\nonumberline Schematics}{9}{subsubsection*.30}%
+\contentsline {subsubsection}{\nonumberline Benutzung}{10}{subsubsection*.32}%
+\contentsline {subsection}{\numberline {3.1.2}Mixer}{11}{subsection.3.1.2}%
+\contentsline {subsubsection}{\nonumberline Einleitende Beschreibung}{11}{subsubsection*.34}%
+\contentsline {subsubsection}{\nonumberline Spezifikationen}{11}{subsubsection*.36}%
+\contentsline {subsubsection}{\nonumberline Elektronik}{11}{subsubsection*.38}%
+\contentsline {subsubsection}{\nonumberline Schematics}{11}{subsubsection*.40}%
+\contentsline {subsubsection}{\nonumberline Benutzung}{11}{subsubsection*.42}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{21}{chapter*.48}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

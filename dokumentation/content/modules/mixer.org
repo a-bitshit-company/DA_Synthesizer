@@ -1,9 +1,10 @@
 * Mixer
 ** Einleitende Beschreibung
-Die Aufgabe eines Mixers ist die Zusammenführug (das "mixen") von mehreren (in diesem Fall bis zu drei) Signalen.
+Die Aufgabe eines Mixers ist die Zusammenführug (das "mixen") von mehreren (in diesem Fall bis zu drei) Signalen. Unser Mixer Modul besitzt neben dem regulären auch einen invertierenden output, welcher positive Spannungen als negative Spannungen mit dem selben Betrag ausgibt und umgekehrt.
+
 ** Spezifikationen
 Spannung: voller Spannungsbereich möglich (=> bis zu 24[[file:~/Documents/diplomarbeit/dokumentation/content/hauptteil.org::*Vpp][Vpp]])
 ** Elektronik
 ** Schematics
 ** Benutzung
-Die zu mixenden Signale werden durch die oberen drei Audiobuchsen angeschlossen. Die unterste Audiobuchse liefert das Ausgangssignal.
+Die zu mixenden Signale werden durch die oberen drei Audiobuchsen angeschlossen. Die unterste Audiobuchse liefert das Ausgangssignal. Als einfachen Patch könnte man die beiden Signale des [[file:oscillator.org::*Oszillator x2][Oszillator x2]] Moduls zusammenführen um beide Oszillatoren auf einmal zu hören.

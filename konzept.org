@@ -25,3 +25,13 @@ Unser Ziel ist es, einen Synthesizer bauen, welcher alleinstehend funktionieren 
   + Reverb + Delay
   + Noise generatoren (zB white noise)
   + Distortion
+
+
+    Klangquellen wie Oszillatoren mit verschiedenen Wellenformen (Rechteck, Sinus, Dreieck, Sägezahn, etc), Noise Generatoren (Pink Noise, White Noise...) und ähnliches
+    Spannungskontrollierte Verstärker um WobWob zu erzeugen
+    Oszillatoren mit niedriger Frequenz um Spannungskontrontrollierbare Module anzusteuern
+    Mixer um Signale zusammenzführen
+    Hoch-/Niedrigfreqenzfilter (idealerweise Spannngskontrollierbar)
+    Envelope Generatoren (zB ADSR)
+    Reverb, Delay, Distortion und andere Effekte
+    Sequenzer

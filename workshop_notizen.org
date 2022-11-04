@@ -1,0 +1,37 @@
+* Struktur
+** TODO Einleitung
+*** Ausgangslage (wirtschaftliches/fachliches Umfeld)
+*** Motivation
+
+** TODO Abstract:
++ 1 Seite lang
+*** Einleitung
+*** Ausgangslage
+*** Ziele
+*** Vorgehensweise
+*** Ergebnisse
+
+** TODO Projektergebnis:
+*** was wurde vom Projektziel umgesetzt
+*** Bilder, Screenshots, etc
+
+** TODO Danksagung
+*** Betreuungslehrer
+*** Online menschen
+
+** TODO Dokumentation der Arbeit
++ detailliert
++ 50-100 seiten (?)
++ am anfang theoretische / technische Grundlagen
+  + Sound Synthese Theorie
+  + Eurorack Einleitung
++ Praktische Umsetzung
++ Ergebnisse und Interpretation
+
+
+* Freewriting
+
+* Notizen
++ Quellen
++ Aus dem Blickwinkel des Lesers denken
+  + Keine Überkomplizierten Sätze

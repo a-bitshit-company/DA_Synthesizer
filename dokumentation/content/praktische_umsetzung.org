@@ -1,6 +1,9 @@
 #+TITLE: Praktische Umsetzung
 \chapter{Praktische Umsetzung}
 
+* Spannungsquelle
+Eurorack Synthesizer arbeiten mit Spannungen von 24\si{\volt}pp, benötigen also eine Spannungsquelle, welche -12\si{\volt} bis +12\si{\volt} bereitstellen kann. Manche Module benötigen außerdem eine Seperate 5\si{\volt} Leitung um zB Microcontroller zu betreiben. Eine beliebte Wahl in der DIY-Szene ist die Mean Well RT65B PSU, da sie \pm12\si{\volt} und 5\si{\volt} mit einer genügenden maximalen Stromstärke/Leistung bereitstellt um ein Anfängersystem zu versorgen und verhältnismäßig günstig ist.
+
 * Module
 
 Im Folgenden werden die Module, welche den Synthesizer ausmachen, beschrieben. Alle dieser Module bestehen aus einem Panel, welches als User Interface dient und einer Platine, welche mit den elektronischen Komponenten bestückt ist. Panels besitzen mindestens eine Audiobuchse um CV, Audio, Triggersignale und andere Arten von Spannungssignalen auszugeben und oft eine beliebige Auswahl an Audioeingängen für Kontrollspannungen, Audio-Inputs und ähnlichem und andere Interfacekomponenten wie Potentiometern, Schaltern, Knöpfen, LEDs und weiterem.

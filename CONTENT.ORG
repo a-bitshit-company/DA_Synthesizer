@@ -1,0 +1,64 @@
+* Einführung
+** Theorie
++ Wellen
++ Sound <=> Spannung
++ Klangerzeugung
+  + Oszillatoren
+  + kurz erwähnen (?)
+    + E-Gitarre
+    + Theremin
+    + noch kürzer erwähnen (??)
+      + Radio
+      + Kassettenspieler
++ Klangmodulation / Subtraktive Klangsynthese
+  + Filter
+  + Distortion
+  + ADSR
+
+** Geschichte (an sinnvollen stellen auf theorieteil verweisen)
++ Erste Synthesizer
++ Erste Elektronische Musik
++ Erste Komerzielle Synthesizer
++ Eurorack Geschichte (Überleitung)
+
+** Eurorack
++ Eurorack Geschichte (Überleitung)
++ Eurorack spezifische Fachbegriffe
++ Specs
+  + Dimensionen
+  + Spannungen
+  + Misc (audiojacks etc)
++ Modularität
+  + Kontrollspannung
+    + Arten von CV
+    + Im erweiterten Sinn ist sogar Audio Kontrollspannung
++ Benutzung
+  + Patches, etc
+
+* Praxis
+** Hardware abgesehen von Modulen
++ Case
++ Spannungsquelle
++ IDC Kabel (Eurorack Pinout)
+** Material
++ Litzen, Elektronische Bauteile, Panel, Platine, etc
+** Module
++ Oszillator
++ Mixer
++ VCA
++ VCO
++ AR
++ VCF
++ Trigger generator (Sequencer, LFO, Knopf zum draufhauen, etc)
++ Zu jedem Modul:
+  + Verwendungszweck
+  + Funktionsweise
+  + Schematics
+  + Konkreter Zusammenbau (?)
+  + Beispielpatches
+    + Resultierende Wellenform(en) (vor allem bei AR genauer eingehen)
+
+
+* Notes:
++ Quellen
++ Bemerkungen

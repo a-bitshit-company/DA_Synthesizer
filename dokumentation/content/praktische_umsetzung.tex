@@ -1,11 +1,11 @@
 \chapter{Praktische Umsetzung}
 
 \section{Spannungsquelle}
-\label{sec:org32a26c5}
-Eurorack Synthesizer arbeiten mit Spannungen von \textpm{}12\si{\volt}
+\label{sec:org77da9dc}
+Eurorack Synthesizer arbeiten mit Spannungen von 24\si{\volt}pp, benötigen also eine Spannungsquelle, welche -12\si{\volt} bis +12\si{\volt} bereitstellen kann. Manche Module benötigen außerdem eine Seperate 5\si{\volt} Leitung um zB Microcontroller zu betreiben. Eine beliebte Wahl in der DIY-Szene ist die Mean Well RT65B PSU, da sie \textpm{}12\si{\volt} und 5\si{\volt} mit einer genügenden maximalen Stromstärke/Leistung bereitstellt um ein Anfängersystem zu versorgen und verhältnismäßig günstig ist.
 
 \section{Module}
-\label{sec:org0ae70fb}
+\label{sec:org6219bbd}
 
 Im Folgenden werden die Module, welche den Synthesizer ausmachen, beschrieben. Alle dieser Module bestehen aus einem Panel, welches als User Interface dient und einer Platine, welche mit den elektronischen Komponenten bestückt ist. Panels besitzen mindestens eine Audiobuchse um CV, Audio, Triggersignale und andere Arten von Spannungssignalen auszugeben und oft eine beliebige Auswahl an Audioeingängen für Kontrollspannungen, Audio-Inputs und ähnlichem und andere Interfacekomponenten wie Potentiometern, Schaltern, Knöpfen, LEDs und weiterem.
 
@@ -37,9 +37,9 @@ Für einfachere Zugänglichkeit und für bessere Ästhetik sollten die Panels be
 Wir benutzen eine dünne, schwarz lackierte Holzplatte als Material für unsere Panels, diese bekleben wir mit transparenter Folie welche mit weißem permanent Marker beschriftet werden kann.
 
 \subsection{Oszillator x2}
-\label{sec:orgff25050}
+\label{sec:orgdfeda3b}
 \subsubsection{Einleitende Beschreibung}
-\label{sec:orged40987}
+\label{sec:org4cc1232}
 Das 2xSqr Modul ist ein simples Signalerzeugendes Modul, welches zwei voneinander unabhängige Rechteckswellen generiert. Es besitzt zwei Audiobuchsen am Panel an welchen die Spannung der generierten Wellen anliegt und vier Potentiometer als verstellbare Wiederstände, mit welchen jeweils Amplitude und Frequenz der beiden Oszillatoren angesteuert werden können. Diese Potentiometer können durch Vactrols ersetzt werden, um das Modul Spannungssteuerbar zu machen.
 
 \begin{circuitikz}
@@ -48,7 +48,7 @@ Das 2xSqr Modul ist ein simples Signalerzeugendes Modul, welches zwei voneinande
 \end{circuitikz}
 
 \subsubsection{Spezifikationen}
-\label{sec:org892a322}
+\label{sec:org2144280}
 Oszillator 1:
 \begin{itemize}
 \item Spannung: bis zu 10\href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/hauptteil.org}{Vpp}
@@ -62,11 +62,11 @@ Oszillator 2:
 \end{itemize}
 
 \subsubsection{Elektronik}
-\label{sec:orgeda15e0}
+\label{sec:org1db2317}
 Resistor-Capacitor type Oszillator
 
 \subsubsection{Schematics}
-\label{sec:org5dbcf53}
+\label{sec:org3ffd734}
 
 Oscillator logisch:
 
@@ -180,22 +180,22 @@ coordinate (T) node[circ]{} -- (T |- OPAMP.pin 10) -- (OPAMP.pin 10)
 \end{circuitikz}
 
 \subsubsection{Benutzung}
-\label{sec:org007e2b6}
+\label{sec:org0b1b658}
 Das Panel ist aufgeteilt in einen linken und rechten oszillator, alle Elemente auf einer Seite gehören zu jeweils einem Oszillator. Die oberen beiden Potentiometer dienen zur Steuerung der \href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/theoretische\_grundlagen.org}{Frequenz}, die unteren beiden dienen zur Steuerung der \href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/theoretische\_grundlagen.org}{Amplitude} des Signals. Die Audiobuchsen dienen als Output. Der Schalter links oben aktiviert das Modul, die Oszillatoren sind nicht seperat voneinander an/ausschaltbar.
 
 \subsection{Mixer}
-\label{sec:org35b2309}
+\label{sec:orge59f8d7}
 \subsubsection{Einleitende Beschreibung}
-\label{sec:orga7a9c1f}
+\label{sec:org90ea298}
 Die Aufgabe eines Mixers ist die Zusammenführug (das "mixen") von mehreren (in diesem Fall bis zu drei) Signalen. Unser Mixer Modul besitzt neben dem regulären auch einen invertierenden output, welcher positive Spannungen als negative Spannungen mit dem selben Betrag ausgibt und umgekehrt.
 
 \subsubsection{Spezifikationen}
-\label{sec:orgb3297bf}
+\label{sec:orge5cb565}
 Spannung: voller Spannungsbereich möglich (=> bis zu 24\href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/hauptteil.org}{Vpp})
 \subsubsection{Elektronik}
-\label{sec:orgd6c9e75}
+\label{sec:org97b6a65}
 \subsubsection{Schematics}
-\label{sec:orgc453177}
+\label{sec:org2d15fd3}
 \subsubsection{Benutzung}
-\label{sec:org3ed30de}
+\label{sec:org6540d64}
 Die zu mixenden Signale werden durch die oberen drei Audiobuchsen angeschlossen. Die unterste Audiobuchse liefert das Ausgangssignal. Als einfachen Patch könnte man die beiden Signale des \href{modules/oscillator.org}{Oszillator x2} Moduls zusammenführen um beide Oszillatoren auf einmal zu hören.

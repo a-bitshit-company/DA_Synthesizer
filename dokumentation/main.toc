@@ -26,7 +26,7 @@
 \contentsline {subsubsection}{\nonumberline Spezifikationen}{9}{subsubsection*.26}%
 \contentsline {subsubsection}{\nonumberline Elektronik}{9}{subsubsection*.28}%
 \contentsline {subsubsection}{\nonumberline Schematics}{9}{subsubsection*.30}%
-\contentsline {subsubsection}{\nonumberline Benutzung}{10}{subsubsection*.32}%
+\contentsline {subsubsection}{\nonumberline Benutzung}{11}{subsubsection*.32}%
 \contentsline {subsection}{\numberline {3.2.2}Mixer}{11}{subsection.3.2.2}%
 \contentsline {subsubsection}{\nonumberline Einleitende Beschreibung}{11}{subsubsection*.34}%
 \contentsline {subsubsection}{\nonumberline Spezifikationen}{11}{subsubsection*.36}%

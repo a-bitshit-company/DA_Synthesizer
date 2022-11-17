@@ -1,0 +1,11 @@
+* VCA
+https://www.youtube.com/watch?v=yMrCCx6uqcE
+* LFO
+https://www.davidhaillant.com/wp/wp-content/uploads/LFO-1.1-BOM-doc-20161215.pdf
++ ohne leuchtdiode
++ statt schalter: freier opamp am TL074 wird verwendet um beide signale gleichzeitig zu puffern, beide wellen können parallel verwendet werden
+* Match Transistors
+https://www.youtube.com/watch?v=TvTSaTItoFs
+* Envelope Generator
+https://youtu.be/kgnUerVscoc
+https://tinyurl.com/ygglpb3m

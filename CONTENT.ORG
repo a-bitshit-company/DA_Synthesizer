@@ -41,7 +41,9 @@
 + Spannungsquelle
 + IDC Kabel (Eurorack Pinout)
 ** Material
-+ Litzen, Elektronische Bauteile, Panel, Platine, etc
++ Litzen, Panel, Platine, etc
++ Elektronische Bauteile
++ Vactrols
 ** Module
 + Oszillator
 + Mixer

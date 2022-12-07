@@ -9,3 +9,11 @@ https://www.youtube.com/watch?v=TvTSaTItoFs
 * Envelope Generator
 https://youtu.be/kgnUerVscoc
 https://tinyurl.com/ygglpb3m
+* Klangsynthese
+https://blog.native-instruments.com/music-synthesis-101/
+https://performermag.com/best-instruments/best-music-keyboards-synth/sound-synthesis/
+https://de.abcdef.wiki/wiki/Harmonic
+https://de.wikipedia.org/wiki/Bel_(Einheit)
+https://www.bonedo.de/artikel/synthesizer-und-sounddesign-2-filter/
+** Fourier transformation und filter
+https://mathworld.wolfram.com/FourierTransform.html

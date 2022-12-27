@@ -1,8 +1,13 @@
 #+TITLE: Praktische Umsetzung
 \chapter{Praktische Umsetzung}
 
+* Gehäuse
+
 * Spannungsquelle
-Eurorack Synthesizer arbeiten mit Spannungen von 24\si{\volt}pp, benötigen also eine Spannungsquelle, welche -12\si{\volt} bis +12\si{\volt} bereitstellen kann. Manche Module benötigen außerdem eine Seperate 5\si{\volt} Leitung um zB Microcontroller zu betreiben. Eine beliebte Wahl in der DIY-Szene ist die Mean Well RT65B PSU, da sie \pm12\si{\volt} und 5\si{\volt} mit einer genügenden maximalen Stromstärke/Leistung bereitstellt um ein Anfängersystem zu versorgen und verhältnismäßig günstig ist.
+Eurorack Synthesizer arbeiten mit Spannungen von \SI{24}{\volt} peak to peak, benötigen also eine Spannungsquelle, welche \SI{-12}{\volt} bis \SI{+12}{\volt} bereitstellen kann. Manche Module benötigen außerdem eine Seperate \SI{5}{\volt} Leitung um zB Microcontroller zu betreiben. Eine beliebte Wahl in der DIY-Szene ist die Mean Well RT65B PSU, da sie \SI{\pm 12}{\volt} und \SI{5}{\volt} mit einer genügenden maximalen Stromstärke/Leistung bereitstellt um ein Anfängersystem zu versorgen und verhältnismäßig günstig ist.
+
+* Spannungsverteilung
+Die Module werden über ein 10 Pin IDC-Flachbandkabel mit Strom versorgt. Dabei sind die mittleren 6 Pins durchverbunden und geerdet. Die äußeren vier Pins sind paarweise verbunden und liefern jeweils \SI{+12}{\volt} und \SI{-12}{\volt}. Der PIN, welcher auf \SI{-12}{\volt} liegt, ist üblicherweise rot gekennzeichnet.
 
 * Module
 

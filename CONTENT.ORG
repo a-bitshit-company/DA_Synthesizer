@@ -22,6 +22,7 @@
 + Eurorack Geschichte (Überleitung)
 
 ** Eurorack
+https://doepfer.de/a100_man/A100_Anleitung_komplett.pdf
 + Eurorack Geschichte (Überleitung)
 + Eurorack spezifische Fachbegriffe
 + Specs
@@ -43,6 +44,7 @@
 ** Material
 + Litzen, Panel, Platine, etc
 + Elektronische Bauteile
++ Pottis (typ A vs typ B)
 + Vactrols
 ** Module
 + Oszillator

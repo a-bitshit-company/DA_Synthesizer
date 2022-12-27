@@ -1,11 +1,18 @@
 \chapter{Praktische Umsetzung}
 
+\section{Gehäuse}
+\label{sec:org36350a9}
+
 \section{Spannungsquelle}
-\label{sec:org77da9dc}
-Eurorack Synthesizer arbeiten mit Spannungen von 24\si{\volt}pp, benötigen also eine Spannungsquelle, welche -12\si{\volt} bis +12\si{\volt} bereitstellen kann. Manche Module benötigen außerdem eine Seperate 5\si{\volt} Leitung um zB Microcontroller zu betreiben. Eine beliebte Wahl in der DIY-Szene ist die Mean Well RT65B PSU, da sie \textpm{}12\si{\volt} und 5\si{\volt} mit einer genügenden maximalen Stromstärke/Leistung bereitstellt um ein Anfängersystem zu versorgen und verhältnismäßig günstig ist.
+\label{sec:org9d9fa78}
+Eurorack Synthesizer arbeiten mit Spannungen von \SI{24}{\volt} peak to peak, benötigen also eine Spannungsquelle, welche \SI{-12}{\volt} bis \SI{+12}{\volt} bereitstellen kann. Manche Module benötigen außerdem eine Seperate \SI{5}{\volt} Leitung um zB Microcontroller zu betreiben. Eine beliebte Wahl in der DIY-Szene ist die Mean Well RT65B PSU, da sie \SI{\pm 12}{\volt} und \SI{5}{\volt} mit einer genügenden maximalen Stromstärke/Leistung bereitstellt um ein Anfängersystem zu versorgen und verhältnismäßig günstig ist.
+
+\section{Spannungsverteilung}
+\label{sec:org412c0cc}
+Die Module werden über ein 10 Pin IDC-Flachbandkabel mit Strom versorgt. Dabei sind die mittleren 6 Pins durchverbunden und geerdet. Die äußeren vier Pins sind paarweise verbunden und liefern jeweils \SI{+12}{\volt} und \SI{-12}{\volt}. Der PIN, welcher auf \SI{-12}{\volt} liegt, ist üblicherweise rot gekennzeichnet.
 
 \section{Module}
-\label{sec:org6219bbd}
+\label{sec:org166d36e}
 
 Im Folgenden werden die Module, welche den Synthesizer ausmachen, beschrieben. Alle dieser Module bestehen aus einem Panel, welches als User Interface dient und einer Platine, welche mit den elektronischen Komponenten bestückt ist. Panels besitzen mindestens eine Audiobuchse um CV, Audio, Triggersignale und andere Arten von Spannungssignalen auszugeben und oft eine beliebige Auswahl an Audioeingängen für Kontrollspannungen, Audio-Inputs und ähnlichem und andere Interfacekomponenten wie Potentiometern, Schaltern, Knöpfen, LEDs und weiterem.
 
@@ -37,9 +44,9 @@ Für einfachere Zugänglichkeit und für bessere Ästhetik sollten die Panels be
 Wir benutzen eine dünne, schwarz lackierte Holzplatte als Material für unsere Panels, diese bekleben wir mit transparenter Folie welche mit weißem permanent Marker beschriftet werden kann.
 
 \subsection{Oszillator x2}
-\label{sec:orgdfeda3b}
+\label{sec:org3c9fe7b}
 \subsubsection{Einleitende Beschreibung}
-\label{sec:org4cc1232}
+\label{sec:org2ca438e}
 Das 2xSqr Modul ist ein simples Signalerzeugendes Modul, welches zwei voneinander unabhängige Rechteckswellen generiert. Es besitzt zwei Audiobuchsen am Panel an welchen die Spannung der generierten Wellen anliegt und vier Potentiometer als verstellbare Wiederstände, mit welchen jeweils Amplitude und Frequenz der beiden Oszillatoren angesteuert werden können. Diese Potentiometer können durch Vactrols ersetzt werden, um das Modul Spannungssteuerbar zu machen.
 
 \begin{circuitikz}
@@ -48,7 +55,7 @@ Das 2xSqr Modul ist ein simples Signalerzeugendes Modul, welches zwei voneinande
 \end{circuitikz}
 
 \subsubsection{Spezifikationen}
-\label{sec:org2144280}
+\label{sec:org98417a5}
 Oszillator 1:
 \begin{itemize}
 \item Spannung: bis zu 10\href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/hauptteil.org}{Vpp}
@@ -62,11 +69,11 @@ Oszillator 2:
 \end{itemize}
 
 \subsubsection{Elektronik}
-\label{sec:org1db2317}
+\label{sec:orgfef0779}
 Resistor-Capacitor type Oszillator
 
 \subsubsection{Schematics}
-\label{sec:org3ffd734}
+\label{sec:org643676c}
 
 Oscillator logisch:
 
@@ -180,22 +187,34 @@ coordinate (T) node[circ]{} -- (T |- OPAMP.pin 10) -- (OPAMP.pin 10)
 \end{circuitikz}
 
 \subsubsection{Benutzung}
-\label{sec:org0b1b658}
+\label{sec:org5c84234}
 Das Panel ist aufgeteilt in einen linken und rechten oszillator, alle Elemente auf einer Seite gehören zu jeweils einem Oszillator. Die oberen beiden Potentiometer dienen zur Steuerung der \href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/theoretische\_grundlagen.org}{Frequenz}, die unteren beiden dienen zur Steuerung der \href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/theoretische\_grundlagen.org}{Amplitude} des Signals. Die Audiobuchsen dienen als Output. Der Schalter links oben aktiviert das Modul, die Oszillatoren sind nicht seperat voneinander an/ausschaltbar.
 
 \subsection{Mixer}
-\label{sec:orge59f8d7}
-\subsubsection{Einleitende Beschreibung}
-\label{sec:org90ea298}
-Die Aufgabe eines Mixers ist die Zusammenführug (das "mixen") von mehreren (in diesem Fall bis zu drei) Signalen. Unser Mixer Modul besitzt neben dem regulären auch einen invertierenden output, welcher positive Spannungen als negative Spannungen mit dem selben Betrag ausgibt und umgekehrt.
+\label{sec:org95ea03d}
+Die Aufgabe eines Mixers ist die Zusammenführug (das "mixen") von mehreren (in diesem Fall bis zu drei) Signalen. Unser Mixer Modul besitzt neben dem regulären auch einen invertierenden Output, welcher positive Spannungen als negative Spannungen mit dem selben Betrag ausgibt und umgekehrt.
 
 \subsubsection{Spezifikationen}
-\label{sec:orge5cb565}
+\label{sec:org211bf16}
 Spannung: voller Spannungsbereich möglich (=> bis zu 24\href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/hauptteil.org}{Vpp})
 \subsubsection{Elektronik}
-\label{sec:org97b6a65}
+\label{sec:org0241cad}
 \subsubsection{Schematics}
-\label{sec:org2d15fd3}
+\label{sec:org1f7cdab}
 \subsubsection{Benutzung}
-\label{sec:org6540d64}
+\label{sec:org7708c71}
 Die zu mixenden Signale werden durch die oberen drei Audiobuchsen angeschlossen. Die unterste Audiobuchse liefert das Ausgangssignal. Als einfachen Patch könnte man die beiden Signale des \href{modules/oscillator.org}{Oszillator x2} Moduls zusammenführen um beide Oszillatoren auf einmal zu hören.
+
+\subsection{Low Frequency Oscillator}
+\label{sec:org9bcda75}
+Dieses Modul erzeugt oszillierende Spannungen im niedrigen Hertzbereich in Form einer Rechteckswelle und einer Dreieckswelle.
+\subsubsection{Spezifikationen}
+\label{sec:orgf002c56}
+\subsubsection{Elektronik}
+\label{sec:org4fff089}
+Wir verzichten bei unserer Ausführung des Moduls auf die vorhergesehenen Leuchtdiode, welche einen visuellen Indikator für die Frequenz des Ausgangssignals bieten würde. Dadurch wird am verwendeten TL074 ein Operationsverstärker frei. Dieser wird als zweiter Puffer benutzt, um beide Wellenformen parallel ausgeben zu können. Die Frequenz beider Wellenformen ist gekoppelt und wird über einen einzelnen Potentiometer gesteuert, die Amplituden sind seperat anzusteuern.
+
+\subsubsection{Benutzung}
+\label{sec:orgcaa8d5b}
+
+LFOs können für eine große Anzahl an Zwecken genutzt werden, der wohl simpelste davon ist wohl, das erzeugte Signal direkt als Audio auszugeben. Häufiger wird die Spannung eines LFOs als Kontrollspannung genutzt, beispielsweise als Trigger für einen Hüllkurvengenerator oder zum ansteuern eines VCAs um eine Funktion ähnlich eines Arpeggiators zu erfüllen.

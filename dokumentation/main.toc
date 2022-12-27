@@ -8,35 +8,39 @@
 \contentsline {subsection}{\numberline {1.1.2}Schüler*innen Name 2}{1}{subsection.1.1.2}%
 \contentsline {section}{\numberline {1.2}Dokumentation der Arbeit}{1}{section.1.2}%
 \contentsline {chapter}{\numberline {2}Theoretische Grundlagen}{3}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Das Eurorack Format}{3}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Jargon}{4}{subsection.2.1.1}%
-\contentsline {subsubsection}{\nonumberline Frequenz}{4}{subsubsection*.8}%
-\contentsline {subsubsection}{\nonumberline Amplitude}{4}{subsubsection*.10}%
-\contentsline {subsubsection}{\nonumberline Vpp}{4}{subsubsection*.12}%
-\contentsline {subsubsection}{\nonumberline Kontrollspannung, Control Voltage}{4}{subsubsection*.14}%
-\contentsline {subsubsection}{\nonumberline Audiosignale}{5}{subsubsection*.16}%
-\contentsline {subsubsection}{\nonumberline Trigger}{5}{subsubsection*.18}%
-\contentsline {subsubsection}{\nonumberline Patchkabel}{5}{subsubsection*.20}%
-\contentsline {subsubsection}{\nonumberline Voltage Controlled Modules}{6}{subsubsection*.22}%
-\contentsline {chapter}{\numberline {3}Praktische Umsetzung}{7}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Gehäuse}{7}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Spannungsquelle}{7}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Spannungsverteilung}{7}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Module}{7}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Oszillator x2}{9}{subsection.3.4.1}%
-\contentsline {subsubsection}{\nonumberline Einleitende Beschreibung}{9}{subsubsection*.24}%
-\contentsline {subsubsection}{\nonumberline Spezifikationen}{9}{subsubsection*.26}%
-\contentsline {subsubsection}{\nonumberline Elektronik}{9}{subsubsection*.28}%
-\contentsline {subsubsection}{\nonumberline Schematics}{10}{subsubsection*.30}%
-\contentsline {subsubsection}{\nonumberline Benutzung}{11}{subsubsection*.32}%
-\contentsline {subsection}{\numberline {3.4.2}Mixer}{12}{subsection.3.4.2}%
-\contentsline {subsubsection}{\nonumberline Spezifikationen}{12}{subsubsection*.34}%
-\contentsline {subsubsection}{\nonumberline Elektronik}{12}{subsubsection*.36}%
-\contentsline {subsubsection}{\nonumberline Schematics}{12}{subsubsection*.38}%
-\contentsline {subsubsection}{\nonumberline Benutzung}{12}{subsubsection*.40}%
-\contentsline {subsection}{\numberline {3.4.3}Low Frequency Oscillator}{12}{subsection.3.4.3}%
-\contentsline {subsubsection}{\nonumberline Spezifikationen}{13}{subsubsection*.42}%
-\contentsline {subsubsection}{\nonumberline Elektronik}{13}{subsubsection*.44}%
-\contentsline {subsubsection}{\nonumberline Benutzung}{13}{subsubsection*.46}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{23}{chapter*.52}%
+\contentsline {section}{\numberline {2.1}Klangsynthese}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Klangwellen}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Klangerzeugung}{4}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Das Eurorack Format}{4}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Jargon}{5}{subsection.2.2.1}%
+\contentsline {subsubsection}{\nonumberline Frequenz}{5}{subsubsection*.8}%
+\contentsline {subsubsection}{\nonumberline Amplitude}{5}{subsubsection*.10}%
+\contentsline {subsubsection}{\nonumberline Oberwellen}{6}{subsubsection*.12}%
+\contentsline {subsubsection}{\nonumberline Vpp}{6}{subsubsection*.14}%
+\contentsline {subsubsection}{\nonumberline Kontrollspannung, Control Voltage}{6}{subsubsection*.16}%
+\contentsline {subsubsection}{\nonumberline Audiosignale}{7}{subsubsection*.18}%
+\contentsline {subsubsection}{\nonumberline Trigger}{7}{subsubsection*.20}%
+\contentsline {subsubsection}{\nonumberline Patchkabel}{7}{subsubsection*.22}%
+\contentsline {subsubsection}{\nonumberline Voltage Controlled Modules}{7}{subsubsection*.24}%
+\contentsline {chapter}{\numberline {3}Praktische Umsetzung}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Gehäuse}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Spannungsquelle}{9}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Spannungsverteilung}{9}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Module}{9}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Oszillator x2}{11}{subsection.3.4.1}%
+\contentsline {subsubsection}{\nonumberline Einleitende Beschreibung}{11}{subsubsection*.26}%
+\contentsline {subsubsection}{\nonumberline Spezifikationen}{11}{subsubsection*.28}%
+\contentsline {subsubsection}{\nonumberline Elektronik}{11}{subsubsection*.30}%
+\contentsline {subsubsection}{\nonumberline Schematics}{12}{subsubsection*.32}%
+\contentsline {subsubsection}{\nonumberline Benutzung}{13}{subsubsection*.34}%
+\contentsline {subsection}{\numberline {3.4.2}Mixer}{14}{subsection.3.4.2}%
+\contentsline {subsubsection}{\nonumberline Spezifikationen}{14}{subsubsection*.36}%
+\contentsline {subsubsection}{\nonumberline Elektronik}{14}{subsubsection*.38}%
+\contentsline {subsubsection}{\nonumberline Schematics}{14}{subsubsection*.40}%
+\contentsline {subsubsection}{\nonumberline Benutzung}{14}{subsubsection*.42}%
+\contentsline {subsection}{\numberline {3.4.3}Low Frequency Oscillator}{14}{subsection.3.4.3}%
+\contentsline {subsubsection}{\nonumberline Spezifikationen}{15}{subsubsection*.44}%
+\contentsline {subsubsection}{\nonumberline Elektronik}{15}{subsubsection*.46}%
+\contentsline {subsubsection}{\nonumberline Benutzung}{15}{subsubsection*.48}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{25}{chapter*.54}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

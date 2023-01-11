@@ -1,0 +1,5 @@
+\begin{circuitikz}[european]
+\draw{
+(0,0) node[ground, anchor=center, name=G]{} to[R, name=R1] ++(0,1)
+};
+\end{circuitikz}

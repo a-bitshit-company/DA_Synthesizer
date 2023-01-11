@@ -2,9 +2,10 @@
 \chapter{Praktische Umsetzung}
 
 * Gehäuse
+Das Gehäuse muss so dimensioniert sein, dass es Eurorack-kompatible Module beherrbergen kann. Wichtig ist dabei vor allem der vertikale Abstand der Schienen, auf welchen die Module befestigt werden. Dieser misst laut dem /Doepfer System A100 Handbuch Seite 3/ 3 HE (Höheneinheiten). 1 HE beträgt dabei \SI{44.45}{\milli\meter}. Die Breite der Module beträgt ein Vielfaches von \SI{5.08}{\milli\meter}, beziehungsweise 0.2 Zoll. Manche Gehäuse, wie beispielsweise die von der Firma Intellijel hergestellten, können auch Module welche nur eine Höheneinheit hoch sind beherrbergen.
 
 * Spannungsquelle
-Eurorack Synthesizer arbeiten mit Spannungen von \SI{24}{\volt} peak to peak, benötigen also eine Spannungsquelle, welche \SI{-12}{\volt} bis \SI{+12}{\volt} bereitstellen kann. Manche Module benötigen außerdem eine Seperate \SI{5}{\volt} Leitung um zB Microcontroller zu betreiben. Eine beliebte Wahl in der DIY-Szene ist die Mean Well RT65B PSU, da sie \SI{\pm 12}{\volt} und \SI{5}{\volt} mit einer genügenden maximalen Stromstärke/Leistung bereitstellt um ein Anfängersystem zu versorgen und verhältnismäßig günstig ist.
+Eurorack Synthesizer arbeiten mit Spannungen von \SI{24}{\volt} peak to peak, benötigen also eine Spannungsquelle, welche \SI{-12}{\volt} bis \SI{+12}{\volt} bereitstellen kann. Manche Module benötigen außerdem eine Seperate \SI{5}{\volt} Leitung um zum Beispiel Microcontroller zu betreiben. Eine beliebte Wahl in der DIY-Szene ist die Mean Well RT65B PSU, da sie \SI{\pm 12}{\volt} und \SI{5}{\volt} mit einer genügenden maximalen Stromstärke/Leistung bereitstellt um ein Anfängersystem zu versorgen und verhältnismäßig günstig ist.
 
 * Spannungsverteilung
 Die Module werden über ein 10 Pin IDC-Flachbandkabel mit Strom versorgt. Dabei sind die mittleren 6 Pins durchverbunden und geerdet. Die äußeren vier Pins sind paarweise verbunden und liefern jeweils \SI{+12}{\volt} und \SI{-12}{\volt}. Der PIN, welcher auf \SI{-12}{\volt} liegt, ist üblicherweise rot gekennzeichnet.
@@ -31,7 +32,7 @@ Als Material für Panels sind Bleche, Dünne Holz-/Plastikplatten oder ähnliche
   Zum Bestücken sollte eine bestimmte Dicke nicht überschritten werden (abhängig von den gewählten Potentiometern, Audiobuchsen, Schaltern und Knöpfen)
 + Bearbeitbarkeit:
   Es müssen Löcher für Interfacekomponenten gebohrt oder gestanzt werden, und das Material muss zugeschnitten werden
-+ Bemalbarkeit:
++ Beschriftbarkeit:
   Für einfachere Zugänglichkeit und für bessere Ästhetik sollten die Panels bemalt und/oder beschriftet werden
 
 Wir benutzen eine dünne, schwarz lackierte Holzplatte als Material für unsere Panels, diese bekleben wir mit transparenter Folie welche mit weißem permanent Marker beschriftet werden kann.
@@ -41,3 +42,7 @@ Wir benutzen eine dünne, schwarz lackierte Holzplatte als Material für unsere 
 #+INCLUDE: modules/mixer.org
 
 #+INCLUDE: modules/lfo.org
+
+#+INCLUDE: modules/noise.org
+
+#+INCLUDE: modules/ar.org

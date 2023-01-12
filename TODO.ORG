@@ -1,5 +1,6 @@
 * Hardware
 ** DONE Powerkabel, Litzen, Lötzinn bestellen
+** TODO 4x20 Senkschrauben kaufen
 ** Panels
 *** LFO
 + 2x Audio Out

@@ -1,3 +1,6 @@
+* Eurorack / A-100 System
+https://doepfer.de/a100_man/A100_Anleitung_komplett.pdf
+https://www.midisoft.de/EuroRackDimensions/EuroRack_Dimensions.html
 * VCA
 https://www.youtube.com/watch?v=yMrCCx6uqcE
 * LFO

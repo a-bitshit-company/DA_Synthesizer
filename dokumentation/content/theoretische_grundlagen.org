@@ -54,9 +54,8 @@ Die Dokumentation für diesen Synthesizer, den A-100, stellt auf direkte oder in
 
 Essentiell bei Eurorack Modulen ist, dass viele Funktionen nicht nur durch den Benutzer (durch Knöpfe, Potentiometer, etc) sondern auch durch andere Module mithilfe von sog. Kontrollspannung (CV) ansteuerbar sind. So kann z.B die Frequenz eines Oszillators, der Cutoff eines Filters, Attack und Releaselänge eines Envelopes usw. durch ein anderes Signal kontrolliert werden; Diese Kontrollspannung kann wiederum aus verschiedensten Modulen wie z.B. einem MIDI Interface, einem LFO, einem Envelope Generator wie zum Beispiel ADSR oder sogar einem anderen Audiosignal kommen. Die Module sind nicht fest verkabelt, sondern werden vom Benutzer ``on the fly'' mit Patchkabeln (\SI{3.5}{\mm} mono) verbunden. Dadurch entsteht ein Netzwerk an elektronischen Schaltungen welche sich gegenseitig beeinflussen und hochschaukeln, was zu idealerweise wohlklingenden, jedoch in jedem Fall interessanten Effekten führt.
 
-
 ** Kontrollspannung
-Das Konzept der Kontrollspannung ist grundlegend für jegliche Art von analoger Klangsynthese. Der Zweck von Kontrollspannung ist, bestimmte Parameter von Modulen, welche Kontrollspannung akzeptieren, anzusteuern. Beispielsweise akzeptieren manche Oszillatoren Kontrollspannung zum einstellen der Frequenz. Solche Oszillatoren können von einem weiteren Oszillator mit niedriger Frequenz (LFO) angesteuert werden um einen Vibrato-Effekt zu erzeugen.
+Das Konzept der Kontrollspannung ist grundlegend für jegliche Art von analoger Klangsynthese. Kontrollspannungen werden im Alltagston oft als "unsichtbare Hände" bezeichnet, da sie meist das händische Drehen eines Knopfes ersetzen. Beispielsweise akzeptieren manche Oszillatoren Kontrollspannung zum einstellen der Frequenz. Solche Oszillatoren können von einem weiteren Oszillator mit niedriger Frequenz (LFO) angesteuert werden um einen Vibrato-Effekt zu erzeugen.
 
 Besonders für Eurorack und für modulare Synthesizer im Generellen hat dieses Konzept einen hohen Stellenwert, da bei solchen Systemen Audiosignale und Kontrollspannungen nicht fix verkabelt sind, sondern vom Benutzer je nach Bedarf geschalten werden können. Es können sogar Audiosignale als Kontrollspannung benutzt werden, wodurch die Unterscheidung dieser beiden Arten von Spannung etwas an Bedeutung verliert. Es gibt verschiedene Arten von Kontrollspannung, welche sich je nach Verwendungszweck unterscheiden:
 
@@ -77,7 +76,10 @@ Im Unterschied zu den Anderen Parametern ist der Sustain-Wert eine Amplitude ans
 Nach dem Loslassen der Taste benötigt der Ton eine gewisse Zeit, um eine Lautstärke von 0 zu erreichen. Diese Zeit wird über den Release-Parameter eingestellt.
 
 *** Trigger
+Triggersignale sind Rechteckswellen zwischen \SI{0}{\volt} und \SI{5}{\volt}, deren Zweck es ist, Prozesse, wie etwa das generieren einer Hüllkurve durch einen ADSR, auszulösen. (zu Triggern)
+
 *** Audio
+Audiosignale sind Spannungen zwischen \SI{-5}{\volt} und \SI{5}{\volt} welche an einen Verstärker oder Lautsprecher angelegt werden können um Schall zu erzeugen. Sie können auch zur Weiterverarbeitung von einem Modul zum anderen geschickt werden und sogar als Kontrollspannung verwendet werden. Man kann Audiosignale als Kontrollspannungen, welche zum Ansteuern von Lautsprechern geeignet sind, sehen.
 
 ** Jargon
 *** Frequenz
@@ -98,10 +100,8 @@ Kontrollspannung (CV) ist die Quintessenz eines Modularen Synthesizers. Während
 Kontrollspannungen sind im Regelfall entweder \SI{-2.5}{\volt} bis \SI{+2.5}{\volt} oder \SI{0}{\volt} bit \SI{8}{\volt}, können jedoch theoretisch den vollen möglichen Spannungsumfang von \SI{-12}{\volt} bis \SI{+12}{\volt} ausnutzen.
 
 *** Audiosignale
-Audiosignale sind Spannungen zwischen -5V und +5V welche an einen Verstärker oder Lautsprecher angelegt werden können um Schall zu erzeugen. Sie können auch zur Weiterverarbeitung von einem Modul zum anderen geschickt werden und sogar als Kontrollspannung verwendet werden. Man kann Audiosignale als Kontrollspannungen, welche zum Ansteuern von Lautsprechern geeignet sind, sehen.
 
 *** Trigger
-Auch bei einem analogen Synthesizer werden manchmal binäre Signale benötigt. Diese werden durch 5V (HIGH) bzw 0V (LOW) dargestellt. Aus diesem Grund (und für die Versorgung von Mikrocontrollern) wird eine eigene 5V Spannungsquelle vom Netzteil bereitgestellt.
 
 *** Patchkabel
 Patchkabel sind 3.5mm mono Klinkenstecker. Sie dienen dazu, Verbindungen zwischen verschiedenen Modulen herzustellen über welche Kontrollspannungen und Audiosignale übertragen werden können.

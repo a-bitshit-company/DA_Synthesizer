@@ -10,6 +10,23 @@ Eurorack Synthesizer arbeiten mit Spannungen von \SI{24}{\volt} peak to peak, be
 * Spannungsverteilung
 Die Module werden über ein 10 Pin IDC-Flachbandkabel mit Strom versorgt. Dabei sind die mittleren 6 Pins durchverbunden und geerdet. Die äußeren vier Pins sind paarweise verbunden und liefern jeweils \SI{+12}{\volt} und \SI{-12}{\volt}. Der PIN, welcher auf \SI{-12}{\volt} liegt, ist üblicherweise rot gekennzeichnet.
 
+* Transistoren abgleichen
+https://www.alldatasheet.com/view.jsp?Searchword=BC548
+Manchmal werden Transistoren benötigt, welche einen möglichst gleichen internen Verstärkungsfaktor besitzen. Bereits aufeinander abgestimmte Transistorpaare sind zwar im Handel erhältlich, jedoch ist es einfach, das Abgleichen von Transistoren selbst vorzunehmen. Baut man den zu messenden Transistor in den folgenden Schaltkreis ein und legt man bei $V_{CC}$ eine Spannung an, kann man seinen internen Verstärkungsfaktor herausfinden, indem man das Potential zwischen Punkt A (beim Kollektor des Transistors) und der Masse misst:
+
+\begin{circuitikz}[european]
+\draw{
+(0,0) -- ++(3,0) node[ground]{}
+(0,0) to[R, l=\SI{22}{\kilo\ohm}] ++(0,2.5) coordinate (T) to[R, l=\SI{220}{\kilo\ohm}] ++(0,2.5) -- ++(3,0) node[vcc]{$V_{CC}$} coordinate (U)
+(T) -- ++(2,0) node[npn, tr circle](Q){}
+(Q.C) to[R, l_=\SI{10}{\kilo\ohm}] (Q.C|-U)
+(Q.E) to[R, l=\SI{1}{\kilo\ohm}] (Q.E|-0,0)
+(Q.C) node[right] {A}
+};
+\end{circuitikz}
+
+Diese Transistorenpaare sollten auf der Platine in unmittelbarer Nähe zueinander sein, da die Temperatur einen Einfluss auf die Eigenschaften eines Transistors hat.
+
 * Module
 
 Im Folgenden werden die Module, welche den Synthesizer ausmachen, beschrieben. Alle dieser Module bestehen aus einem Panel, welches als User Interface dient und einer Platine, welche mit den elektronischen Komponenten bestückt ist. Panels besitzen mindestens eine Audiobuchse um CV, Audio, Triggersignale und andere Arten von Spannungssignalen auszugeben und oft eine beliebige Auswahl an Audioeingängen für Kontrollspannungen, Audio-Inputs und ähnlichem und andere Interfacekomponenten wie Potentiometern, Schaltern, Knöpfen, LEDs und weiterem.

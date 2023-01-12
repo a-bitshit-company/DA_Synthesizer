@@ -46,6 +46,7 @@ https://doepfer.de/a100_man/A100_Anleitung_komplett.pdf
 + Elektronische Bauteile
 + Pottis (typ A vs typ B)
 + Vactrols
++ Transistoren matchen
 ** Module
 + Oszillator
 + Mixer
@@ -58,6 +59,7 @@ https://doepfer.de/a100_man/A100_Anleitung_komplett.pdf
   + Verwendungszweck
   + Funktionsweise
   + Schematics
+  + Bill of Material
   + Konkreter Zusammenbau (?)
   + Beispielpatches
     + Resultierende Wellenform(en) (vor allem bei AR genauer eingehen)

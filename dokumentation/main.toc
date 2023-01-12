@@ -11,36 +11,55 @@
 \contentsline {section}{\numberline {2.1}Klangsynthese}{3}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Klangwellen}{3}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Klangerzeugung}{4}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Das Eurorack Format}{4}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Jargon}{5}{subsection.2.2.1}%
-\contentsline {subsubsection}{\nonumberline Frequenz}{5}{subsubsection*.8}%
-\contentsline {subsubsection}{\nonumberline Amplitude}{5}{subsubsection*.10}%
-\contentsline {subsubsection}{\nonumberline Oberwellen}{6}{subsubsection*.12}%
-\contentsline {subsubsection}{\nonumberline Vpp}{6}{subsubsection*.14}%
-\contentsline {subsubsection}{\nonumberline Kontrollspannung, Control Voltage}{6}{subsubsection*.16}%
-\contentsline {subsubsection}{\nonumberline Audiosignale}{7}{subsubsection*.18}%
-\contentsline {subsubsection}{\nonumberline Trigger}{7}{subsubsection*.20}%
-\contentsline {subsubsection}{\nonumberline Patchkabel}{7}{subsubsection*.22}%
-\contentsline {subsubsection}{\nonumberline Voltage Controlled Modules}{7}{subsubsection*.24}%
-\contentsline {chapter}{\numberline {3}Praktische Umsetzung}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Gehäuse}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Spannungsquelle}{9}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Spannungsverteilung}{9}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Module}{9}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Oszillator x2}{11}{subsection.3.4.1}%
-\contentsline {subsubsection}{\nonumberline Einleitende Beschreibung}{11}{subsubsection*.26}%
-\contentsline {subsubsection}{\nonumberline Spezifikationen}{11}{subsubsection*.28}%
-\contentsline {subsubsection}{\nonumberline Elektronik}{11}{subsubsection*.30}%
-\contentsline {subsubsection}{\nonumberline Schematics}{12}{subsubsection*.32}%
-\contentsline {subsubsection}{\nonumberline Benutzung}{13}{subsubsection*.34}%
-\contentsline {subsection}{\numberline {3.4.2}Mixer}{14}{subsection.3.4.2}%
-\contentsline {subsubsection}{\nonumberline Spezifikationen}{14}{subsubsection*.36}%
-\contentsline {subsubsection}{\nonumberline Elektronik}{14}{subsubsection*.38}%
-\contentsline {subsubsection}{\nonumberline Schematics}{14}{subsubsection*.40}%
-\contentsline {subsubsection}{\nonumberline Benutzung}{14}{subsubsection*.42}%
-\contentsline {subsection}{\numberline {3.4.3}Low Frequency Oscillator}{14}{subsection.3.4.3}%
-\contentsline {subsubsection}{\nonumberline Spezifikationen}{15}{subsubsection*.44}%
-\contentsline {subsubsection}{\nonumberline Elektronik}{15}{subsubsection*.46}%
-\contentsline {subsubsection}{\nonumberline Benutzung}{15}{subsubsection*.48}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{25}{chapter*.54}%
+\contentsline {subsection}{\numberline {2.1.3}Subtraktive Klangsynthese}{4}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Additive Klangsynthese}{5}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Vocoder}{5}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.2}Geschichte}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Das Eurorack Format}{7}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Kontrollspannung}{8}{subsection.2.3.1}%
+\contentsline {subsubsection}{\nonumberline Hüllkurve}{8}{subsubsection*.8}%
+\contentsline {subsubsection}{\nonumberline Trigger}{9}{subsubsection*.10}%
+\contentsline {subsubsection}{\nonumberline Audio}{9}{subsubsection*.12}%
+\contentsline {subsection}{\numberline {2.3.2}Jargon}{9}{subsection.2.3.2}%
+\contentsline {subsubsection}{\nonumberline Frequenz}{9}{subsubsection*.14}%
+\contentsline {subsubsection}{\nonumberline Amplitude}{10}{subsubsection*.16}%
+\contentsline {subsubsection}{\nonumberline Oberwellen}{10}{subsubsection*.18}%
+\contentsline {subsubsection}{\nonumberline Vpp}{10}{subsubsection*.20}%
+\contentsline {subsubsection}{\nonumberline Kontrollspannung, Control Voltage}{10}{subsubsection*.22}%
+\contentsline {subsubsection}{\nonumberline Audiosignale}{11}{subsubsection*.24}%
+\contentsline {subsubsection}{\nonumberline Trigger}{11}{subsubsection*.26}%
+\contentsline {subsubsection}{\nonumberline Patchkabel}{11}{subsubsection*.28}%
+\contentsline {subsubsection}{\nonumberline Voltage Controlled Modules}{12}{subsubsection*.30}%
+\contentsline {chapter}{\numberline {3}Praktische Umsetzung}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Gehäuse}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Spannungsquelle}{13}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Spannungsverteilung}{14}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Transistoren abgleichen}{14}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Module}{15}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Oszillator x2}{16}{subsection.3.5.1}%
+\contentsline {subsubsection}{\nonumberline Einleitende Beschreibung}{16}{subsubsection*.32}%
+\contentsline {subsubsection}{\nonumberline Spezifikationen}{16}{subsubsection*.34}%
+\contentsline {subsubsection}{\nonumberline Elektronik}{17}{subsubsection*.36}%
+\contentsline {subsubsection}{\nonumberline Schematics}{17}{subsubsection*.38}%
+\contentsline {subsubsection}{\nonumberline Benutzung}{18}{subsubsection*.40}%
+\contentsline {subsection}{\numberline {3.5.2}Mixer}{19}{subsection.3.5.2}%
+\contentsline {subsubsection}{\nonumberline Spezifikationen}{19}{subsubsection*.42}%
+\contentsline {subsubsection}{\nonumberline Elektronik}{19}{subsubsection*.44}%
+\contentsline {subsubsection}{\nonumberline Schematics}{19}{subsubsection*.46}%
+\contentsline {subsubsection}{\nonumberline Benutzung}{19}{subsubsection*.48}%
+\contentsline {subsection}{\numberline {3.5.3}Low Frequency Oscillator}{20}{subsection.3.5.3}%
+\contentsline {subsubsection}{\nonumberline Spezifikationen}{20}{subsubsection*.50}%
+\contentsline {subsubsection}{\nonumberline Elektronik}{20}{subsubsection*.52}%
+\contentsline {subsubsection}{\nonumberline Benutzung}{20}{subsubsection*.54}%
+\contentsline {subsection}{\numberline {3.5.4}White Noise}{20}{subsection.3.5.4}%
+\contentsline {subsubsection}{\nonumberline Spezifikationen}{21}{subsubsection*.56}%
+\contentsline {subsubsection}{\nonumberline Elektronik}{21}{subsubsection*.58}%
+\contentsline {subsubsection}{\nonumberline Schematics}{21}{subsubsection*.60}%
+\contentsline {subsubsection}{\nonumberline Benutzung}{21}{subsubsection*.62}%
+\contentsline {subsection}{\numberline {3.5.5}Attack-Release Hüllkurvengenerator}{22}{subsection.3.5.5}%
+\contentsline {subsubsection}{\nonumberline Spezifikationen}{22}{subsubsection*.64}%
+\contentsline {subsubsection}{\nonumberline Elektronik}{22}{subsubsection*.66}%
+\contentsline {subsubsection}{\nonumberline Schematics}{22}{subsubsection*.68}%
+\contentsline {subsubsection}{\nonumberline Benutzung}{22}{subsubsection*.70}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{31}{chapter*.76}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

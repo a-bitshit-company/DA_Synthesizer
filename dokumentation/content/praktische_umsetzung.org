@@ -56,10 +56,12 @@ Wir benutzen eine dünne, schwarz lackierte Holzplatte als Material für unsere 
 
 #+INCLUDE: modules/oscillator.org
 
-#+INCLUDE: modules/mixer.org
-
 #+INCLUDE: modules/lfo.org
 
 #+INCLUDE: modules/noise.org
+
+#+INCLUDE: modules/mixer.org
+
+#+INCLUDE: modules/vca.org
 
 #+INCLUDE: modules/ar.org

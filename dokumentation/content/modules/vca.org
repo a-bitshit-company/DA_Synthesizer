@@ -1,5 +1,8 @@
-* Attack-Release Hüllkurvengenerator
+* Spannungskontrollierter Verstärker
+Ein Spannungskontrollierter Verstärker (VCA) verstärkt ein angelegtes Signal um einen Faktor, welcher von einer Kontrollspannung abhängt. VCAs sind essentiell um den erzeugten Klängen einen Rhythmus zu verleihen, da ohne VCA keine dynamische Lautstärkeänderung möglich ist. 
+
 ** Spezifikationen
 ** Elektronik
 ** Schematics
 ** Benutzung
+VCAs können durch eine Vielzahl an Modulen angesteuert werden, am häufigsten ist wohl eine Art von Hüllkurvengenerator, um die Lautstärkeänderung bei einem Tastenanschlag zu simulieren. Ein einfacheres Beispiel wäre eine Rechteckswelle von einem LFO, um eine Art Stakkato zu erzeugen, oder ein langsam schwingender Sinus für einen WobWob-Effekt.

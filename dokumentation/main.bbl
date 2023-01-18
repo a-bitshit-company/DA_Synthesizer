@@ -1,24 +1,18 @@
 \begin{thebibliography}{xx}
 
-\harvarditem{Couper}{2001}{couper2001}
-Couper, M.~P.  \harvardyearleft 2001\harvardyearright , `{Web Survey Research:
-  Challenges and Opportunities}', Proceedings of the Annual Meeting of the
-  American Statistical Association.
+\harvarditem{Haillant}{2016}{haillant:lfo}
+Haillant, D.  \harvardyearleft 2016\harvardyearright , `{Simple LFO V1.1
+  Documentation}'.
+\newline\harvardurl{\url{http://www.davidhaillant.com}}
 
-\harvarditem{Diekmann}{1999}{diekma2000}
-Diekmann, A.  \harvardyearleft 1999\harvardyearright , {\em {Empirische
-  Sozialforschung. Grundlagen, Methoden, Anwendungen}}, {fifth} edn, Rowohlts
-  Enzyklopaedie, Reinbeck bei Hamburg.
+\harvarditem{Moog}{1964}{moog1964}
+Moog, R.~A.  \harvardyearleft 1964\harvardyearright , {VOLTAGE-CONTROLLED
+  ELECTRONIC MUSIC MODULES}, Technical report, Trumansburg, New York.
+\newline\harvardurl{\url{https://moogfoundation.org/wp-content/uploads/AES-1964-No0320-Modules.pdf}}
 
-\harvarditem[Dillman et~al.]{Dillman, Tortora \harvardand\
-  Bowker}{1998}{dillma1998}
-Dillman, D.~A., Tortora, R. \harvardand\ Bowker, D.  \harvardyearleft
-  1998\harvardyearright , {Principles for Constructing Web Surveys}, Technical
-  report, SESRC.
-
-\harvarditem{Reips}{2002}{reips2002}
-Reips, U.-D.  \harvardyearleft 2002\harvardyearright , `{Standards for
-  Internet-Based Experimenting}', {\em Experimental Psychology} {\bf
-  49}(4),~243--256.
+\harvarditem{{\em {SYSTEM A-100 Bedienungsanleitung}}}{2001}{doepfer:A-100}
+{\em {SYSTEM A-100 Bedienungsanleitung}}  \harvardyearleft
+  2001\harvardyearright .
+\newline\harvardurl{\url{https://doepfer.de/a100_man/A100_Anleitung_komplett.pdf}}
 
 \end{thebibliography}

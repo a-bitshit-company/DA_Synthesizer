@@ -5,5 +5,4 @@ Ein Low Frequency Oscillator, kurz LFO, generiert ein Signal, welches in einem n
 Wir verzichten bei unserer Ausführung des Moduls auf die vorhergesehenen Leuchtdiode, welche einen visuellen Indikator für die Frequenz des Ausgangssignals bieten würde. Dadurch wird am verwendeten TL074 ein Operationsverstärker frei. Dieser wird als zweiter Puffer benutzt, um beide Wellenformen parallel ausgeben zu können. Die Frequenz beider Wellenformen ist gekoppelt und wird über einen einzelnen Potentiometer gesteuert, die Amplituden sind seperat anzusteuern.
 
 ** Benutzung
-
 LFOs können für eine große Anzahl an Zwecken genutzt werden, der wohl simpelste davon ist wohl, das erzeugte Signal direkt als Audio auszugeben. Häufiger wird die Spannung eines LFOs als Kontrollspannung genutzt, beispielsweise als Trigger für einen Hüllkurvengenerator oder zum ansteuern eines VCAs um eine Funktion ähnlich eines Arpeggiators zu erfüllen.

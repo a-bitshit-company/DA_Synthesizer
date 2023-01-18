@@ -4,9 +4,13 @@ Noise, beziehungsweise Rauschen ist eine Art von Spannungssignal, welches auf ei
 https://web.archive.org/web/20050720074308/https://mv.lycaeum.org/M2/noise_ahf.html
 
 Um ein Gefühl für Rauschen zu bekommen, kann https://mynoise.net/NoiseMachines/whiteNoiseGenerator.php benutzt werden.
+
 ** Spezifikationen
+Das Noise-Modul stellt weißes Rauschen in einem Bereich \SI{-3}{\volt} bs \SI{3}{\volt} bereit.
+
 ** Elektronik
 ** Schematics
 #+INCLUDE: schematics/noise.org
+
 ** Benutzung
 Weißes Rauschen kann für eine Vielzahl an Zwecken verwendet werden, beispielsweise als Kontrollspannung für einen VCA oder als Audiosignal. Weißes Rauschen kann dafür benutzt werden Rauschen anderer "Farben" zu erzeugen. Beispielsweise kann Pinkes Rauschen erzeugt werden, indem dem White Noise Modul ein Tiefpassfilter nachgeschalten wird.

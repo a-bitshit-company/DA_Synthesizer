@@ -1,13 +1,12 @@
 \section{Low Frequency Oscillator}
-\label{sec:org284f429}
-Dieses Modul erzeugt oszillierende Spannungen im niedrigen Hertzbereich in Form einer Rechteckswelle und einer Dreieckswelle.
+\label{sec:org202df81}
+Ein Low Frequency Oscillator, kurz LFO, generiert ein Signal, welches in einem niedrigen Frequenzbereich oszilliert. Wir benutzen als Vorlage für unseren LFO den "Simple LFO" von David Haillant. Dieses Modul erzeugt langsam oszillierende Spannungen in Form einer Rechteckswelle und einer Dreieckswelle.
 \subsection{Spezifikationen}
-\label{sec:org5fb801b}
+\label{sec:org8627b72}
 \subsection{Elektronik}
-\label{sec:org9c2a833}
+\label{sec:org0df472d}
 Wir verzichten bei unserer Ausführung des Moduls auf die vorhergesehenen Leuchtdiode, welche einen visuellen Indikator für die Frequenz des Ausgangssignals bieten würde. Dadurch wird am verwendeten TL074 ein Operationsverstärker frei. Dieser wird als zweiter Puffer benutzt, um beide Wellenformen parallel ausgeben zu können. Die Frequenz beider Wellenformen ist gekoppelt und wird über einen einzelnen Potentiometer gesteuert, die Amplituden sind seperat anzusteuern.
 
 \subsection{Benutzung}
-\label{sec:orgc792e9e}
-
+\label{sec:org5c8a873}
 LFOs können für eine große Anzahl an Zwecken genutzt werden, der wohl simpelste davon ist wohl, das erzeugte Signal direkt als Audio auszugeben. Häufiger wird die Spannung eines LFOs als Kontrollspannung genutzt, beispielsweise als Trigger für einen Hüllkurvengenerator oder zum ansteuern eines VCAs um eine Funktion ähnlich eines Arpeggiators zu erfüllen.

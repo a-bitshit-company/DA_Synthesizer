@@ -1,33 +1,6 @@
-% Created 2022-12-29 Thu 19:20
-% Intended LaTeX compiler: pdflatex
-\documentclass[11pt]{article}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{graphicx}
-\usepackage{longtable}
-\usepackage{wrapfig}
-\usepackage{rotating}
-\usepackage[normalem]{ulem}
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{capt-of}
-\usepackage{hyperref}
-\date{\today}
-\title{}
-\hypersetup{
- pdfauthor={},
- pdftitle={},
- pdfkeywords={},
- pdfsubject={},
- pdfcreator={Emacs 28.2 (Org mode 9.5.5)}, 
- pdflang={English}}
-\begin{document}
-
-\tableofcontents
-
-\begin{circuitikz}[european]{
+\begin{circuitikz}[european]
 \draw{
-(0,0) node[ground, anchor=center, name=G1]{} to[R]{} ++(0,1)
+(0,0) node[ground, anchor=center, name=G]{} to[R, l=$\SI{470}{\kilo\ohm}$] ++(0,2)
+node[npn](Q){} ++(0,3)
 };
 \end{circuitikz}
-\end{document}

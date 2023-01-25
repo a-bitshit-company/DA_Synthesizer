@@ -1,14 +1,27 @@
 \begin{thebibliography}{xx}
 
+\harvarditem{{\em {Elektronische Klangsynthese}}}{n.d.}{raffaseder}
+{\em {Elektronische Klangsynthese}}  \harvardyearleft n.d.\harvardyearright .
+\newline\harvardurl{\url{http://www.raffaseder.com/sounddesign/klangsynthese/additiv.htm}}
+
 \harvarditem{Haillant}{2016}{haillant:lfo}
-Haillant, D.  \harvardyearleft 2016\harvardyearright , `{Simple LFO V1.1
-  Documentation}'.
+Haillant, D.  \harvardyearleft 2016\harvardyearright , {Simple LFO V1.1
+  Documentation}, Technical report.
 \newline\harvardurl{\url{http://www.davidhaillant.com}}
 
 \harvarditem{Moog}{1964}{moog1964}
 Moog, R.~A.  \harvardyearleft 1964\harvardyearright , {VOLTAGE-CONTROLLED
   ELECTRONIC MUSIC MODULES}, Technical report, Trumansburg, New York.
 \newline\harvardurl{\url{https://moogfoundation.org/wp-content/uploads/AES-1964-No0320-Modules.pdf}}
+
+\harvarditem{{\em {Quick Guide to Envelopes}}}{n.d.}{envelopes}
+{\em {Quick Guide to Envelopes}}  \harvardyearleft n.d.\harvardyearright .
+\newline\harvardurl{\url{https://making-music.com/quick-guides/envelopes}}
+
+\harvarditem{{\em {Rechtschreibung Synthese Duden}}}{n.d.}{duden:synthese}
+{\em {Rechtschreibung Synthese Duden}}  \harvardyearleft n.d.\harvardyearright
+  .
+\newline\harvardurl{\url{https://www.duden.de/rechtschreibung/Synthese}}
 
 \harvarditem{{\em {SYSTEM A-100 Bedienungsanleitung}}}{2001}{doepfer:A-100}
 {\em {SYSTEM A-100 Bedienungsanleitung}}  \harvardyearleft

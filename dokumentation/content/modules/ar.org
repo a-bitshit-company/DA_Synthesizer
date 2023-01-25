@@ -1,4 +1,6 @@
 * Attack-Release Hüllkurvengenerator
+Der AR Hüllkurvengenerator stellt eine [[file:~/Documents/diplomarbeit/dokumentation/content/theoretische_grundlagen.org::*Hüllkurve][Hüllkurve]] bereit, wenn an seinem Kontrollspannungseingang ein Gate-Signal von etwa \SI{5}{\volt} anliegt. AR steht dabei für Attack-Release, das AR-Modul stellt somit eine einfache Variante des klassischen ADSR-Hüllkurvengenerators dar.
+
 ** Spezifikationen
 ** Elektronik
 ** Schematics

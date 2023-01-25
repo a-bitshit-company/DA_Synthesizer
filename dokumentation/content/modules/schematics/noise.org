@@ -1,5 +1,6 @@
 \begin{circuitikz}[european]
 \draw{
-(0,0) node[ground, anchor=center, name=G]{} to[R, name=R1] ++(0,1)
+(0,0) node[ground, anchor=center]{} to[R, l=$\SI{470}{\kilo\ohm}$] ++(0,2) to[C, l=$\SI{47}{\nano\farad}$] ++(2,0) coordinate (B) to[R, l=$\SI{470}{\kilo\ohm}$] ++(2,0) coordinate(A) to[C, l=$\SI{47}{\nano\farad}$] ++(2,0)
+(A) to[R, l=$\SI{470}{\kilo\ohm}$] ++(0,2) coordinate (T) -- (G|-T) node[npn, rotate=180, xscale=-1]{} ++(0,-2)
 };
 \end{circuitikz}

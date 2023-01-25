@@ -4,46 +4,48 @@ The top-level auxiliary file: main.aux
 The style file: agsm.bst
 A level-1 auxiliary file: content/abstract.aux
 Database file #1: references.bib
+Warning--empty institution in haillant:lfo
 Warning--empty institution in moog1964
-You've used 3 entries,
+Warning--empty author in envelopes
+You've used 6 entries,
             2909 wiz_defined-function locations,
-            657 strings with 5180 characters,
-and the built_in function-call counts, 5915 in all, are:
-= -- 958
+            666 strings with 5473 characters,
+and the built_in function-call counts, 11685 in all, are:
+= -- 1985
 > -- 48
 < -- 0
-+ -- 408
++ -- 828
 - -- 14
-* -- 468
-:= -- 1251
-add.period$ -- 3
-call.type$ -- 3
-change.case$ -- 37
-chr.to.int$ -- 3
-cite$ -- 4
-duplicate$ -- 36
-empty$ -- 71
+* -- 970
+:= -- 2301
+add.period$ -- 6
+call.type$ -- 6
+change.case$ -- 62
+chr.to.int$ -- 6
+cite$ -- 9
+duplicate$ -- 79
+empty$ -- 139
 format.name$ -- 18
-if$ -- 1062
+if$ -- 2171
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 15
+missing$ -- 1
+newline$ -- 27
 num.names$ -- 20
-pop$ -- 18
+pop$ -- 39
 preamble$ -- 1
-purify$ -- 40
+purify$ -- 70
 quote$ -- 0
-skip$ -- 29
+skip$ -- 62
 stack$ -- 0
-substring$ -- 1265
-swap$ -- 8
-text.length$ -- 32
+substring$ -- 2588
+swap$ -- 28
+text.length$ -- 44
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 12
-warning$ -- 1
-while$ -- 46
+type$ -- 24
+warning$ -- 3
+while$ -- 58
 width$ -- 0
-write$ -- 39
-(There was 1 warning)
+write$ -- 73
+(There were 3 warnings)

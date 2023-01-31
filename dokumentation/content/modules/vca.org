@@ -1,9 +1,12 @@
 #+bibliography: ../../references.bib
 
 * Spannungskontrollierter Verstärker
-Ein Spannungskontrollierter Verstärker (VCA) verstärkt ein angelegtes Signal um einen Faktor, welcher von einer Kontrollspannung abhängt. VCAs sind essentiell um den erzeugten Klängen einen Rhythmus zu verleihen, da ohne VCA keine dynamische Lautstärkeänderung möglich ist. 
+Ein Spannungskontrollierter Verstärker (englisch: voltage controlled amplifier, oder VCA) verstärkt ein angelegtes Signal um einen Faktor, welcher proportional von einer Kontrollspannung abhängt. VCAs sind essentiell um den erzeugten Klängen einen Rhythmus zu verleihen, da ohne VCA keine dynamische Lautstärkeänderung möglich ist. 
 ** Spezifikationen
 ** Elektronik
+Es gibt eine Vielzahl von möglichen Ansätzen für die technische Umsetzung eines VCAs. Die simpelste Möglichkeit ist es wohl, eine Vactrol zu verwenden, da diese mit nur minimaler Beschaltung zu einem VCA umgewandelt werden kann (schematic einfügen:https://www.dropbox.com/s/o6oiyanco8lzmvt/Schematic_Vactrol.pdf?dl=0). Jede Art von VCA hat einen gewissen Eigenklang wobei ein Vactrol-VCA eine sehr "glatte" Dynamik erzeugt. Abrupte Spannungsänderungen in der Kontrollspannung werden geglättet, wodurch das ausgehende Signal nur eine stetige Änderung in der Lautstärke erfahren kann.
+
+Ein weiterer Ansatz nutzt den linearen Reaktionsbereich zweier NPN-Transistoren, wobei durch die Beschaltung auf einem der Transistoren genau das Gegenteilige Signal allerdings mit dem gleichen positiven Offset erzeugt wird. Diese zwei Signale werden dann von einem Operationsvserstärker voneinander abgezogen, dadurch wird der positive offset eliminiert und das modulierte Signal bleibt übrig. Es tragen eine Vielzahl von selbstregelnden Rückkopplungsschleifen dazu bei, dass diese Art von VCA besonders stabil und schnell auf Änderungen in der Kontrollspannungen reagieren kann.
 ** Schematics
 ** Benutzung
 VCAs können durch eine Vielzahl an Modulen angesteuert werden, am häufigsten ist wohl eine Art von Hüllkurvengenerator, um die Lautstärkeänderung bei einem Tastenanschlag zu simulieren. Ein einfacheres Beispiel wäre eine Rechteckswelle von einem LFO, um eine Art Stakkato zu erzeugen, oder ein langsam schwingender Sinus für einen WobWob-Effekt.

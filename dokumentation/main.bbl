@@ -1,9 +1,5 @@
 \begin{thebibliography}{xx}
 
-\harvarditem{{\em {Elektronische Klangsynthese}}}{n.d.}{raffaseder}
-{\em {Elektronische Klangsynthese}}  \harvardyearleft n.d.\harvardyearright .
-\newline\harvardurl{\url{http://www.raffaseder.com/sounddesign/klangsynthese/additiv.htm}}
-
 \harvarditem{Haillant}{2016}{haillant:lfo}
 Haillant, D.  \harvardyearleft 2016\harvardyearright , {Simple LFO V1.1
   Documentation}, Technical report.
@@ -17,6 +13,11 @@ Moog, R.~A.  \harvardyearleft 1964\harvardyearright , {VOLTAGE-CONTROLLED
 \harvarditem{{\em {Quick Guide to Envelopes}}}{n.d.}{envelopes}
 {\em {Quick Guide to Envelopes}}  \harvardyearleft n.d.\harvardyearright .
 \newline\harvardurl{\url{https://making-music.com/quick-guides/envelopes}}
+
+\harvarditem{Raffaseder}{2002}{raffaseder}
+Raffaseder, H.  \harvardyearleft 2002\harvardyearright , `{Additive
+  Klangsynthese}'.
+\newline\harvardurl{\url{http://www.raffaseder.com/sounddesign/klangsynthese/additiv.htm}}
 
 \harvarditem{{\em {Rechtschreibung Synthese Duden}}}{n.d.}{duden:synthese}
 {\em {Rechtschreibung Synthese Duden}}  \harvardyearleft n.d.\harvardyearright

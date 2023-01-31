@@ -4,8 +4,13 @@
 Ein Low Frequency Oscillator, kurz LFO, generiert ein Signal, welches in einem niedrigen Frequenzbereich oszilliert. Wir benutzen als Vorlage für unseren LFO den "Simple LFO" von David Haillant. Dieses Modul erzeugt langsam oszillierende Spannungen in Form einer Rechteckswelle und einer Dreieckswelle.
 [cite:@haillant:lfo]
 ** Spezifikationen
+
+Typische Oszillationsbereiche für LFOs liegen bei 0.1-10Hz. Das  von uns gewählte Design erzeugt jeweils einen Rechtecks und Dreiecksausgang, da beide Signale aus dem selben Schwingkreis stammen kann die Frequenz nicht unabhängig geändert werden, die Amplitude der beiden Signale sind jedoch individuell einstellbar.
+
 ** Elektronik
 Wir verzichten bei unserer Ausführung des Moduls auf die vorhergesehenen Leuchtdiode, welche einen visuellen Indikator für die Frequenz des Ausgangssignals bieten würde. Dadurch wird am verwendeten TL074 ein Operationsverstärker frei. Dieser wird als zweiter Puffer benutzt, um beide Wellenformen parallel ausgeben zu können. Die Frequenz beider Wellenformen ist gekoppelt und wird über einen einzelnen Potentiometer gesteuert, die Amplituden sind seperat anzusteuern.
 
 ** Benutzung
 LFOs können für eine große Anzahl an Zwecken genutzt werden, der wohl simpelste davon ist wohl, das erzeugte Signal direkt als Audio auszugeben. Häufiger wird die Spannung eines LFOs als Kontrollspannung genutzt, beispielsweise als Trigger für einen Hüllkurvengenerator oder zum ansteuern eines VCAs um eine Funktion ähnlich eines Arpeggiators zu erfüllen.
+
+Der mittig oben platzierte Drehknopf steuert die Frequenz der beiden Signale, die zwei Drehknöpfe und Buchsen dienen zur Lautstärkeregelung und Signalausgabe.

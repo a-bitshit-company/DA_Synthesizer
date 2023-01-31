@@ -1,43 +1,43 @@
 \chapter{Theoretische Grundlagen}
 
 \section{Klangsynthese}
-\label{sec:orgce935ce}
+\label{sec:org7079eb5}
 Das wort \textbf{Synthese} bedeutet in etwa zusammensetzen oder zusammenfügen (, ) beschreibt also das Erschaffen von etwas neuem durch die Vereinigung von kleineren Teilen, Klangsynthese bedeutet also, aus grundlegenden Klangwellen komplexere Klänge zu erzeugen.
 
 Ein \textbf{Synthesizer} ist ein (meist elektronisches) Instrument, welches zur Klangsynthese fähig ist. Während die meisten herkömmlichen analogen Instrumente nur eine oder wenige unterschiedliche Klangfarben erzeugen können, ist eine der Kernaufgaben eines Synthesizers das Erzeugen von Klängen mit beliebig änderbarer Klangfarbe. Zwar können Synthesizer auch herkömmliche Instrumente imitieren, vor allem sind sie jedoch das Mittel der Wahl, wenn unnatürliche und untypische Klangfarben erzeugt werden sollen, oder wenn sich die Klangfarbe eines Tones ändern soll, während er gespielt wird.
 
 \subsection{Klangwellen}
-\label{sec:org1e2d5fc}
+\label{sec:org25d2865}
 Klangwellen sind die Grundbausteine der Klangsynthese. Sie können in verschiedenen Medien vorkommen, wichtig sind für uns vor allem als Spannung ausgedrückte Klangwellen, welche wir mit Elektronik manipulieren können und Schallwellen in der Luft als Endprodukt. Weitere Formen von Klangwellen sind zum Beispiel die Schwingungen einer Gitarrensaite oder Lautsprechermembran oder Elektromagnetische Wellen, zum Beispiel beim Funk.
 
 Die Tonhöhe einer Klangwelle hängt von ihrer \textbf{Frequenz}, also von der Geschwindigkeit ab, in welcher sie schwingt. Dabei nimmt das menschliche Gehirn Töne auf eine logarithmische Art und Weise wahr, um eine große Bandbreite an Tonhöhen differenzieren zu können. Deshalb entspricht ein Ton mit der doppelten Frequenz dem selben Ton eine Oktave höher. Die Einheit für Frequenzen ist \si{\hertz}, was \(\frac{1}{\si{\second}}\) entspricht, also wie oft die Welle in einer Sekunde schwingt.
 
 Die Lautstärke einer Klangwelle, also ihre \textbf{Amplitude}, wird ebenfalls auf eine logarithmische Art und Weise wahrgenommen. So bedeutet eine Steigerung der Lautstärke um 20 \si{\dB} eine verzehnfachung der Amplitude, also des Energieniveaus der Welle. Die Amplitude einer Welle entspricht der Differenz ihrer Maximal- und Minimalwerte. Die Einheit der Amplitude einer Welle hängt von ihrem Medium ab, bei einer Spannungswelle die von einem Oszillator generiert wird, wird die Amplitude beispielsweise in Volt angegeben. Die Amplitude einer Schallwelle wird üblicherweise in \si{\dB} angegeben.
 
-Klangwellen können verschiedene Formen besitzen, die grundlegende Form ist eine \textbf{Sinuswelle}. Das menschliche Ohr empfindet eine sinusförmige Schallwelle als "`rein", da sie eine einzelne Frequenz ohne \textbf{Obertöne} repräsentiert. Weitere einfache Formen sind Rechteckswellen, Sägezahnwellen und Dreieckwellen. Diese Wellenformen besitzen neben ihrer Grundfrequenz weitere Obertöne, welche dem Klang Farbe verleihen. Teilt die Frequenz eines solchen Obertons die Frequenz des Grundtones ganzzahlig, wird er als Harmonisch, also wohlklingend empfunden.
+Klangwellen können verschiedene Formen besitzen, die grundlegende Form ist eine \textbf{Sinuswelle}. Das menschliche Ohr empfindet eine sinusförmige Schallwelle als "`rein"', da sie eine einzelne Frequenz ohne \textbf{Obertöne} repräsentiert. Weitere einfache Formen sind Rechteckswellen, Sägezahnwellen und Dreieckwellen. Diese Wellenformen besitzen neben ihrer Grundfrequenz weitere Obertöne, welche dem Klang Farbe verleihen. Teilt die Frequenz eines solchen Obertons die Frequenz des Grundtones ganzzahlig, wird er als Harmonisch, also wohlklingend empfunden.
 
 \subsection{Klangerzeugung}
-\label{sec:org0e42788}
+\label{sec:orgbae9342}
 Die für die Klangsynthese benötigten grundlegenden Klangwellen können aus verschiedensten Quellen stammen. Die häufigste davon ist wohl ein \textbf{Oszillator}, welcher durchgehende Klangwellen mit einer einfachen Wellenform wie zum Beispiel einem Sinus oder einer Rechteckswelle generiert. In einem Späteren Teil dieser Dokumentation wird Aufbau und Design eines solchen Oszillators beschrieben.
 
 Abgesehen davon können eine breite Spanne von elektronischen Musikinstrumenten / Klangquellen wie E-Gitarren, Thereminen oder Radios und Kassettenspielern die zu modifizierenden Klangwellen für einen Synthesizer bereitstellen.
 
 \subsection{Subtraktive Klangsynthese}
-\label{sec:org582c57d}
+\label{sec:org87528e1}
 Das Prinzip der Subtraktiven Klangsynthese besteht darin, Grundtöne mit vielen Obertönen zu filtern, um Töne mit einer gewünschten Klangfarbe zu erzeugen. Durch einen \textbf{Filter} wird die Amplitude von Teilwellen unter einer bestimmten Frequenz (=> high-pass Filter) oder über einer bestimmten Frequenz (=> low-pass Filter) verringert, wodurch zum Beispiel unangenehm hohe Obertöne gefiltert werden können.
 
 Nach einem solchen Filter wird oft ein Spannungskontrollierter \textbf{Verstärker} (VCA) geschalten, welcher die Amplitude des Eingangssignals proportional zur angelegten Kontrollspannung skaliert. Diese Kontrollspannung kann beispielsweise durch einen LFO oder Hüllkurvengenerator bereitgestellt werden. Dadurch kann einem durchgehenden Signal Rhythmus verliehen werden.
 
 \subsection{Additive Klangsynthese}
-\label{sec:orga779ab9}
+\label{sec:orgc1d825a}
 Laut Fourier \url{https://mathworld.wolfram.com/FourierTransform.html} kann jegliche Art von Wellenform durch eine Serie von Sinuswellen ausgedrückt werden. Das Prinzip der additiven Klangsynthese besteht somit darin, eine Vielzahl von Sinuswellen mit unterschiedlichen Amplituden und Frequenzen zu Kombinieren, (beispielsweise durch einen Mixer) um Klänge mit jeglicher erdenklichen Klangfarbe zu erzeugen. Idealerweise wird jede grundlegende Sinuswelle durch eine seperate Hüllkurve moduliert um einen Klang mit laufend verändernder Klangfarbe zu erzeugen. (, a) Da dies mit einer steigenden Anzahl an grundlegenden Sinuswellen eine technische Herausforderung darstellt, sind additive Synthesizer meist Digital ausgeführt, ein analoges Beispiel für einen additiven synthesizer wäre eine Orgel.
 
 \subsection{Vocoder}
-\label{sec:org347b0cc}
+\label{sec:orgc5f8197}
 Ein Vocoder basiert auf dem Prinzip, ein Signal (meist eine Stimme) mittels mehrerer Band-Pass Filter in seine Frequenzbestandteile aufzuteilen. Anschließend wird dieses Frequenzspektrum auf der Basis von weißem Rauschen wieder aufgebaut um einen als gesprochenes Wort zu erkennenden Klang zu erzeugen. Ein Vocoder arbeitet somit sowohl mit subtraktiver Soundsynthese bei der Analyse des Frequenzspektrums als auch mit additiver Soundsynthese beim wieder zusammensetzen des analysierten Klangs.
 
 \section{Geschichte}
-\label{sec:orgdddb9b1}
+\label{sec:orgbcf88f9}
 Bereits im frühen 20. Jahrhundert wurden Elektronische Schaltkreise dazu benutzt, Klänge zu erzeugen. Damals noch mit Vakuumröhren statt Transistoren hergestellt, stellt das \textbf{Theremin} eines der ältesten heute noch verwendeten Elektronischen Musikinstrumente dar.
 
 Der erste vollwertige elektronische Synthesizer, welcher auch als solcher bezeichnet wurde, war der \textbf{RCA Music Synthesizer}, eine raumhohe Maschine welche als Gemeinschaftsprojekt zwischen den amerikanischen Universitäten von Princeton und Columbia entstanden war. Statt mit einer Klaviertastatur spielte, beziehungsweise programmierte, man diesen Synthesizer erst mittels Lochkarten und konnte dann gewisse Aspekte des Klanges dynamisch während das Stück spielte ändern.
@@ -55,42 +55,46 @@ Das Konzept der Modularen Synthesizer schien beinahe vergessen, bis im Jahre 199
 Die Dokumentation für diesen Synthesizer, den A-100, stellt auf direkte oder indirekte Weise die Grundlage für die meisten Aspekte des in dieser Dokumentation beschriebenen Systems dar.
 
 \section{Das Eurorack Format}
-\label{sec:org605f8fe}
+\label{sec:org68993ec}
 
-1996 veröffentlichte Doepfer Musikelektronik GmbH eine Reihe an Synthesizermodulen. Schnell wurden kompatible Module von anderen Herstellern hergestellt, wodurch das Eurorack Format zum de-facto Standard für modulare Synthesizer wurde. Heute gibt es tausende von Eurorack Modulen, hergestellt von bekannten Firmen wie Moog, Roland, Behringer und auf Eurorack spezialisierten Herstellern wie Make Noise. Des weiteren gibt es eine lebendige DIY-szene mit vielen öffentlichen Designs, Anleitungen, Schematics, vorbereiteten Kits zum zusammenbauen und mehr.
+Der 1996 von Doepfer Musikelektronik GmbH veröffentlichte A-100 Synthesizer benutzt für viele Zwecke bereits konventionelle Maße und Werte. Beispielweise werden die durch den Moog Modular Synthesizer eingeführten Kontrollspannungsarten benutzt und die physischen Dimensionen der Module basierten auf dem Eurocard Standard (IEEE 1101.1). Schnell wurden kompatible Module von anderen Herstellern hergestellt, wodurch das Eurorack Format zum de-facto Standard für modulare Synthesizer wurde. Heute gibt es tausende von Eurorack Modulen, hergestellt von bekannten Firmen wie Moog, Roland, Behringer und auf Eurorack spezialisierten Herstellern wie Make Noise. Des weiteren gibt es eine lebendige DIY-szene mit vielen öffentlichen Designs, Anleitungen, Schematics, vorbereiteten Kits zum zusammenbauen und ähnlichem.
 
 \subsection{Kontrollspannung}
-\label{sec:orgf15bf83}
+\label{sec:orgd66cf3c}
 Essentiell bei Eurorack Modulen ist, dass viele Parameter nicht nur durch den Benutzer (durch Knöpfe, Potentiometer, etc) sondern auch durch andere Module mithilfe von sog. Kontrollspannung (CV) ansteuerbar sind. So kann z.B die Frequenz eines Oszillators, der Cutoff eines Filters, Attack und Releaselänge eines Envelopes und ähnliches durch Kontrollspannung kontrolliert werden; Diese Kontrollspannung kann wiederum aus verschiedensten Modulen wie z.B. einem MIDI Interface, einem LFO, einem Envelope Generator wie zum Beispiel ADSR oder sogar einem anderen Audiosignal kommen. Dadurch entsteht ein Netzwerk an elektronischen Schaltungen welche sich gegenseitig beeinflussen und hochschaukeln, was zu idealerweise wohlklingenden, jedoch in jedem Fall interessanten Effekten führt.
 
 Besonders für Eurorack und für modulare Synthesizer im Generellen hat dieses Konzept einen hohen Stellenwert, da bei solchen Systemen Audiosignale und Kontrollspannungen nicht fix verkabelt sind, sondern vom Benutzer flexibel mit \SI{3.5}{\milli\meter} mono Klinkensteckern, sogenannten \textbf{Patchkabeln} geschalten werden können. Der Unterschied zwischen Audiosignalen und Kontrollspannung liegt rein im Verwendungszweck, oft können auch Audiosignale als Kontrollspannung dienen. Es gibt verschiedene Arten von Kontrollspannung, welche sich primär durch ihren Verwendungszweck unterscheiden:
 
 \subsubsection{Hüllkurve}
-\label{sec:org477f218}
-Hüllkurven besitzen meist einen positiven Spannungsbereich. Sie werden oft zum Ansteuern von Spannungskontrollierbaren Verstärkern (VCA) benutzt. Hüllkurven treten oft in Form von \textbf{ADSR} (Attack, Decay, Sustain, Release) auf, diese Art von Hüllkurve beschreibt den Verlauf der Lautstärke eines Tones beim Drücken einer Taste. \cite{envelopes}
+\label{sec:org780bbaa}
+Hüllkurven sind Kontrollspannungen mit meist positivem Spannungsbereich. Sie werden oft zum Ansteuern von Spannungskontrollierbaren Verstärkern (VCA) benutzt. Eine häufige Art von Hüllkurve ist \textbf{ADSR} (Attack, Decay, Sustain, Release), welche den Verlauf der Lautstärke eines Tones beim Drücken einer Taste beschreibt. \cite{envelopes}
 
 \begin{enumerate}
 \item Attack
-\label{sec:org22e49f8}
+\label{sec:org67e97f2}
 Der "`Attack"' Wert gibt an, wie lange der Ton nach dem Drücken der Taste braucht, um auf seine maximale Lautstärke anzuschwellen.
 
 \item Decay
-\label{sec:org09d70c9}
+\label{sec:orga60ac08}
 Nachdem der Ton seine maximale Lautstärke erreicht hat, schwillt er auf eine niedrigere Lautstärke ab. Der Decay-Wert, gibt an, wie lange der Ton benötigt, um diese niedrigere Lautstärke zu erreichen.
 
 \item Sustain
-\label{sec:orgff7f2f6}
+\label{sec:org7ff1f38}
 Im Unterschied zu den Anderen Parametern ist der Sustain-Wert eine Amplitude anstatt einer Zeit. Der eingestellte Wert gibt an, auf welche Lautstärke das Signal nach dem Ablaufen der Decay-Zeit abschwillt. Die eingestellte Lautstärke ist konstant, solange die Taste gedrückt bleibt.
 
 \item Release
-\label{sec:orgd473bb4}
+\label{sec:org14d1942}
 Nach dem Loslassen der Taste benötigt der Ton eine gewisse Zeit, um eine Lautstärke von 0 zu erreichen. Diese Zeit wird über den Release-Parameter eingestellt.
 \end{enumerate}
 
 \subsubsection{Trigger}
-\label{sec:org0ab34c5}
-Triggersignale sind Rechteckswellen zwischen \SI{0}{\volt} und \SI{5}{\volt}, deren Zweck es ist, Prozesse, wie etwa das generieren einer Hüllkurve durch einen ADSR, auszulösen.
+\label{sec:orgef05727}
+Triggersignale sind steigende Flanken direkt gefolgt von einer fallenden Flanke, meist zwischen \SI{0}{\volt} und \SI{5}{\volt}. Ihr Zweck ist es, Prozesse, wie etwa das fortschreiten eines Sequencers, auszulösen.
+
+\subsubsection{Gate}
+\label{sec:org6832c4a}
+Ähnlch wie ein Triggersignal ist ein Gate eine steigende Flanke gefolgt von einer fallenden Flanke zwsichen \SI{0}{\volt} und \SI{5}{\volt}. Im Unterschied zum Trigger ist jedoch der Zeitliche Abstand zwischen steigender und fallender Flanke oft beträchtlich länger und spielt eine wichtige Rolle. Gate-Signale werden oft verwendet um den Zustand einer Keyboardtaste zu beschreiben.
 
 \subsubsection{Audio}
-\label{sec:org69f6ae5}
+\label{sec:org30b263a}
 Audiosignale sind Spannungen, meist zwischen \SI{-5}{\volt} und \SI{5}{\volt}, welche an einen Verstärker oder Lautsprecher angelegt werden können um Schall zu erzeugen. Sie können auch zur Weiterverarbeitung von einem Modul zum anderen geschickt werden und sogar als Kontrollspannung verwendet werden. Man kann Audiosignale als Kontrollspannungen, welche zum Ansteuern von Lautsprechern geeignet sind, sehen.

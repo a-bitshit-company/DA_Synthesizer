@@ -1,6 +1,5 @@
 * Oszillator x2
-** Einleitende Beschreibung
-Das 2xSqr Modul ist ein simples Signalerzeugendes Modul, welches zwei voneinander unabhängige Rechteckswellen generiert. Es besitzt zwei Audiobuchsen am Panel an welchen die Spannung der generierten Wellen anliegt und vier Potentiometer als verstellbare Wiederstände, mit welchen jeweils Amplitude und Frequenz der beiden Oszillatoren angesteuert werden können. Diese Potentiometer können durch Vactrols ersetzt werden, um das Modul Spannungssteuerbar zu machen.
+Dieses Modul ist ein simples Signalerzeugendes Modul, welches zwei voneinander unabhängige Rechteckswellen generiert. Es besitzt zwei Audiobuchsen am Panel an welchen die Spannung der generierten Wellen anliegt und vier Potentiometer als verstellbare Wiederstände, mit welchen jeweils Amplitude und Frequenz der beiden Oszillatoren angesteuert werden können. Diese Potentiometer können durch Vactrols ersetzt werden, um das Modul Spannungssteuerbar zu machen.
 
 \begin{circuitikz}
 \ctikzset{bipoles/oscope/waveform=square}
@@ -17,7 +16,7 @@ Oszillator 2:
 + Frequenzbereich
   
 ** Elektronik
-Resistor-Capacitor type Oszillator
+Als Grundlage dient ein einfacher "`Resistor-Capacitor"' Schwingkreis welcher einen Schmitttrigger nutzt. Das resultierende Signal wird durch einen Spannungsfolger gepuffert, da sonst die Oszillation zusammenbricht. Des weiteren wird das Signal danach AC gekoppelt, um das positive Offset der Ozillation zu entfernen und ein weiteres Mal gepuffert. Darauf folgt ein einfacher variabler Spannungsteiler als Dämpfungsglied, um die Amplitude regulieren zu können.
 
 ** Schematics
 

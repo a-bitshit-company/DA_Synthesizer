@@ -1,6 +1,11 @@
 \begin{circuitikz}[european]
 \draw{
-(0,0) node[ground, anchor=center]{} to[R, l=$\SI{470}{\kilo\ohm}$] ++(0,2) to[C, l=$\SI{47}{\nano\farad}$] ++(2,0) coordinate (B) to[R, l=$\SI{470}{\kilo\ohm}$] ++(2,0) coordinate(A) to[C, l=$\SI{47}{\nano\farad}$] ++(2,0)
-(A) to[R, l=$\SI{470}{\kilo\ohm}$] ++(0,2) coordinate (T) -- (G|-T) node[npn, rotate=180, xscale=-1]{} ++(0,-2)
+(0,0) node[ground, anchor=center]{} to[R, l=$\SI{470}{\kilo\ohm}$] coordinate (G) ++(0,2) to[C, l=$\SI{47}{\nano\farad}$] ++(2,0) coordinate (B) to[R, l=$\SI{470}{\kilo\ohm}$] ++(2,0) coordinate(A) to[C, l=$\SI{47}{\nano\farad}$] ++(2,0) node[draw,anchor=west]{AUDIO OUT}
+(A) to[R, l=$\SI{470}{\kilo\ohm}$] ++(0,2.5) coordinate (T) -- (G|-T) node[npn, rotate=180, xscale=-1, anchor=E, name=Q1]{} ++(0,-2)
+(A) -- ++(0,-0.5) node[npn, anchor=C, name=Q2]{} ++(0,-1.5) node[ground, anchor=center]{}
+(Q2.B) -- (Q2.B-|B) -- (B)
+(Q1.B) -- (Q1.B|-G) -- (G)
+(Q1.C) node[draw,anchor=north]{n.c.}
+(T) -- ++(0,0.5) node[draw, anchor=south]{\SI{+12}{\volt}}
 };
 \end{circuitikz}

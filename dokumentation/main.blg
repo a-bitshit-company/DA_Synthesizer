@@ -9,43 +9,43 @@ Warning--empty institution in moog1964
 Warning--empty author in envelopes
 You've used 6 entries,
             2909 wiz_defined-function locations,
-            666 strings with 5473 characters,
-and the built_in function-call counts, 11685 in all, are:
-= -- 1985
-> -- 48
+            669 strings with 5520 characters,
+and the built_in function-call counts, 12158 in all, are:
+= -- 2024
+> -- 72
 < -- 0
-+ -- 828
-- -- 14
-* -- 970
-:= -- 2301
++ -- 859
+- -- 21
+* -- 992
+:= -- 2467
 add.period$ -- 6
 call.type$ -- 6
-change.case$ -- 62
+change.case$ -- 68
 chr.to.int$ -- 6
 cite$ -- 9
-duplicate$ -- 79
-empty$ -- 139
-format.name$ -- 18
-if$ -- 2171
+duplicate$ -- 77
+empty$ -- 141
+format.name$ -- 27
+if$ -- 2222
 int.to.chr$ -- 5
 int.to.str$ -- 0
 missing$ -- 1
 newline$ -- 27
-num.names$ -- 20
-pop$ -- 39
+num.names$ -- 30
+pop$ -- 40
 preamble$ -- 1
-purify$ -- 70
+purify$ -- 75
 quote$ -- 0
-skip$ -- 62
+skip$ -- 60
 stack$ -- 0
-substring$ -- 2588
-swap$ -- 28
-text.length$ -- 44
+substring$ -- 2670
+swap$ -- 22
+text.length$ -- 54
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 24
 warning$ -- 3
-while$ -- 58
+while$ -- 75
 width$ -- 0
-write$ -- 73
+write$ -- 74
 (There were 3 warnings)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.11)  22 FEB 2023 10:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.11)  22 FEB 2023 11:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1593,21 +1593,19 @@ Package pdftex.def Info: figures/htl-logo.png  used on input line 1.
 ]
 chapter without number
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--17
-\T1/pplj/b/n/12 (+20) URL: [][]$\T1/lmtt/m/it/12 https : / / moogfoundation . o
-rg / wp-[]content / uploads /
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+[]\T1/pplj/m/n/12 (+20) Rechtschreibung Syn-the-se Du-den.  [][]$\T1/lmtt/m/n/1
+2 https : / / www . duden . de /
  []
 
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/pplj/m/sc/12'.
+(microtype)             Ignoring protrusion settings for this character.
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--22
-\T1/pplj/b/n/12 (+20) URL: [][]$\T1/lmtt/m/it/12 http : / / www . raffaseder . 
-com / sounddesign / klangsynthese /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--27
-\T1/pplj/b/n/12 (+20) URL: [][]$\T1/lmtt/m/it/12 https : / / doepfer . de / a10
-0 _ man / A100 _ Anleitung _ komplett .
+Underfull \hbox (badness 1259) in paragraph at lines 21--25
+[]\T1/pplj/m/sc/12 (+20) Haillant\T1/pplj/m/n/12 (+20) , D. :  \T1/pplj/m/it/12
+ (+20) Sim-ple LFO V1.1 Do-cu-men-ta-ti-on\T1/pplj/m/n/12 (+20) .  [][]$\T1/lmt
+t/m/n/12 http : / / www .
  []
 
 ) 
@@ -1621,15 +1619,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 50626 strings out of 478238
- 1194789 string characters out of 5850455
- 1845855 words of memory out of 5000000
- 67646 multiletter control sequences out of 15000+600000
- 543408 words of font info for 357 fonts, out of 8000000 for 9000
+ 50654 strings out of 478238
+ 1195023 string characters out of 5850455
+ 1844873 words of memory out of 5000000
+ 67647 multiletter control sequences out of 15000+600000
+ 547984 words of font info for 377 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  118i,24n,112p,10683b,1166s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fo
-nts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fon
+ts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmbsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
 /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/tex
 mf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/share/texmf-dist/fonts/type1/p
@@ -1637,13 +1635,13 @@ ublic/mathpazo/fplmr.pfb></usr/share/texmf-dist/fonts/type1/public/fpl/fplrc8a.
 pfb></usr/share/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/share/texm
 f-dist/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf-dist/fonts/type1/publ
 ic/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></us
-r/share/texmf-dist/fonts/type1/public/lm/lmtti10.pfb></usr/share/texmf-dist/fon
-ts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatin
-o/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (41 pages, 512480 bytes).
+r/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/f
+onts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palat
+ino/uplri8a.pfb>
+Output written on main.pdf (41 pages, 502691 bytes).
 PDF statistics:
- 533 PDF objects out of 1000 (max. 8388607)
- 449 compressed objects within 5 object streams
+ 529 PDF objects out of 1000 (max. 8388607)
+ 447 compressed objects within 5 object streams
  149 named destinations out of 1000 (max. 500000)
- 66798 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 70382 words of extra memory for PDF output out of 74296 (max. 10000000)
 

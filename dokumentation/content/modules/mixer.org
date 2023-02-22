@@ -7,4 +7,4 @@ Spannung: voller Spannungsbereich möglich (=> bis zu 24[[file:~/Documents/diplo
 ** Schematics
 [[file:~/Documents/diplomarbeit/dokumentation/figures/Schematic_Simple_Mixer.png]]
 ** Benutzung
-Die zu mixenden Signale werden durch die oberen drei Audiobuchsen angeschlossen. Die unterste Audiobuchse liefert das Ausgangssignal. Als einfachen Patch könnte man die beiden Signale des [[file:oscillator.org::*Oszillator x2][Oszillator x2]] Moduls zusammenführen um beide Oszillatoren auf einmal zu hören.
+Die zu mixenden Signale werden durch die oberen drei Audiobuchsen angeschlossen. Die unterste Audiobuchse liefert das Ausgangssignal, wobei der rechtere der invertierende Ausgang ist. Als einfachen Patch könnte man die beiden Signale des [[file:oscillator.org::*Oszillator x2][Oszillator x2]] Moduls zusammenführen um beide Oszillatoren auf einmal zu hören.

@@ -1,32 +1,33 @@
 \begin{thebibliography}{xx}
 
+\harvarditem{{Def}}{n.d.}{duden:synthese}
+{Def}  \harvardyearleft n.d.\harvardyearright , `{Rechtschreibung Synthese
+  Duden}'.
+\newline\harvardurl{\url{https://www.duden.de/rechtschreibung/Synthese}}
+
 \harvarditem{Haillant}{2016}{haillant:lfo}
-Haillant, D.  \harvardyearleft 2016\harvardyearright , {Simple LFO V1.1
-  Documentation}, Technical report.
+Haillant, D.  \harvardyearleft 2016\harvardyearright , `{Simple LFO V1.1
+  Documentation}'.
 \newline\harvardurl{\url{http://www.davidhaillant.com}}
 
 \harvarditem{Moog}{1964}{moog1964}
 Moog, R.~A.  \harvardyearleft 1964\harvardyearright , {VOLTAGE-CONTROLLED
-  ELECTRONIC MUSIC MODULES}, Technical report, Trumansburg, New York.
+  ELECTRONIC MUSIC MODULES}, Trumansburg, New York.
 \newline\harvardurl{\url{https://moogfoundation.org/wp-content/uploads/AES-1964-No0320-Modules.pdf}}
-
-\harvarditem{{\em {Quick Guide to Envelopes}}}{n.d.}{envelopes}
-{\em {Quick Guide to Envelopes}}  \harvardyearleft n.d.\harvardyearright .
-\newline\harvardurl{\url{https://making-music.com/quick-guides/envelopes}}
 
 \harvarditem{Raffaseder}{2002}{raffaseder}
 Raffaseder, H.  \harvardyearleft 2002\harvardyearright , `{Additive
   Klangsynthese}'.
 \newline\harvardurl{\url{http://www.raffaseder.com/sounddesign/klangsynthese/additiv.htm}}
 
-\harvarditem{{\em {Rechtschreibung Synthese Duden}}}{n.d.}{duden:synthese}
-{\em {Rechtschreibung Synthese Duden}}  \harvardyearleft n.d.\harvardyearright
-  .
-\newline\harvardurl{\url{https://www.duden.de/rechtschreibung/Synthese}}
-
 \harvarditem{{\em {SYSTEM A-100 Bedienungsanleitung}}}{2001}{doepfer:A-100}
 {\em {SYSTEM A-100 Bedienungsanleitung}}  \harvardyearleft
   2001\harvardyearright .
 \newline\harvardurl{\url{https://doepfer.de/a100_man/A100_Anleitung_komplett.pdf}}
+
+\harvarditem{Waugh}{n.d.}{envelopes}
+Waugh, I.  \harvardyearleft n.d.\harvardyearright , `{Quick Guide to
+  Envelopes}'.
+\newline\harvardurl{\url{https://making-music.com/quick-guides/envelopes}}
 
 \end{thebibliography}

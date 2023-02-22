@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.11)  31 JAN 2023 11:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.11)  22 FEB 2023 10:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1024,31 +1024,31 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 LaTeX Font Info:    Trying to load font information for T1+pplj on input line 9
-2.
+1.
  (/usr/share/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 ) (./main.aux
 (./content/abstract.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1075,12 +1075,12 @@ e
 \c@lstlisting=\count342
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 92.
-LaTeX Info: Redefining \microtypecontext on input line 92.
-Package microtype Info: Applying patch `item' on input line 92.
-Package microtype Info: Applying patch `toc' on input line 92.
-Package microtype Info: Applying patch `eqnum' on input line 92.
-Package microtype Info: Applying patch `footnote' on input line 92.
+(lastpage)             ! on input line 91.
+LaTeX Info: Redefining \microtypecontext on input line 91.
+Package microtype Info: Applying patch `item' on input line 91.
+Package microtype Info: Applying patch `toc' on input line 91.
+Package microtype Info: Applying patch `eqnum' on input line 91.
+Package microtype Info: Applying patch `footnote' on input line 91.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2),
 (microtype)             factor: 900.
@@ -1088,7 +1088,7 @@ Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 92.
+LaTeX Info: Redefining \showhyphens on input line 91.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1104,14 +1104,14 @@ File: translations-basic-dictionary-german.trsl (german translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `german'. on input line 92.
+or `german'. on input line 91.
 
 (/usr/share/texmf-dist/tex/latex/translations/translations-basic-dictionary-eng
 lish.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
-Package hyperref Info: Link coloring ON on input line 92.
+Package hyperref Info: Link coloring ON on input line 91.
  (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1123,9 +1123,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count343
 )
-LaTeX Info: Redefining \ref on input line 92.
-LaTeX Info: Redefining \pageref on input line 92.
-LaTeX Info: Redefining \nameref on input line 92.
+LaTeX Info: Redefining \ref on input line 91.
+LaTeX Info: Redefining \pageref on input line 91.
+LaTeX Info: Redefining \nameref on input line 91.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -1138,7 +1138,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 92.
+(scrbook)           before \begin{document} on input line 91.
 
 (/usr/share/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
@@ -1210,33 +1210,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 )
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 110.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 109.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
 LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 
-110.
+109.
  (/usr/share/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-110.
+109.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-110.
+109.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-110.
+109.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-110.
+109.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -1255,7 +1255,7 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                e.g., setting typearea's option
 (scrlayer-scrpage)                `headheight=21.35818pt'.
 (scrlayer-scrpage)                I'll also decrease \topmargin on input line 1
-10.
+09.
 
 
 Overfull \vbox (3.23318pt too high) has occurred while \output is active []
@@ -1264,7 +1264,7 @@ Overfull \vbox (3.23318pt too high) has occurred while \output is active []
 [3]
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 110.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 109.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
 
 
@@ -1275,13 +1275,13 @@ Package scrlayer-scrpage Warning: \footheight to low.
 (scrlayer-scrpage)                processing, but you should do this yourself,
 (scrlayer-scrpage)                e.g., setting typearea's option
 (scrlayer-scrpage)                `footheight=28.99998pt'.
-(scrlayer-scrpage)                I'll also increase \footskip on input line 11
-0.
+(scrlayer-scrpage)                I'll also increase \footskip on input line 10
+9.
 
 [4] (./template/affirmation.tex)
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 113.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 112.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
  [5
 
@@ -1293,14 +1293,14 @@ Package pdftex.def Info: figures/htl-logo.png  used on input line 113.
 
 ]
 Package tocbasic Info: character protrusion at toc deactivated on input line 11
-3.
+2.
  (./main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 122.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 121.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
  [7] [8
 
@@ -1325,19 +1325,65 @@ Class scrbook Warning: \float@addtolists detected!
 
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 14.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 16.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
 [1
 
 
 ]
+LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
+21.
+ (/usr/share/texmf-dist/tex/latex/psnfss/ts1pplj.fd
+File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
+)
+</home/felixp/Documents/diplomarbeit/dokumentation/figures/decibel_scale.png, i
+d=108, 602.25pt x 1112.155pt>
+File: /home/felixp/Documents/diplomarbeit/dokumentation/figures/decibel_scale.p
+ng Graphic file (type png)
+<use /home/felixp/Documents/diplomarbeit/dokumentation/figures/decibel_scale.pn
+g>
+Package pdftex.def Info: /home/felixp/Documents/diplomarbeit/dokumentation/figu
+res/decibel_scale.png  used on input line 26.
+(pdftex.def)             Requested size: 358.50232pt x 662.0544pt.
+
+Underfull \vbox (badness 4805) has occurred while \output is active []
+
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 24.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 27.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
  [2]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
-3.
+Overfull \vbox (128.0544pt too high) has occurred while \output is active []
+
+File: figures/htl-logo.png Graphic file (type png)
+<use figures/htl-logo.png>
+Package pdftex.def Info: figures/htl-logo.png  used on input line 27.
+(pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
+
+[3 </home/felixp/Documents/diplomarbeit/dokumentation/figures/decibel_scale.png
+>]
+</home/felixp/Documents/diplomarbeit/dokumentation/figures/a_weighting.png, id=
+122, 602.25pt x 428.60126pt>
+File: /home/felixp/Documents/diplomarbeit/dokumentation/figures/a_weighting.png
+ Graphic file (type png)
+<use /home/felixp/Documents/diplomarbeit/dokumentation/figures/a_weighting.png>
+
+Package pdftex.def Info: /home/felixp/Documents/diplomarbeit/dokumentation/figu
+res/a_weighting.png  used on input line 33.
+(pdftex.def)             Requested size: 358.50232pt x 255.14189pt.
+File: figures/htl-logo.png Graphic file (type png)
+<use figures/htl-logo.png>
+Package pdftex.def Info: figures/htl-logo.png  used on input line 40.
+(pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
+ [4 </home/felixp/Documents/diplomarbeit/dokumentation/figures/a_weighting.png>
+]
+File: figures/htl-logo.png Graphic file (type png)
+<use figures/htl-logo.png>
+Package pdftex.def Info: figures/htl-logo.png  used on input line 53.
+(pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
+ [5]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
+5.
  (/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1346,50 +1392,50 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (13.03654pt too wide) in paragraph at lines 33--34
+Overfull \hbox (13.03654pt too wide) in paragraph at lines 55--56
 \T1/pplj/m/n/12 (-20) Laut Fou-ri-er [][]$\T1/lmtt/m/n/12 https : / / mathworld
  . wolfram . com / FourierTransform . html$[][] \T1/pplj/m/n/12 (-20) kann
  []
 
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 38.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 65.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
-[3]
+[6]
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 48.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 74.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [4]
+ [7]
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 61.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 87.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [5]
-File: figures/htl-logo.png Graphic file (type png)
-<use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 71.
-(pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [6]
+ [8]
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 97.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [7]) (./content/praktische_umsetzung.tex
+ [9]
+File: figures/htl-logo.png Graphic file (type png)
+<use figures/htl-logo.png>
+Package pdftex.def Info: figures/htl-logo.png  used on input line 125.
+(pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
+ [10]) (./content/praktische_umsetzung.tex
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [8]
+ [11] [12
+
+
+]
 chapter 2.
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 14.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
-[9
-
-
-]
+[13]
 Overfull \hbox (17.49898pt too wide) in paragraph at lines 17--19
 [][]$\T1/lmtt/m/n/12 https : / / www . alldatasheet . com / view . jsp ? Search
 word = BC548$[][] \T1/pplj/m/n/12 (-20) Manch-mal wer-
@@ -1399,121 +1445,114 @@ File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 33.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
-[10]
-LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
-46.
- (/usr/share/texmf-dist/tex/latex/psnfss/ts1pplj.fd
-File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
-)
+[14]
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 52.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [11]
+ [15]
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 78.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 84.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [12]
+ [16]
 Overfull \hbox (7.75206pt too wide) in paragraph at lines 143--144
 [][] 
  []
 
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 145.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 148.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
-[13]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+[17]
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 212.
-(pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [14]
-File: figures/htl-logo.png Graphic file (type png)
-<use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 215.
-(pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
-
-[15]
-File: figures/htl-logo.png Graphic file (type png)
-<use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 232.
-(pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [16]
-File: figures/htl-logo.png Graphic file (type png)
-<use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 263.
-(pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [17]
-File: figures/htl-logo.png Graphic file (type png)
-<use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 274.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 165.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
  [18]
+File: figures/htl-logo.png Graphic file (type png)
+<use figures/htl-logo.png>
+Package pdftex.def Info: figures/htl-logo.png  used on input line 196.
+(pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
+ [19]
+File: figures/htl-logo.png Graphic file (type png)
+<use figures/htl-logo.png>
+Package pdftex.def Info: figures/htl-logo.png  used on input line 207.
+(pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
+ [20]
 </home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_Simple_Mix
-er.png, id=240, 1173.38374pt x 830.10126pt>
+er.png, id=253, 1173.38374pt x 830.10126pt>
 File: /home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_Simpl
 e_Mixer.png Graphic file (type png)
 <use /home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_Simple
 _Mixer.png>
 Package pdftex.def Info: /home/felixp/Documents/diplomarbeit/dokumentation/figu
-res/Schematic_Simple_Mixer.png  used on input line 279.
+res/Schematic_Simple_Mixer.png  used on input line 212.
 (pdftex.def)             Requested size: 358.50232pt x 253.61751pt.
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 288.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 221.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [19 </home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_Simpl
+ [21 </home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_Simpl
 e_Mixer.png>]
-Overfull \hbox (1.52931pt too wide) in paragraph at lines 292--293
+Overfull \hbox (1.52931pt too wide) in paragraph at lines 225--226
 \T1/pplj/m/n/12 (-20) einen ge-wis-sen Ei-gen-klang wo-bei ein Vactrol-VCA ei-n
 e sehr "glat-te"Dynamik
  []
 
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 300.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 233.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
-[20]
+[22]
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 310.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 243.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [21])
+ [23]
+</home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_AR.png, id
+=293, 648.17157pt x 227.34938pt>
+File: /home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_AR.pn
+g Graphic file (type png)
+<use /home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_AR.png
+>
+Package pdftex.def Info: /home/felixp/Documents/diplomarbeit/dokumentation/figu
+res/Schematic_AR.png  used on input line 246.
+(pdftex.def)             Requested size: 358.50232pt x 125.74675pt.
+)
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 132.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 131.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [22]
+ [24 </home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_AR.pn
+g (PNG copy)>]
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 132.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 131.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [23
+ [25
 
 
-] [24]
+] [26]
 Package tocbasic Info: character protrusion at lot deactivated on input line 13
-6.
+5.
  (./main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 137.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 136.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [25
+ [27
 
 
-] [26
+] [28
 
 
 ]
 Package tocbasic Info: character protrusion at lof deactivated on input line 13
-7.
+6.
  (./main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
@@ -1530,13 +1569,13 @@ Class scrbook Warning: \float@listhead detected!
 (scrbook)              Loading of package `scrhack' may help to
 (scrbook)              avoid this warning, if you are using a
 (scrbook)              a package that still implements the
-(scrbook)              deprecated \float@listhead interface on input line 138.
+(scrbook)              deprecated \float@listhead interface on input line 137.
 
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 138.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 137.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
-[27] [28
+[29] [30
 
 
 ] (./main.lol)
@@ -1548,25 +1587,25 @@ File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [29] [30
+ [31] [32
 
 
 ]
 chapter without number
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--12
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
 \T1/pplj/b/n/12 (+20) URL: [][]$\T1/lmtt/m/it/12 https : / / moogfoundation . o
 rg / wp-[]content / uploads /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--21
+Underfull \hbox (badness 10000) in paragraph at lines 19--22
 \T1/pplj/b/n/12 (+20) URL: [][]$\T1/lmtt/m/it/12 http : / / www . raffaseder . 
 com / sounddesign / klangsynthese /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--31
+Underfull \hbox (badness 10000) in paragraph at lines 24--27
 \T1/pplj/b/n/12 (+20) URL: [][]$\T1/lmtt/m/it/12 https : / / doepfer . de / a10
 0 _ man / A100 _ Anleitung _ komplett .
  []
@@ -1575,18 +1614,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--31
 AED: lastpage setting LastPage
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 142.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 141.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
-[31] (./main.aux (./content/abstract.aux))
+[33] (./main.aux (./content/abstract.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 51089 strings out of 478238
- 1202928 string characters out of 5850455
- 1863150 words of memory out of 5000000
- 68127 multiletter control sequences out of 15000+600000
- 541809 words of font info for 354 fonts, out of 8000000 for 9000
+ 50626 strings out of 478238
+ 1194789 string characters out of 5850455
+ 1845855 words of memory out of 5000000
+ 67646 multiletter control sequences out of 15000+600000
+ 543408 words of font info for 357 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  118i,24n,112p,10683b,1166s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fo
@@ -1601,10 +1640,10 @@ ic/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></us
 r/share/texmf-dist/fonts/type1/public/lm/lmtti10.pfb></usr/share/texmf-dist/fon
 ts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatin
 o/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (39 pages, 344498 bytes).
+Output written on main.pdf (41 pages, 512480 bytes).
 PDF statistics:
- 514 PDF objects out of 1000 (max. 8388607)
- 436 compressed objects within 5 object streams
- 139 named destinations out of 1000 (max. 500000)
- 60639 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 533 PDF objects out of 1000 (max. 8388607)
+ 449 compressed objects within 5 object streams
+ 149 named destinations out of 1000 (max. 500000)
+ 66798 words of extra memory for PDF output out of 74296 (max. 10000000)
 

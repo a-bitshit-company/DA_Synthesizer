@@ -1,9 +1,7 @@
 * White Noise
 https://www.youtube.com/watch?v=cyQMa4U0Wfs
-Noise, beziehungsweise Rauschen ist eine Art von Spannungssignal, welches auf eine nicht oder schwer vorherzusehende Art und Weise schwingt. Dabei entsteht ein Klang mit einer Vielzahl an Teilfrequenzen. White noise, beziehungsweise weißes Rauschen ist eine Art von Rauschen, bei welchem in einem kleinen Zeitraum alle Frequenzen in einem gegebenen Frequenzspektrum mit näherungsweise gleicher Amplitude vorhanden sind. Der Name entspringt einer Analogie zu sichtbarem Licht, als Beispiel deckt weißes Licht alle Frequenzen des Sichtbaren Lichtspektrum in gleicher Intensität ab. Eine weitere häufige Art von Rauschen ist pinkes Rauschen, bei welchem alle Frequenzen des hörbaren Spektrums abgedeckt werden, jedoch niedrigere Frequenzen in höherer Amplitude vorhanden sind.
-https://web.archive.org/web/20050720074308/https://mv.lycaeum.org/M2/noise_ahf.html
-
-Um ein Gefühl für Rauschen zu bekommen, kann https://mynoise.net/NoiseMachines/whiteNoiseGenerator.php benutzt werden.
+Noise, beziehungsweise Rauschen ist eine Art von Spannungssignal, welches auf eine nicht oder schwer vorherzusehende Art und Weise schwingt. Dabei entsteht ein Klang mit einer Vielzahl an Teilfrequenzen. White noise, beziehungsweise weißes Rauschen ist eine Art von Rauschen, bei welchem in einem kleinen Zeitraum alle Frequenzen in einem gegebenen Frequenzspektrum mit näherungsweise gleicher Amplitude vorhanden sind. Der Name entspringt einer Analogie zu sichtbarem Licht, als Beispiel deckt weißes Licht alle Frequenzen des sichtbaren Lichtspektrum in gleicher Intensität ab. Eine weitere häufige Art von Rauschen ist rosa Rauschen, bei welchem alle Frequenzen des hörbaren Spektrums abgedeckt werden, jedoch niedrigere Frequenzen in höherer Amplitude vorhanden sind.
+[cite:@noise]
 
 ** Spezifikationen
 Das Noise-Modul stellt weißes Rauschen in einem Bereich \SI{-3}{\volt} bs \SI{3}{\volt} bereit.
@@ -13,4 +11,4 @@ Das Noise-Modul stellt weißes Rauschen in einem Bereich \SI{-3}{\volt} bs \SI{3
 #+INCLUDE: schematics/noise.org
 
 ** Benutzung
-Weißes Rauschen kann für eine Vielzahl an Zwecken verwendet werden, beispielsweise als Kontrollspannung für einen VCA oder als Audiosignal. Weißes Rauschen kann dafür benutzt werden Rauschen anderer "Farben" zu erzeugen. Beispielsweise kann Pinkes Rauschen erzeugt werden, indem dem White Noise Modul ein Tiefpassfilter nachgeschalten wird.
+Weißes Rauschen kann für eine Vielzahl an Zwecken verwendet werden, beispielsweise als Kontrollspannung für einen VCA oder als Audiosignal. Weißes Rauschen kann dafür benutzt werden Rauschen anderer "`Farben"' zu erzeugen. Beispielsweise kann rosa Rauschen erzeugt werden, indem dem White Noise Modul ein Tiefpassfilter nachgeschalten wird.

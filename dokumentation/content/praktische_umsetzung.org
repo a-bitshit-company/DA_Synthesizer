@@ -3,16 +3,15 @@
 \chapter{Praktische Umsetzung}
 
 * Gehäuse
-Das Gehäuse muss so dimensioniert sein, dass es Eurorack-kompatible Module beherrbergen kann. Wichtig ist dabei vor allem der vertikale Abstand der Schienen, auf welchen die Module befestigt werden. Dieser misst laut dem /Doepfer System A100 Handbuch Seite 3/ 3 HE (Höheneinheiten). 1 HE beträgt dabei \SI{44.45}{\milli\meter}. Die Breite der Module beträgt ein Vielfaches von \SI{5.08}{\milli\meter}, beziehungsweise 0.2 Zoll. Manche Gehäuse, wie beispielsweise die von der Firma Intellijel hergestellten, können auch Module welche nur eine Höheneinheit hoch sind beherrbergen.
+Das Gehäuse muss so dimensioniert sein, dass es Eurorack-kompatible Module beherbergen kann. Wichtig ist dabei vor allem der vertikale Abstand der Schienen, auf welchen die Module befestigt werden. Dieser misst laut dem /Doepfer System A100 Handbuch Seite 3/ [cite:@doepfer:A-100] 3 HE (Höheneinheiten). 1 HE beträgt dabei \SI{44.45}{\milli\meter}. Die Breite der Module beträgt ein Vielfaches von \SI{5.08}{\milli\meter}, beziehungsweise 0.2 Zoll. Manche Gehäuse, wie beispielsweise die von der Firma Intellijel hergestellten, können auch Module, welche nur eine Höheneinheit hoch sind, beherbergen.
 
 * Spannungsquelle
-Eurorack Synthesizer arbeiten mit Spannungen von \SI{24}{\volt} peak to peak, benötigen also eine Spannungsquelle, welche \SI{-12}{\volt} bis \SI{+12}{\volt} bereitstellen kann. Manche Module benötigen außerdem eine separate \SI{5}{\volt} Leitung um zum Beispiel Microcontroller zu betreiben. Eine beliebte Wahl in der DIY-Szene ist die Mean Well RT65B PSU, da sie \SI{\pm 12}{\volt} und \SI{5}{\volt} mit einer genügenden maximalen Stromstärke/Leistung bereitstellt um ein Anfängersystem zu versorgen und verhältnismäßig günstig ist.
+Eurorack Synthesizer arbeiten mit Spannungen von \SI{24}{\volt} peak to peak, benötigen also eine Spannungsquelle, welche \SI{-12}{\volt} bis \SI{+12}{\volt} bereitstellen kann. Manche Module benötigen außerdem eine separate \SI{5}{\volt} Leitung, um zum Beispiel Microcontroller zu betreiben. Eine beliebte Wahl in der DIY-Szene ist die Mean Well RT65B PSU, da sie \SI{\pm 12}{\volt} und \SI{5}{\volt} mit einer genügenden maximalen Stromstärke/Leistung bereitstellt, um ein Anfängersystem zu versorgen und verhältnismäßig günstig ist.
 
 * Spannungsverteilung
 Die Module werden über ein 10 Pin IDC-Flachbandkabel mit Strom versorgt. Dabei sind die mittleren 6 Pins durchverbunden und geerdet. Die äußeren vier Pins sind paarweise verbunden und liefern jeweils \SI{+12}{\volt} und \SI{-12}{\volt}. Der PIN, welcher auf \SI{-12}{\volt} liegt, ist üblicherweise rot gekennzeichnet.
 
 * Transistoren abgleichen
-https://www.alldatasheet.com/view.jsp?Searchword=BC548
 Manchmal werden Transistoren benötigt, welche einen möglichst gleichen internen Verstärkungsfaktor besitzen. Bereits aufeinander abgestimmte Transistorpaare sind zwar im Handel erhältlich, jedoch ist es einfach, das Abgleichen von Transistoren selbst vorzunehmen. Baut man den zu messenden Transistor in den folgenden Schaltkreis ein und legt man bei $V_{CC}$ eine Spannung an, kann man seinen internen Verstärkungsfaktor herausfinden, indem man das Potential zwischen Punkt A (beim Kollektor des Transistors) und der Masse misst:
 
 \begin{circuitikz}[european]
@@ -29,27 +28,27 @@ Manchmal werden Transistoren benötigt, welche einen möglichst gleichen interne
 Diese Transistorenpaare sollten auf der Platine in unmittelbarer Nähe zueinander sein, da die Temperatur einen Einfluss auf die Eigenschaften eines Transistors hat.
 
 * Vactrols
-Ein Vactrol, auf Deutsch oft Optokoppler, ist ein simpler, jedoch ungenauer, Spannungskontrollierbarer Wiederstand, welcher aus einer Leuchtdiode und einem Lichtempfindlichen Wiederstand besteht. Er kann benutzt werden, um als variable Wiederstände geschaltene Potentiometer zu ersetzen, um den zugehörigen Parameter Spannungskontrollierbar zu machen. Der am Vactrol entstehende Wiederstand ist näherungsweise invers proportional zur angelegten Spannung.
+Ein Vactrol, auf Deutsch oft Optokoppler, ist ein simpler, jedoch etwas ungenauer, spannungskontrollierbarer Widerstand, welcher aus einer Leuchtdiode und einem lichtempfindlichen Widerstand (LDR) besteht. Er kann benutzt werden, um als variable Widerstände geschaltene Potentiometer zu ersetzen, um den zugehörigen Parameter spannungskontrollierbar zu machen. Der am Vactrol entstehende Widerstand ist näherungsweise invers proportional zur angelegten Spannung.
 
-Während bereits gefertigte Vactrols im Handel erhältlich sind, ist es, vor allem in DIY Kreisen, üblich sie selbst herzustellen. Dabei wird eine LED, gemeinsam mit einem LDR in ein lichtundurchlässiges Gehäuse (beispielsweise ein Schrumpfschlauch) gebaut. 
+Während bereits gefertigte Vactrols im Handel erhältlich sind, ist es, vor allem in DIY Kreisen, üblich, sie selbst herzustellen. Dabei wird eine LED, gemeinsam mit einem LDR auf eine Art und Weise in ein lichtundurchlässiges Gehäuse (beispielsweise ein Schrumpfschlauch) gebaut, dass der LDR von der LED beleuchtet wird. 
 
 * Module
 
-Im Folgenden werden die Module, welche den Synthesizer ausmachen, beschrieben. Alle dieser Module bestehen aus einem Panel, welches als User Interface dient und einer Platine, welche mit den elektronischen Komponenten bestückt ist. Panels besitzen mindestens eine Audiobuchse um CV, Audio, Triggersignale und andere Arten von Spannungssignalen auszugeben und oft eine beliebige Auswahl an Audioeingängen für Kontrollspannungen, Audio-Inputs und ähnlichem und andere Interfacekomponenten wie Potentiometern, Schaltern, Knöpfen, LEDs und weiterem.
+Im Folgenden werden die Module, welche den Synthesizer ausmachen, beschrieben. Jedes dieser Module besteht aus einem Panel, welches als User Interface dient und einer Platine, welche mit den elektronischen Komponenten bestückt ist. Panels besitzen mindestens eine Audiobuchse um CV, Audio, Triggersignale und andere Arten von Spannungssignalen auszugeben, eine beliebige Anzahl an Audioeingängen für Kontrollspannungen, Audio-Inputs und ähnlichem und weitere Interfacekomponenten wie Beispielsweise Potentiometer, Schalter, Knöpfe und LEDs.
 
 Die elektronischen Komponenten können durch verschiedene Methoden zusammengeschalten werden, Beispiele dafür sind:
 + Breadboards:
-  vor allem geeignet zum erstellen von Prototypen
+  vor allem geeignet zum Erstellen von Prototypen
 + THT Platinen:
-  eine schnelle Methode um eine einzelne Platine zu fertigen
+  eine schnelle Methode, um eine einzelne Platine zu fertigen
 + Selbst geätzte oder vorgefertigte Platinen:
   eine Methode mit relativ geringem Fehlerpotential, ideal wenn eine größere Anzahl gleichartiger Platinen gefertigt werden sollen, beispielsweise für DIY-Kits
 + "`Deadbug"' Methode:
   Eletronische Komponenten werden ohne Platine "`point to point"' miteinander verlötet. Resultiert meist in Spaghettiähnlichen Strukturen, kann bei gekonnter Ausführung jedoch in sehr ästhetischen Schaltkreisen resultieren.
 
-Die elektronischen Komponenten unserer Module sind auf THT-Platinen gelötet. Diese Platine wird im rechten Winkel in der Mitte des Panels befestigt. Interface-Komponenten welche vom Benutzerpanel aus zugänglich sein sollen werden über längere Kabel und Schraubklemmen auf der Platine verbunden.
+Die elektronischen Komponenten unserer Module sind auf THT-Platinen gelötet. Diese Platine wird im rechten Winkel in der Mitte des Panels befestigt. Interface-Komponenten, welche vom Benutzerpanel aus zugänglich sein sollen werden über längere Kabel und Schraubklemmen auf der Platine verbunden.
 
-Als Material für Panels sind Bleche, Dünne Holz-/Plastikplatten oder ähnliches geeignet, zu bedenken ist dabei die 
+Als Material für Panels sind Bleche, dünne Holz-/Plastikplatten oder ähnliches geeignet. Zu bedenken sind dabei:
 
 + Dicke des Materials:
   Zum Bestücken sollte eine bestimmte Dicke nicht überschritten werden (abhängig von den gewählten Potentiometern, Audiobuchsen, Schaltern und Knöpfen)

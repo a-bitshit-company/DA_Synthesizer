@@ -1,3 +1,9 @@
+* Dokumentation
++ Zitieren
++ Vokabelliste
++ Falch feedback umsetzen
++ Bilder kleiner
++ Bildunterschriften
 * Hardware
 ** DONE Powerkabel, Litzen, Lötzinn bestellen
 ** TODO 4x20 Senkschrauben kaufen
@@ -19,5 +25,5 @@
 *** QNOPF
 + 1x CV Out
 + 1x QNOPF
+
 * Software
-* Dokumentation

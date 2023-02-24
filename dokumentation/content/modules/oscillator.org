@@ -1,5 +1,5 @@
 * Oszillator x2
-Dieses Modul ist ein simples Signalerzeugendes Modul, welches zwei voneinander unabhängige Rechteckswellen im hörbaren Bereich generiert.
+Dieses Modul ist ein simples signalerzeugendes Modul, welches zwei voneinander unabhängige Rechteckswellen im hörbaren Bereich generiert.
 
 \begin{circuitikz}
 \ctikzset{bipoles/oscope/waveform=square}
@@ -9,14 +9,14 @@ Dieses Modul ist ein simples Signalerzeugendes Modul, welches zwei voneinander u
 ** Spezifikationen
 Oszillator 1:
 + Spannung: bis zu 10[[file:~/Documents/diplomarbeit/dokumentation/content/hauptteil.org::*Vpp][Vpp]]
-+ Frequenzbereich:
++ Frequenzbereich: \SI{30}{\hertz} bis \approx\SI{2000}{\hertz}
 
 Oszillator 2:
 + Spannung: bis zu 10[[file:~/Documents/diplomarbeit/dokumentation/content/hauptteil.org::*Vpp][Vpp]]
-+ Frequenzbereich
++ Frequenzbereich: \SI{18}{\hertz} bis \approx\SI{2000}{\hertz}
   
 ** Elektronik
-Als Grundlage dient ein einfacher "`Resistor-Capacitor"' Schwingkreis welcher einen Schmitttrigger nutzt. Das resultierende Signal wird durch einen Spannungsfolger gepuffert, da sonst die Oszillation zusammenbricht. Des weiteren wird das Signal danach AC gekoppelt, um das positive Offset der Ozillation zu entfernen und ein weiteres Mal gepuffert. Darauf folgt ein einfacher variabler Spannungsteiler als Dämpfungsglied, um die Amplitude regulieren zu können.
+Als Grundlage dient ein einfacher "`Resistor-Capacitor"' Schwingkreis, welcher einen Schmitttrigger nutzt. Das resultierende Signal wird durch einen Spannungsfolger gepuffert, da sonst die Oszillation zusammenbricht. Des weiteren wird das Signal danach AC gekoppelt, um das positive Offset der Ozillation zu entfernen und ein weiteres Mal gepuffert. Darauf folgt ein einfacher variabler Spannungsteiler als Dämpfungsglied, um die Amplitude regulieren zu können.
 
 ** Schematics
 

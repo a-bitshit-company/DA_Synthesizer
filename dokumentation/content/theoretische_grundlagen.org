@@ -41,7 +41,7 @@ Abgesehen davon können eine breite Spanne von elektronischen Musikinstrumenten 
 ** Subtraktive Klangsynthese
 Das Prinzip der Subtraktiven Klangsynthese besteht darin, Grundtöne mit vielen Obertönen zu filtern, um Töne mit einer gewünschten Klangfarbe zu erzeugen. Durch einen *Filter* wird die Amplitude von Teilwellen unter einer bestimmten Frequenz (=> high-pass Filter) oder über einer bestimmten Frequenz (=> low-pass Filter) verringert, wodurch zum Beispiel unangenehm hohe Obertöne gefiltert werden können.
 
-Nach einen solchen Filter wird oft ein \ac{VCA} geschalten, welcher die Amplitude des Eingangssignals proportional zur angelegten \ac{CV} skaliert. Diese \acl{CV} kann beispielsweise durch einen \ac{LFO} oder Hüllkurvengenerator bereitgestellt werden. Durch einen \ac{VCA} kann einem durchgehend gleich lauten Klang Dynamik und Rhythmus verliehen werden.
+Nach einen solchen Filter wird oft ein \ac{VCA} geschalten, welcher die Amplitude des Eingangssignals proportional zur angelegten \ac{CV} skaliert. Diese \acl{CV} kann beispielsweise durch einen \ac{LFO} oder Hüllkurvengenerator bereitgestellt werden. Durch einen \ac{VCA} kann einem durchgehend gleich lauten Klang Dynamik und Rhythmus verliehen werden, indem seine Lautstärke mit dem Verlauf der Zeit geändert wird.
 
 Die meisten analogen Synthesizer basieren auf subtraktiver Klangsynthese. Üblicherweise wird dabei ein Grundton, meist aus einem Oszillator, über einen \ac{VCA} geschalten, welcher durch einen Hüllkurvengenerator angesteuert wird. Dieser Hüllkurvengenerator wird üblicherweise durch einen Sequenzer oder eine Tastatur angesteuert. Eine Abwandlung dieser grundlegenden *Signalverarbeitungskette* ist in den meisten kommerziell erhältlichen Synthesizersystemen fest verkabelt.
 
@@ -78,7 +78,7 @@ Essentiell bei Eurorack Modulen ist, dass viele Parameter nicht nur durch den Be
 Besonders für Eurorack und für modulare Synthesizer im Generellen hat dieses Konzept einen hohen Stellenwert, da bei solchen Systemen Audiosignale und Kontrollspannungen nicht fix verkabelt sind, sondern vom Benutzer flexibel mit \SI{3.5}{\milli\meter} mono Klinkensteckern, sogenannten *Patchkabeln*, geschalten werden können. Der Unterschied zwischen Audiosignalen und \acl{CV} liegt rein im Verwendungszweck, oft können auch Audiosignale als \acl{CV} dienen. Es gibt verschiedene Arten von \acl{CV}, welche sich primär durch ihren Verwendungszweck unterscheiden:
 
 *** Trigger
-Triggersignale sind steigende Flanken direkt gefolgt von einer fallenden Flanke, meist zwischen \SI{0}{\volt} und \SI{5}{\volt}. Ihr Zweck ist es, Prozesse, wie etwa das Fortschreiten eines Sequencers, auszulösen.
+Triggersignale sind steigende Flanken, meist direkt gefolgt von einer fallenden Flanke, zwischen \SI{0}{\volt} und \SI{5}{\volt}. Ihr Zweck ist es, Prozesse, wie etwa das Fortschreiten eines Sequencers, auszulösen.
 
 *** Gate
 Ähnlich wie ein Triggersignal ist ein Gate eine steigende Flanke gefolgt von einer fallenden Flanke zwsichen \SI{0}{\volt} und \SI{5}{\volt}. Im Unterschied zum Trigger ist jedoch der zeitliche Abstand zwischen steigender und fallender Flanke oft beträchtlich länger und spielt eine wichtige Rolle. Gate-Signale werden oft verwendet um den Zustand einer Keyboardtaste zu beschreiben.

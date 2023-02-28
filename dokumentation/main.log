@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.11)  24 FEB 2023 16:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.11)  28 FEB 2023 11:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -884,12 +884,27 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \backup@length=\skip75
 \ar@cellbox=\box82
 ))
+(/usr/share/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
+
+(/usr/share/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count325
+\decimalpart=\count326
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+)
+\AC@clearlist=\toks43
+)
 (/usr/share/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip76
 \bibsep=\skip77
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count325
+\c@NAT@ctr=\count327
 )
 (./template/pdf_settings.tex
 (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -917,8 +932,8 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen298
-\Hy@linkcounter=\count326
-\Hy@pagecounter=\count327
+\Hy@linkcounter=\count328
+\Hy@pagecounter=\count329
 
 (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
@@ -931,7 +946,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count328
+\Hy@SavedSpaceFactor=\count330
 
 (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
@@ -951,7 +966,7 @@ Package hyperref Info: Plain pages OFF on input line 4152.
 Package hyperref Info: Backreferencing OFF on input line 4157.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4390.
-\c@Hy@tempcnt=\count329
+\c@Hy@tempcnt=\count331
 
 (/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
@@ -967,7 +982,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count330
+\Fld@menulength=\count332
 \Field@Width=\dimen300
 \Fld@charsize=\dimen301
 Package hyperref Info: Hyper figures OFF on input line 6027.
@@ -984,9 +999,9 @@ LaTeX Info: Redefining \pageref on input line 6101.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count331
-\c@Item=\count332
-\c@Hfootnote=\count333
+\Hy@abspage=\count333
+\c@Item=\count334
+\c@Hfootnote=\count335
 )
 Package hyperref Info: Driver: hpdftex.
 
@@ -998,8 +1013,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count334
-\c@bookmark@seq@number=\count335
+\Fld@listcount=\count336
+\c@bookmark@seq@number=\count337
 
 (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -1024,45 +1039,45 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 LaTeX Font Info:    Trying to load font information for T1+pplj on input line 9
-1.
+2.
  (/usr/share/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 ) (./main.aux
 (./content/abstract.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count336
+\scratchcounter=\count338
 \scratchdimen=\dimen302
 \scratchbox=\box83
-\nofMPsegments=\count337
-\nofMParguments=\count338
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count339
+\nofMPsegments=\count339
+\nofMParguments=\count340
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count341
 \MPscratchDim=\dimen303
-\MPnumerator=\count340
-\makeMPintoPDFobject=\count341
-\everyMPtoPDFconversion=\toks44
+\MPnumerator=\count342
+\makeMPintoPDFobject=\count343
+\everyMPtoPDFconversion=\toks45
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1072,15 +1087,15 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count342
+\c@lstlisting=\count344
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 91.
-LaTeX Info: Redefining \microtypecontext on input line 91.
-Package microtype Info: Applying patch `item' on input line 91.
-Package microtype Info: Applying patch `toc' on input line 91.
-Package microtype Info: Applying patch `eqnum' on input line 91.
-Package microtype Info: Applying patch `footnote' on input line 91.
+(lastpage)             ! on input line 92.
+LaTeX Info: Redefining \microtypecontext on input line 92.
+Package microtype Info: Applying patch `item' on input line 92.
+Package microtype Info: Applying patch `toc' on input line 92.
+Package microtype Info: Applying patch `eqnum' on input line 92.
+Package microtype Info: Applying patch `footnote' on input line 92.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2),
 (microtype)             factor: 900.
@@ -1088,7 +1103,7 @@ Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 91.
+LaTeX Info: Redefining \showhyphens on input line 92.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1104,14 +1119,14 @@ File: translations-basic-dictionary-german.trsl (german translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `german'. on input line 91.
+or `german'. on input line 92.
 
 (/usr/share/texmf-dist/tex/latex/translations/translations-basic-dictionary-eng
 lish.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
-Package hyperref Info: Link coloring ON on input line 91.
+Package hyperref Info: Link coloring ON on input line 92.
  (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1121,11 +1136,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count343
+\c@section@level=\count345
 )
-LaTeX Info: Redefining \ref on input line 91.
-LaTeX Info: Redefining \pageref on input line 91.
-LaTeX Info: Redefining \nameref on input line 91.
+LaTeX Info: Redefining \ref on input line 92.
+LaTeX Info: Redefining \pageref on input line 92.
+LaTeX Info: Redefining \nameref on input line 92.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -1138,14 +1153,14 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 91.
+(scrbook)           before \begin{document} on input line 92.
 
 (/usr/share/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 
 (/usr/share/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count344
+\BKM@id=\count346
 ))
 (./template/title_thesis_htlinn.tex
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
@@ -1210,33 +1225,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 )
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 109.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 110.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
 LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 
-109.
+110.
  (/usr/share/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-109.
+110.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-109.
+110.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-109.
+110.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-109.
+110.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -1255,7 +1270,7 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                e.g., setting typearea's option
 (scrlayer-scrpage)                `headheight=21.35818pt'.
 (scrlayer-scrpage)                I'll also decrease \topmargin on input line 1
-09.
+10.
 
 
 Overfull \vbox (3.23318pt too high) has occurred while \output is active []
@@ -1264,7 +1279,7 @@ Overfull \vbox (3.23318pt too high) has occurred while \output is active []
 [3]
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 109.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 110.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
 
 
@@ -1275,13 +1290,13 @@ Package scrlayer-scrpage Warning: \footheight to low.
 (scrlayer-scrpage)                processing, but you should do this yourself,
 (scrlayer-scrpage)                e.g., setting typearea's option
 (scrlayer-scrpage)                `footheight=28.99998pt'.
-(scrlayer-scrpage)                I'll also increase \footskip on input line 10
-9.
+(scrlayer-scrpage)                I'll also increase \footskip on input line 11
+0.
 
 [4] (./template/affirmation.tex)
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 112.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 113.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
  [5
 
@@ -1293,19 +1308,21 @@ Package pdftex.def Info: figures/htl-logo.png  used on input line 112.
 
 ]
 Package tocbasic Info: character protrusion at toc deactivated on input line 11
-2.
+3.
  (./main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 121.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 122.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [7] [8
-
-
-]
+ [7]
+File: figures/htl-logo.png Graphic file (type png)
+<use figures/htl-logo.png>
+Package pdftex.def Info: figures/htl-logo.png  used on input line 122.
+(pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
+ [8]
 (./content/theoretische_grundlagen.tex
 chapter 1.
 
@@ -1330,6 +1347,8 @@ Package pdftex.def Info: figures/htl-logo.png  used on input line 16.
 [1
 
 
+
+
 ]
 LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
 21.
@@ -1337,7 +1356,7 @@ LaTeX Font Info:    Trying to load font information for TS1+pplj on input line
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 )
 </home/felixp/Documents/diplomarbeit/dokumentation/figures/decibel_scale.png, i
-d=108, 1204.5pt x 552.0625pt>
+d=110, 1204.5pt x 552.0625pt>
 File: /home/felixp/Documents/diplomarbeit/dokumentation/figures/decibel_scale.p
 ng Graphic file (type png)
 <use /home/felixp/Documents/diplomarbeit/dokumentation/figures/decibel_scale.pn
@@ -1351,7 +1370,7 @@ Overfull \hbox (39.67368pt too wide) in paragraph at lines 27--28
  []
 
 </home/felixp/Documents/diplomarbeit/dokumentation/figures/a_weighting.png, id=
-109, 602.25pt x 428.60126pt>
+111, 602.25pt x 428.60126pt>
 File: /home/felixp/Documents/diplomarbeit/dokumentation/figures/a_weighting.png
  Graphic file (type png)
 <use /home/felixp/Documents/diplomarbeit/dokumentation/figures/a_weighting.png>
@@ -1370,6 +1389,12 @@ Package pdftex.def Info: figures/htl-logo.png  used on input line 42.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
  [3 </home/felixp/Documents/diplomarbeit/dokumentation/figures/decibel_scale.pn
 g> </home/felixp/Documents/diplomarbeit/dokumentation/figures/a_weighting.png>]
+Package acronym Info: Label `acro:VCA' newly defined as it shall be overridden
+although it is yet undefined on input line 53.
+Package acronym Info: Label `acro:CV' newly defined as it shall be overridden
+although it is yet undefined on input line 53.
+Package acronym Info: Label `acro:LFO' newly defined as it shall be overridden
+although it is yet undefined on input line 53.
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 54.
@@ -1390,19 +1415,21 @@ File: figures/htl-logo.png Graphic file (type png)
 Package pdftex.def Info: figures/htl-logo.png  used on input line 87.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
  [7]
-Underfull \vbox (badness 1132) has occurred while \output is active []
+Package acronym Info: Label `acro:ADSR' newly defined as it shall be overridden
 
+although it is yet undefined on input line 90.
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 97.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
  [8]
+Package acronym Info: Label `acro:VCF' newly defined as it shall be overridden
+although it is yet undefined on input line 104.
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 119.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
-
-[9]) (./content/praktische_umsetzung.tex
+ [9]) (./content/praktische_umsetzung.tex
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 1.
@@ -1417,19 +1444,25 @@ Package pdftex.def Info: figures/htl-logo.png  used on input line 14.
 
 
 ]
+Package acronym Info: Label `acro:LDR' newly defined as it shall be overridden
+although it is yet undefined on input line 34.
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 35.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
  [12]
+Package acronym Info: Label `acro:LED' newly defined as it shall be overridden
+although it is yet undefined on input line 36.
+Package acronym Info: Label `acro:THT' newly defined as it shall be overridden
+although it is yet undefined on input line 47.
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 53.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 51.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
  [13]
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 84.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 83.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
  [14]
 Overfull \hbox (7.75206pt too wide) in paragraph at lines 142--143
@@ -1466,7 +1499,7 @@ Package pdftex.def Info: figures/htl-logo.png  used on input line 203.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
  [18]
 </home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_Simple_Mix
-er.png, id=241, 1173.38374pt x 830.10126pt>
+er.png, id=243, 1173.38374pt x 830.10126pt>
 File: /home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_Simpl
 e_Mixer.png Graphic file (type png)
 <use /home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_Simple
@@ -1485,13 +1518,15 @@ File: figures/htl-logo.png Graphic file (type png)
 Package pdftex.def Info: figures/htl-logo.png  used on input line 229.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
 [20]
+Package acronym Info: Label `acro:AR' newly defined as it shall be overridden
+although it is yet undefined on input line 232.
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 239.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
  [21]
 </home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_AR.png, id
-=281, 648.17157pt x 227.34938pt>
+=282, 648.17157pt x 227.34938pt>
 File: /home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_AR.pn
 g Graphic file (type png)
 <use /home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_AR.png
@@ -1536,27 +1571,23 @@ hJFoXUGFM7HDyZRtpKYhluUnZaMnOjyOofAIHmgWmPZI1dw7W9HsPGP96pQ-[]DEeXQQM-[]CnPkeZP
 )
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 131.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 132.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
  [22 </home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_AR.pn
 g (PNG copy)>]
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 131.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 132.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
  [23
 
 
-] [24]
-Package tocbasic Info: character protrusion at lot deactivated on input line 13
-5.
- (./main.lot)
-\tf@lot=\write6
-\openout6 = `main.lot'.
-
+] [24] (./content/abkuerzungsverzeichnis.tex
+chapter A.
+)
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 136.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 137.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
  [25
 
@@ -1565,8 +1596,22 @@ Package pdftex.def Info: figures/htl-logo.png  used on input line 136.
 
 
 ]
+Package tocbasic Info: character protrusion at lot deactivated on input line 13
+7.
+ (./main.lot)
+\tf@lot=\write6
+\openout6 = `main.lot'.
+
+File: figures/htl-logo.png Graphic file (type png)
+<use figures/htl-logo.png>
+Package pdftex.def Info: figures/htl-logo.png  used on input line 138.
+(pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
+ [27] [28
+
+
+]
 Package tocbasic Info: character protrusion at lof deactivated on input line 13
-6.
+8.
  (./main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
@@ -1583,13 +1628,13 @@ Class scrbook Warning: \float@listhead detected!
 (scrbook)              Loading of package `scrhack' may help to
 (scrbook)              avoid this warning, if you are using a
 (scrbook)              a package that still implements the
-(scrbook)              deprecated \float@listhead interface on input line 137.
+(scrbook)              deprecated \float@listhead interface on input line 139.
 
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 137.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 139.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
-[27] [28
+[29] [30
 
 
 ] (./main.lol)
@@ -1601,7 +1646,7 @@ File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [29] [30
+ [31] [32
 
 
 ]
@@ -1610,7 +1655,7 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplj/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Underfull \hbox (badness 1259) in paragraph at lines 16--20
+Underfull \hbox (badness 1259) in paragraph at lines 20--24
 []\T1/pplj/m/sc/12 (+20) Haillant\T1/pplj/m/n/12 (+20) , D. :  \T1/pplj/m/it/12
  (+20) Sim-ple LFO V1.1 Do-cu-men-ta-ti-on\T1/pplj/m/n/12 (+20) .  [][]$\T1/lmt
 t/m/n/12 http : / / www .
@@ -1620,18 +1665,18 @@ t/m/n/12 http : / / www .
 AED: lastpage setting LastPage
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 141.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 143.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
-[31] (./main.aux (./content/abstract.aux))
+[33] (./main.aux (./content/abstract.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 50707 strings out of 478238
- 1195508 string characters out of 5850455
- 1845873 words of memory out of 5000000
- 67649 multiletter control sequences out of 15000+600000
- 551852 words of font info for 415 fonts, out of 8000000 for 9000
+ 51356 strings out of 478238
+ 1204817 string characters out of 5850455
+ 1858316 words of memory out of 5000000
+ 68273 multiletter control sequences out of 15000+600000
+ 552035 words of font info for 419 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  118i,23n,112p,10683b,1166s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fo
@@ -1646,10 +1691,10 @@ ic/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></us
 r/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/f
 onts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palat
 ino/uplri8a.pfb>
-Output written on main.pdf (39 pages, 530149 bytes).
+Output written on main.pdf (41 pages, 532572 bytes).
 PDF statistics:
- 531 PDF objects out of 1000 (max. 8388607)
- 451 compressed objects within 5 object streams
- 151 named destinations out of 1000 (max. 500000)
- 76526 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 545 PDF objects out of 1000 (max. 8388607)
+ 463 compressed objects within 5 object streams
+ 155 named destinations out of 1000 (max. 500000)
+ 76534 words of extra memory for PDF output out of 89155 (max. 10000000)
 

@@ -7,41 +7,45 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[1]{doepfer:A-100}
+\bibitem[1]{at:decibels}
+The World Through Sound: Decibels.
+\newblock   (2023)
+
+\bibitem[2]{doepfer:A-100}
 \textsc{{Doepfer Musikelektronik Gmbh}}:
 \newblock \emph{{SYSTEM A-100 Bedienungsanleitung}}, 2001.
 \newblock \url{https://doepfer.de/a100_man/A100_Anleitung_komplett.pdf}
 
-\bibitem[2]{haillant:lfo}
+\bibitem[3]{haillant:lfo}
 \textsc{Haillant}, D. :
 \newblock \emph{{Simple LFO V1.1 Documentation}}.
 \newblock \url{http://www.davidhaillant.com}.
 \newblock \,Version:\,2016
 
-\bibitem[3]{moog1964}
+\bibitem[4]{moog1964}
 \textsc{Moog}, R.~A.:
 \newblock {VOLTAGE-CONTROLLED ELECTRONIC MUSIC MODULES}.
 \newblock Trumansburg, New York, Oktober 1964
 
-\bibitem[4]{duden:synthese}
+\bibitem[5]{duden:synthese}
 \textsc{Mustermann}, M. :
 \newblock \emph{{Rechtschreibung Synthese Duden}}.
 \newblock \url{https://www.duden.de/rechtschreibung/Synthese}.
 \newblock \,Version:\,2023
 
-\bibitem[5]{raffaseder}
+\bibitem[6]{raffaseder}
 \textsc{Raffaseder}, H. :
 \newblock \emph{{Additive Klangsynthese}}.
 \newblock
   \url{http://www.raffaseder.com/sounddesign/klangsynthese/additiv.htm}.
 \newblock \,Version:\,2002
 
-\bibitem[6]{noise}
+\bibitem[7]{noise}
 \textsc{Thompson}, M. :
 \newblock colored noise.
 \newblock   (1989)
 
-\bibitem[7]{envelopes}
+\bibitem[8]{envelopes}
 \textsc{Waugh}, I. :
 \newblock {Quick Guide to Envelopes}.
 \newblock   (2023).

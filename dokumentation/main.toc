@@ -56,5 +56,6 @@
 \contentsline {subsubsection}{\nonumberline Elektronik}{21}{subsubsection*.64}%
 \contentsline {subsubsection}{\nonumberline Schematics}{22}{subsubsection*.66}%
 \contentsline {subsubsection}{\nonumberline Benutzung}{22}{subsubsection*.68}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{31}{chapter*.74}%
+\contentsline {chapter}{\numberline {A}Abkürzungsverzeichnis}{25}{appendix.A}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{33}{chapter*.74}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

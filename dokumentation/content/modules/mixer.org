@@ -7,7 +7,7 @@ Das Mixer Modul dient dazu, Signale aus mehreren Quellen zu einem einzigen zusam
 Spannung: voller Spannungsbereich möglich (=> bis zu 24[[file:~/Documents/diplomarbeit/dokumentation/content/hauptteil.org::*Vpp][Vpp]])
 ** Elektronik
 ** Schematics
-#+CAPTION: Schaltkreis für einen passiven Mixer, Quelle: [cite:@miaw:mixer]
+#+CAPTION: Schaltkreis für einen passiven Mixer; Quelle: [cite:@miaw:mixer]
 [[file:~/Documents/diplomarbeit/dokumentation/figures/Schematic_Simple_Mixer.png]]
 ** Benutzung
 Die zu mixenden Signale werden durch die oberen drei Audiobuchsen angeschlossen. Die unterste Audiobuchse liefert das Ausgangssignal, wobei der rechtere der invertierende Ausgang ist. Als einfachen Patch könnte man die beiden Signale des [[file:oscillator.org::*Oszillator x2][Oszillator x2]] Moduls zusammenführen um beide Oszillatoren auf einmal zu hören.

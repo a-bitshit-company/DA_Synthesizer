@@ -3,11 +3,6 @@
 * Oszillator x2
 Dieses Modul ist ein simples signalerzeugendes Modul, welches zwei voneinander unabhängige Rechteckswellen im hörbaren Bereich generiert.
 
-\begin{circuitikz}
-\ctikzset{bipoles/oscope/waveform=square}
-\draw{node[oscopeshape](){}};
-\end{circuitikz}
-
 ** Spezifikationen
 Oszillator 1:
 + Spannung: bis zu 10[[file:~/Documents/diplomarbeit/dokumentation/content/hauptteil.org::*Vpp][Vpp]]

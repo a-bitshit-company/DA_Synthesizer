@@ -1,19 +1,19 @@
 \chapter{Praktische Umsetzung}
 
 \section{Gehäuse}
-\label{sec:org23ed29c}
+\label{sec:org6a13267}
 Das Gehäuse muss so dimensioniert sein, dass es Eurorack-kompatible Module beherbergen kann. Wichtig ist dabei vor allem der vertikale Abstand der Schienen, auf welchen die Module befestigt werden. Dieser misst laut dem \emph{Doepfer System A100 Handbuch Seite 3} ({Doepfer Musikelektronik Gmbh}, 2001) 3 HE (Höheneinheiten). 1 HE beträgt dabei \SI{44.45}{\milli\meter}. Die Breite der Module beträgt ein Vielfaches von \SI{5.08}{\milli\meter}, beziehungsweise 0.2 Zoll. Manche Gehäuse, wie beispielsweise die von der Firma Intellijel hergestellten, können auch Module, welche nur eine Höheneinheit hoch sind, beherbergen.
 
 \section{Spannungsquelle}
-\label{sec:org9b158b5}
+\label{sec:org3f8d5b6}
 Eurorack Synthesizer arbeiten mit Spannungen von \SI{24}{\volt} peak to peak, benötigen also eine Spannungsquelle, welche \SI{-12}{\volt} bis \SI{+12}{\volt} bereitstellen kann. Manche Module benötigen außerdem eine separate \SI{5}{\volt} Leitung, um zum Beispiel Microcontroller zu betreiben. Eine beliebte Wahl in der DIY-Szene ist die Mean Well RT65B PSU, da sie \SI{\pm 12}{\volt} und \SI{5}{\volt} mit einer genügenden maximalen Stromstärke/Leistung bereitstellt, um ein Anfängersystem zu versorgen und verhältnismäßig günstig ist.
 
 \section{Spannungsverteilung}
-\label{sec:org42b64f0}
+\label{sec:org4f9a62d}
 Die Module werden über ein 10 Pin IDC-Flachbandkabel mit Strom versorgt. Dabei sind die mittleren 6 Pins durchverbunden und geerdet. Die äußeren vier Pins sind paarweise verbunden und liefern jeweils \SI{+12}{\volt} und \SI{-12}{\volt}. Der PIN, welcher auf \SI{-12}{\volt} liegt, ist üblicherweise rot gekennzeichnet.
 
 \section{Transistoren abgleichen}
-\label{sec:orgc55f4ed}
+\label{sec:orgedac901}
 Manchmal werden Transistoren benötigt, welche einen möglichst gleichen internen Verstärkungsfaktor besitzen. Bereits aufeinander abgestimmte Transistorpaare sind zwar im Handel erhältlich, jedoch ist es einfach, das Abgleichen von Transistoren selbst vorzunehmen. Baut man den zu messenden Transistor in den folgenden Schaltkreis ein und legt man bei \(V_{CC}\) eine Spannung an, kann man seinen internen Verstärkungsfaktor herausfinden, indem man das Potential zwischen Punkt A (beim Kollektor des Transistors) und der Masse misst:
 
 \begin{circuitikz}[european]
@@ -30,13 +30,13 @@ Manchmal werden Transistoren benötigt, welche einen möglichst gleichen interne
 Diese Transistorenpaare sollten auf der Platine in unmittelbarer Nähe zueinander sein, da die Temperatur einen Einfluss auf die Eigenschaften eines Transistors hat.
 
 \section{Vactrols}
-\label{sec:orgaf74a84}
+\label{sec:org0e55aa5}
 Ein Vactrol, auf Deutsch oft Optokoppler, ist ein simpler, jedoch etwas ungenauer, spannungskontrollierbarer Widerstand, welcher aus einer Leuchtdiode und einem lichtempfindlichen Widerstand \ac{LDR} besteht. Er kann benutzt werden, um als variable Widerstände geschaltene Potentiometer zu ersetzen, um den zugehörigen Parameter spannungskontrollierbar zu machen. Der am Vactrol entstehende Widerstand ist näherungsweise invers proportional zur angelegten Spannung.
 
 Während bereits gefertigte Vactrols im Handel erhältlich sind, ist es, vor allem in DIY Kreisen, üblich, sie selbst herzustellen. Dabei wird eine \ac{LED}, gemeinsam mit einem \ac{LDR} auf eine Art und Weise in ein lichtundurchlässiges Gehäuse (beispielsweise ein Schrumpfschlauch) gebaut, dass der \ac{LDR} von der \ac{LED} beleuchtet wird. 
 
 \section{Module}
-\label{sec:org792b373}
+\label{sec:orge8e712d}
 
 Im Folgenden werden die Module, welche den Synthesizer ausmachen, beschrieben. Jedes dieser Module besteht aus einem Panel, welches als User Interface dient und einer Platine, welche mit den elektronischen Komponenten bestückt ist. Panels besitzen mindestens eine Audiobuchse um \ac{CV}, Audio, Triggersignale und andere Arten von Spannungssignalen auszugeben, eine beliebige Anzahl an Audioeingängen für Kontrollspannungen, Audio-Inputs und ähnlichem und weitere Interfacekomponenten wie Beispielsweise Potentiometer, Schalter, Knöpfe und \acp{LED}.
 
@@ -69,16 +69,11 @@ Wir benutzen eine dünne, schwarz lackierte Holzplatte als Material für unsere 
 
 \label{Osci}
 \subsection{Oszillator x2}
-\label{sec:orgd0e6a34}
+\label{sec:org54c5d89}
 Dieses Modul ist ein simples signalerzeugendes Modul, welches zwei voneinander unabhängige Rechteckswellen im hörbaren Bereich generiert.
 
-\begin{circuitikz}
-\ctikzset{bipoles/oscope/waveform=square}
-\draw{node[oscopeshape](){}};
-\end{circuitikz}
-
 \subsubsection{Spezifikationen}
-\label{sec:org6c7cd58}
+\label{sec:org9e3a124}
 Oszillator 1:
 \begin{itemize}
 \item Spannung: bis zu 10\href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/hauptteil.org}{Vpp}
@@ -92,13 +87,11 @@ Oszillator 2:
 \end{itemize}
 
 \subsubsection{Elektronik}
-\label{sec:org5d7e577}
+\label{sec:org3952bcd}
 Als Grundlage dient ein einfacher "`Resistor-Capacitor"' Schwingkreis, welcher einen Schmitttrigger nutzt. Das resultierende Signal wird durch einen Spannungsfolger gepuffert, da sonst die Oszillation zusammenbricht. Des weiteren wird das Signal danach AC gekoppelt, um das positive Offset der Ozillation zu entfernen und ein weiteres Mal gepuffert. Darauf folgt ein einfacher variabler Spannungsteiler als Dämpfungsglied, um die Amplitude regulieren zu können.
 
 \subsubsection{Schematics}
-\label{sec:orgd8c6744}
-
-Oscillator logisch:
+\label{sec:orgdcbb76b}
 
 \begin{circuitikz}[european]
 \draw{
@@ -143,45 +136,45 @@ to[pR, name=R3, l_=R3] ++(0, 3.5)
 \end{circuitikz}
 
 \subsubsection{Benutzung}
-\label{sec:orgeda7284}
+\label{sec:orgc071573}
 Das Panel ist aufgeteilt in einen linken und rechten Oszillator, alle Elemente auf einer Seite gehören zu jeweils einem Oszillator. Die oberen beiden Potentiometer dienen zur Steuerung der \href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/theoretische\_grundlagen.org}{Frequenz}, die unteren beiden dienen zur Steuerung der \href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/theoretische\_grundlagen.org}{Amplitude} des Signals. Die Audiobuchsen dienen als Output. Der Schalter links oben aktiviert das Modul, die Oszillatoren sind nicht seperat voneinander an/ausschaltbar.
 
 \label{LFO}
 \subsection{Low Frequency Oscillator}
-\label{sec:org46e9db1}
+\label{sec:orgbe14a7a}
 Ein \ac{LFO} generiert ein Signal, welches in einem niedrigen Frequenzbereich oszilliert. Wir benutzen als Vorlage für unseren \ac{LFO} den "`Simple LFO"' von David Haillant (David Haillant, 2016). Dieses Modul erzeugt langsam oszillierende Spannungen in Form einer Rechteckswelle und einer Dreieckswelle.
 
 \subsubsection{Spezifikationen}
-\label{sec:org0784ccf}
+\label{sec:orgd3aba95}
 Typische Oszillationsbereiche für \acp{LFO} liegen bei 0.1-10Hz. Das  von uns gewählte Design erzeugt jeweils einen Rechteck- und Dreiecksausgang. Da beide Signale aus dem selben Schwingkreis stammen kann die Frequenz nicht unabhängig geändert werden, die Amplituden der beiden Signale sind jedoch individuell einstellbar.
 
 \subsubsection{Elektronik}
-\label{sec:org2e876ec}
+\label{sec:org9c39dc3}
 Wir verzichten bei unserer Ausführung des Moduls auf die vorhergesehenen Leuchtdiode, welche einen visuellen Indikator für die Frequenz des Ausgangssignals bieten würde. Dadurch wird am verwendeten TL074 ein Operationsverstärker frei. Dieser wird als zweiter Puffer benutzt, um beide Wellenformen parallel ausgeben zu können. Die Frequenz beider Wellenformen ist gekoppelt und wird über einen einzelnen Potentiometer gesteuert, die Amplituden sind separat anzusteuern.
 
 \subsubsection{Schematics}
-\label{sec:orgf4b15f9}
+\label{sec:org44f8b09}
 
 \subsubsection{Benutzung}
-\label{sec:org83aa8e6}
+\label{sec:orgbb6009b}
 \acp{LFO} können für eine große Anzahl an Zwecken genutzt werden, der simpelste davon ist, das erzeugte Signal direkt als Audio auszugeben. Häufiger wird die Spannung eines LFOs als \acl{CV} genutzt, beispielsweise als Trigger für einen Hüllkurvengenerator oder zum Ansteuern eines \acp{VCA} um eine Funktion ähnlich eines Arpeggiators zu erfüllen.
 
 Der mittig oben platzierte Drehknopf steuert die Frequenz der beiden Signale, die zwei Drehknöpfe und Buchsen dienen zur Lautstärkeregelung und Signalausgabe.
 
 \label{Noise}
 \subsection{White Noise}
-\label{sec:orga5d28d6}
+\label{sec:org3e01ce8}
 Noise, beziehungsweise Rauschen ist eine Art von Spannungssignal, welches auf eine nicht oder schwer vorherzusehende Art und Weise schwingt. Dabei entsteht ein Klang mit einer Vielzahl an Teilfrequenzen. White noise, beziehungsweise weißes Rauschen ist eine Art von Rauschen, bei welchem in einem kleinen Zeitraum alle Frequenzen in einem gegebenen Frequenzspektrum mit näherungsweise gleicher Amplitude vorhanden sind. Der Name entspringt einer Analogie zu sichtbarem Licht, als Beispiel deckt weißes Licht alle Frequenzen des sichtbaren Lichtspektrum in gleicher Intensität ab. Eine weitere häufige Art von Rauschen ist rosa Rauschen, bei welchem alle Frequenzen des hörbaren Spektrums abgedeckt werden, jedoch niedrigere Frequenzen in höherer Amplitude vorhanden sind.
 (Kristian Blåsol, 2018)
 
 \subsubsection{Spezifikationen}
-\label{sec:org7075877}
+\label{sec:org427e79b}
 Das Noise-Modul stellt weißes Rauschen in einem Bereich \SI{-3}{\volt} bs \SI{3}{\volt} bereit.
 
 \subsubsection{Elektronik}
-\label{sec:orga1d0420}
+\label{sec:org4970856}
 \subsubsection{Schematics}
-\label{sec:orga3120b1}
+\label{sec:org1edbaf8}
 \begin{circuitikz}[european]
 \draw{
 (0,0) node[ground, anchor=center]{} to[R, l=$\SI{470}{\kilo\ohm}$] coordinate (G) ++(0,2) to[C, l=$\SI{47}{\nano\farad}$] ++(2,0) coordinate (B) to[R, l=$\SI{470}{\kilo\ohm}$] ++(2,0) coordinate(A) to[C, l=$\SI{47}{\nano\farad}$] ++(2,0) node[draw,anchor=west]{AUDIO OUT}
@@ -195,63 +188,63 @@ Das Noise-Modul stellt weißes Rauschen in einem Bereich \SI{-3}{\volt} bs \SI{3
 \end{circuitikz}
 
 \subsubsection{Benutzung}
-\label{sec:org7a085c2}
+\label{sec:orgbcacdaa}
 Weißes Rauschen kann für eine Vielzahl an Zwecken verwendet werden, beispielsweise als \acl{CV} für einen \ac{VCA} oder als Audiosignal. Weißes Rauschen kann dafür benutzt werden Rauschen anderer "`Farben"' zu erzeugen. Beispielsweise kann rosa Rauschen erzeugt werden, indem dem White Noise Modul ein Tiefpassfilter nachgeschalten wird.
 
 \label{Mixer}
 \subsection{Mixer}
-\label{sec:orgf5bf19b}
+\label{sec:orgbca2cef}
 Das Mixer Modul dient dazu, Signale aus mehreren Quellen zu einem einzigen zusammenzuführen. Hierbei kann von jedem Eingang die Lautstärke regluliert werden. Es wird zwischen aktiven und passiven Mixern unterschieden, wobei ein aktiver Mixer die Amplitude der Eingänge nicht nur verkleinern sondern auch vergrößern kann. Für unseren Synthesizer haben wir uns für eine passive Variante mit 3 Eingängen, einem Ausgang und einem invertierenden Ausgang entschieden.
 
 \subsubsection{Spezifikationen}
-\label{sec:orgcd4637d}
+\label{sec:org705289c}
 Spannung: voller Spannungsbereich möglich (=> bis zu 24\href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/hauptteil.org}{Vpp})
 \subsubsection{Elektronik}
-\label{sec:orgf50c962}
+\label{sec:orgb9fb834}
 \subsubsection{Schematics}
-\label{sec:org5014438}
+\label{sec:org7d0069d}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{/home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_Simple_Mixer.png}
-\caption{Schaltkreis für einen passiven Mixer, Quelle: (Kristian Blåsol, 2018a)}
+\caption{Schaltkreis für einen passiven Mixer; Quelle: (Kristian Blåsol, 2018a)}
 \end{figure}
 \subsubsection{Benutzung}
-\label{sec:orgd9d5809}
+\label{sec:org4ccb508}
 Die zu mixenden Signale werden durch die oberen drei Audiobuchsen angeschlossen. Die unterste Audiobuchse liefert das Ausgangssignal, wobei der rechtere der invertierende Ausgang ist. Als einfachen Patch könnte man die beiden Signale des \href{modules/oscillator.org}{Oszillator x2} Moduls zusammenführen um beide Oszillatoren auf einmal zu hören.
 
 \label{VCA}
 \subsection{Spannungskontrollierter Verstärker}
-\label{sec:org9b035c1}
+\label{sec:org3b38a48}
 Ein Spannungskontrollierter Verstärker (englisch: voltage controlled amplifier, oder VCA) verstärkt ein angelegtes Signal um einen Faktor, welcher proportional von einer \acl{CV} abhängt. \acp{VCA} sind essentiell, um den erzeugten Klängen einen Rhythmus zu verleihen, da ohne \ac{VCA} keine dynamische Lautstärkeänderung möglich ist. 
 \subsubsection{Spezifikationen}
-\label{sec:orgdb71402}
+\label{sec:org302331c}
 \subsubsection{Elektronik}
-\label{sec:org880784b}
+\label{sec:org185962d}
 Es gibt eine Vielzahl von möglichen Ansätzen für die technische Umsetzung eines \ac{VCA}. Die simpelste Möglichkeit ist es wohl, mit einer Vactrol zu verwenden, da diese mit nur minimaler Beschaltung zu einem VCA umgewandelt werden kann todo: schematic einfügen:\url{https://www.dropbox.com/s/o6oiyanco8lzmvt/Schematic\_Vactrol.pdf?dl=0}. Jede Art von \ac{VCA} hat einen gewissen Eigenklang wobei ein Vactrol-VCA eine sehr "`glatte"' Dynamik erzeugt. Abrupte Spannungsänderungen in der \acl{CV} werden geglättet, wodurch das ausgehende Signal nur eine stetige Änderung in der Lautstärke erfahren kann.
 
 Ein weiterer Ansatz nutzt den linearen Reaktionsbereich zweier NPN-Transistoren, wobei durch die Beschaltung auf einem der Transistoren genau das gegenteilige Signal, allerdings mit dem gleichen positiven Offset erzeugt wird. Diese zwei Signale werden dann von einem Operationsvserstärker voneinander abgezogen, dadurch wird der positive Offset eliminiert und das modulierte Signal bleibt übrig. Es tragen eine Vielzahl von selbstregelnden Rückkopplungsschleifen dazu bei, dass diese Art von \ac{VCA} besonders stabil und schnell auf Änderungen in der Kontrollspannungen reagieren kann.
 \subsubsection{Schematics}
-\label{sec:orgdae108a}
+\label{sec:org1367dd2}
 \subsubsection{Benutzung}
-\label{sec:orgbb977d0}
+\label{sec:orgc9f70b0}
 \acp{VCA} können durch eine Vielzahl an Modulen angesteuert werden, am häufigsten ist wohl eine Art von Hüllkurvengenerator, um die Lautstärkeänderung bei einem Tastenanschlag zu simulieren. Ein einfacheres Beispiel wäre eine Rechteckswelle von einem LFO, um eine Art Stakkato zu erzeugen, oder ein langsam schwingender Sinus für eine Art Wobbel-Effekt.
 
 \label{AR}
 \subsection{Attack-Release Hüllkurvengenerator}
-\label{sec:orgaff753c}
+\label{sec:orgf5e9913}
 Hüllkurvengeneratoren sind Module, welche bei Eingang eines Gate-Signals eine Hüllkurve generieren. Diese kann beispielsweise dazu genutzt werden, um einen \ac{VCA} anzusteuern, um einem Klang Rhythmus und Dynamik zu verleihen. Aufgrund der Komplexität eines vollständigen \ac{ADSR} Hüllkurvengenerators haben wir uns dazu entschieden, einen simpleren \ac{AR} Hüllkurvengenerator zu bauen. Dieser besitzt einen Eingang für \acl{CV}, an welchen ein Gate-Signal angelegt werden kann und zwei Drehpotentiometer, durch welche die Parameter Attack und Release eingestellt werden können. Attack stellt dabei die Zeit dar, die das Signal nach dem Drücken einer Taste, beziehungsweise dem Anfang eines eingehenden Gate-Signals benötigt, um seinen Maximalwert zu erreichen. Release stellt die Zeit dar, die die Spannung der Hüllkurve nach dem Schließen des Gates benötigt, um wieder \SI{0}{\volt} zu erreichen.
 
 \subsubsection{Spezifikationen}
-\label{sec:org6c9c20f}
+\label{sec:orgb9c2369}
 \subsubsection{Elektronik}
-\label{sec:org2e2e626}
+\label{sec:orga6ad68e}
 In unserer Umsetzung wird das Potential am Eingang für \acl{CV}, an welchem ein Gate-Signal erwartet wird, von einem Operationsverstärkers auf 12V verstärkt. Durch den oberen Signalpfad füllt sich ein großer Kondensator, die Spannung, welche am Kondensator anliegt, wird gleichzeitig von einem Spannungsfolger gepuffert, da diese auch die Ausgangsspannung darstellt. Wird das Gate geschlossen, fällt die Spannung über den unteren Signalpfad wieder ab. Durch die Potentiometer kann man die Geschwindigkeit dieser beiden Prozesse kontrollieren.
 \subsubsection{Schematics}
-\label{sec:orgba2f5d9}
+\label{sec:org7bf05ca}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{/home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_AR.png}
 \caption{Schaltkreis für einen simplen Attack Release Hüllkurvengenerator; Quelle: (Nathan Ramsden, 2016)}
 \end{figure}
 \subsubsection{Benutzung}
-\label{sec:orgb97ba73}
+\label{sec:orga61ac77}

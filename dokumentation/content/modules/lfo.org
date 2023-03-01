@@ -1,5 +1,5 @@
 #+bibliography: ../../references.bib
-
+\label{LFO}
 * Low Frequency Oscillator
 Ein \ac{LFO} generiert ein Signal, welches in einem niedrigen Frequenzbereich oszilliert. Wir benutzen als Vorlage für unseren \ac{LFO} den "`Simple LFO"' von David Haillant [cite:@haillant:lfo]. Dieses Modul erzeugt langsam oszillierende Spannungen in Form einer Rechteckswelle und einer Dreieckswelle.
 

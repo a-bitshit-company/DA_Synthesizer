@@ -1,3 +1,5 @@
+#+bibliography: ../../references.bib
+\label{Mixer}
 * Mixer
 Das Mixer Modul dient dazu, Signale aus mehreren Quellen zu einem einzigen zusammenzuführen. Hierbei kann von jedem Eingang die Lautstärke regluliert werden. Es wird zwischen aktiven und passiven Mixern unterschieden, wobei ein aktiver Mixer die Amplitude der Eingänge nicht nur verkleinern sondern auch vergrößern kann. Für unseren Synthesizer haben wir uns für eine passive Variante mit 3 Eingängen, einem Ausgang und einem invertierenden Ausgang entschieden.
 
@@ -5,6 +7,7 @@ Das Mixer Modul dient dazu, Signale aus mehreren Quellen zu einem einzigen zusam
 Spannung: voller Spannungsbereich möglich (=> bis zu 24[[file:~/Documents/diplomarbeit/dokumentation/content/hauptteil.org::*Vpp][Vpp]])
 ** Elektronik
 ** Schematics
+#+CAPTION: Schaltkreis für einen passiven Mixer, Quelle: [cite:@miaw:mixer]
 [[file:~/Documents/diplomarbeit/dokumentation/figures/Schematic_Simple_Mixer.png]]
 ** Benutzung
 Die zu mixenden Signale werden durch die oberen drei Audiobuchsen angeschlossen. Die unterste Audiobuchse liefert das Ausgangssignal, wobei der rechtere der invertierende Ausgang ist. Als einfachen Patch könnte man die beiden Signale des [[file:oscillator.org::*Oszillator x2][Oszillator x2]] Moduls zusammenführen um beide Oszillatoren auf einmal zu hören.

@@ -1,3 +1,5 @@
+#+bibliography: ../../references.bib
+\label{Osci}
 * Oszillator x2
 Dieses Modul ist ein simples signalerzeugendes Modul, welches zwei voneinander unabhängige Rechteckswellen im hörbaren Bereich generiert.
 

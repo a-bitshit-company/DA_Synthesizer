@@ -1,10 +1,10 @@
 #+bibliography: ../../references.bib
-
+\label{VCA}
 * Spannungskontrollierter Verstärker
 Ein Spannungskontrollierter Verstärker (englisch: voltage controlled amplifier, oder VCA) verstärkt ein angelegtes Signal um einen Faktor, welcher proportional von einer \acl{CV} abhängt. \acp{VCA} sind essentiell, um den erzeugten Klängen einen Rhythmus zu verleihen, da ohne \ac{VCA} keine dynamische Lautstärkeänderung möglich ist. 
 ** Spezifikationen
 ** Elektronik
-Es gibt eine Vielzahl von möglichen Ansätzen für die technische Umsetzung eines \ac{VCA}. Die simpelste Möglichkeit ist es wohl, mit einer Vactrol zu verwenden, da diese mit nur minimaler Beschaltung zu einem VCA umgewandelt werden kann (schematic einfügen:https://www.dropbox.com/s/o6oiyanco8lzmvt/Schematic_Vactrol.pdf?dl=0). Jede Art von \ac{VCA} hat einen gewissen Eigenklang wobei ein Vactrol-VCA eine sehr "`glatte"' Dynamik erzeugt. Abrupte Spannungsänderungen in der \acl{CV} werden geglättet, wodurch das ausgehende Signal nur eine stetige Änderung in der Lautstärke erfahren kann.
+Es gibt eine Vielzahl von möglichen Ansätzen für die technische Umsetzung eines \ac{VCA}. Die simpelste Möglichkeit ist es wohl, mit einer Vactrol zu verwenden, da diese mit nur minimaler Beschaltung zu einem VCA umgewandelt werden kann todo: schematic einfügen:https://www.dropbox.com/s/o6oiyanco8lzmvt/Schematic_Vactrol.pdf?dl=0. Jede Art von \ac{VCA} hat einen gewissen Eigenklang wobei ein Vactrol-VCA eine sehr "`glatte"' Dynamik erzeugt. Abrupte Spannungsänderungen in der \acl{CV} werden geglättet, wodurch das ausgehende Signal nur eine stetige Änderung in der Lautstärke erfahren kann.
 
 Ein weiterer Ansatz nutzt den linearen Reaktionsbereich zweier NPN-Transistoren, wobei durch die Beschaltung auf einem der Transistoren genau das gegenteilige Signal, allerdings mit dem gleichen positiven Offset erzeugt wird. Diese zwei Signale werden dann von einem Operationsvserstärker voneinander abgezogen, dadurch wird der positive Offset eliminiert und das modulierte Signal bleibt übrig. Es tragen eine Vielzahl von selbstregelnden Rückkopplungsschleifen dazu bei, dass diese Art von \ac{VCA} besonders stabil und schnell auf Änderungen in der Kontrollspannungen reagieren kann.
 ** Schematics

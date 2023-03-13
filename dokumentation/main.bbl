@@ -58,14 +58,19 @@
 \newblock Envelope Circuits: a simple AR design using op amps.
 \newblock   (2016).
 \newblock
-  \url{{https://synthnerd.wordpress.com/2016/04/06/envelope-circuits-a-simple-ar-design-using-op-amps/}}
+  \url{https://synthnerd.wordpress.com/2016/04/06/envelope-circuits-a-simple-ar-design-using-op-amps/}
 
-\bibitem[10]{noise}
+\bibitem[10]{routenote:adsr}
+\textsc{Routenote}:
+\newblock   (2014).
+\newblock \url{http://routenote.com/blog/wp-content/uploads/2014/06/ADSR.jpg}
+
+\bibitem[11]{noise}
 \textsc{Thompson}, M. :
 \newblock colored noise.
 \newblock   (1989)
 
-\bibitem[11]{envelopes}
+\bibitem[12]{envelopes}
 \textsc{Waugh}, I. :
 \newblock {Quick Guide to Envelopes}.
 \newblock   (2023).

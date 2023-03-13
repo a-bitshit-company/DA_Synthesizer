@@ -13,11 +13,11 @@ Oszillator 2:
 + Frequenzbereich: \SI{25}{\hertz} bis \approx\SI{2000}{\hertz}
   
 ** Elektronik
-Als Grundlage dient ein einfacher "`Resistor-Capacitor"' Schwingkreis, welcher einen Schmitttrigger nutzt. Das resultierende Signal wird durch einen Spannungsfolger gepuffert, da sonst die Oszillation zusammenbricht. Des weiteren wird das Signal danach AC gekoppelt, um das positive Offset der Oszillation zu entfernen und ein weiteres Mal gepuffert. Darauf folgt ein einfacher variabler Spannungsteiler als Dämpfungsglied, um die Amplitude regulieren zu können.
+Als Grundlage dient ein einfacher "`Resistor-Capacitor"' Schwingkreis, welcher einen Schmitt-Trigger nutzt. Das resultierende Signal wird durch einen Spannungsfolger gepuffert, da sonst die Oszillation zusammenbricht. Danach wird das Signal AC gekoppelt, um das positive Offset der Oszillation zu entfernen und ein weiteres Mal gepuffert. Darauf folgt ein einfacher variabler Spannungsteiler als Dämpfungsglied, um die Amplitude regulieren zu können.
 
 ** Schematics
 
 #+INCLUDE: schematics/oscillator.org
 
 ** Benutzung
-Das Panel ist aufgeteilt in einen linken und rechten Oszillator, alle Elemente auf einer Seite gehören zu jeweils einem Oszillator. Die oberen beiden Potentiometer dienen zur Steuerung der [[file:~/Documents/diplomarbeit/dokumentation/content/theoretische_grundlagen.org::*Frequenz][Frequenz]], die unteren beiden dienen zur Steuerung der [[file:~/Documents/diplomarbeit/dokumentation/content/theoretische_grundlagen.org::*Amplitude][Amplitude]] des Signals. Die Audiobuchsen dienen als Output. Der Schalter links oben aktiviert das Modul, die Oszillatoren sind nicht seperat voneinander an/ausschaltbar.
+Das Panel ist aufgeteilt in einen linken und rechten Oszillator, alle Elemente auf einer Seite gehören zu jeweils einem Oszillator. Die oberen beiden Potentiometer dienen zur Steuerung der Frequenz (siehe Abschnitt \ref{frequenz}), die unteren beiden dienen zur Steuerung der Amplitude (siehe Abschnitt \ref{amplitude}) des Signals. Die Audiobuchsen dienen als Output. Der Schalter links oben aktiviert das Modul, die Oszillatoren sind nicht separat voneinander an- und ausschaltbar.

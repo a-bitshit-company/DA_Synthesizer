@@ -3,16 +3,16 @@
 \chapter{Praktische Umsetzung}
 
 * Gehäuse
-Das Gehäuse muss so dimensioniert sein, dass es Eurorack-kompatible Module beherbergen kann. Wichtig ist dabei vor allem der vertikale Abstand der Schienen, auf welchen die Module befestigt werden. Dieser misst laut dem /Doepfer System A100 Handbuch Seite 3/ [cite:@doepfer:A-100] 3 HE (Höheneinheiten). 1 HE beträgt dabei \SI{44.45}{\milli\meter}. Die Breite der Module beträgt ein Vielfaches von \SI{5.08}{\milli\meter}, beziehungsweise 0.2 Zoll. Manche Gehäuse, wie beispielsweise die von der Firma Intellijel hergestellten, können auch Module, welche nur eine Höheneinheit hoch sind, beherbergen.
+Das Gehäuse muss so dimensioniert sein, dass es Eurorack-kompatible Module beherbergen kann. Wichtig ist dabei vor allem der vertikale Abstand der Schienen, auf welchen die Module befestigt werden. Dieser misst laut dem /Doepfer System A100 Handbuch/ [cite:@doepfer:A-100] 3 \ac{HE}. 1 \ac{HE} beträgt dabei \SI{44.45}{\milli\meter}. Die Breite der Module beträgt ein Vielfaches von \SI{5.08}{\milli\meter}, beziehungsweise 0.2 Zoll. Manche Gehäuse, wie beispielsweise die von der Firma Intellijel können auch Module beherrbergen, die nur eine Höheneinheit hoch sind.
 
 * Spannungsquelle
-Eurorack Synthesizer arbeiten mit Spannungen von \SI{24}{\volt} peak to peak, benötigen also eine Spannungsquelle, welche \SI{-12}{\volt} bis \SI{+12}{\volt} bereitstellen kann. Manche Module benötigen außerdem eine separate \SI{5}{\volt} Leitung, um zum Beispiel Microcontroller zu betreiben. Eine beliebte Wahl in der DIY-Szene ist die Mean Well RT65B PSU, da sie \SI{\pm 12}{\volt} und \SI{5}{\volt} mit einer genügenden maximalen Stromstärke/Leistung bereitstellt, um ein Anfängersystem zu versorgen und verhältnismäßig günstig ist.
+Eurorack-Synthesizer arbeiten mit Spannungen von \SI{24}{\volt} peak to peak, benötigen also eine Spannungsquelle, welche \SI{-12}{\volt} bis \SI{+12}{\volt} bereitstellen kann. Manche Module benötigen außerdem eine separate \SI{5}{\volt} Leitung, um zum Beispiel Microcontroller zu betreiben. Eine beliebte Wahl in der DIY-Szene ist die Mean Well RT65B PSU, da sie \SI{\pm 12}{\volt} und \SI{5}{\volt} mit einer Stromstärke/Leistung bereitstellt, welche ausreicht um ein Anfängersystem zu versorgen und verhältnismäßig günstig ist.
 
 * Spannungsverteilung
 Die Module werden über ein 10 Pin IDC-Flachbandkabel mit Strom versorgt. Dabei sind die mittleren 6 Pins durchverbunden und geerdet. Die äußeren vier Pins sind paarweise verbunden und liefern jeweils \SI{+12}{\volt} und \SI{-12}{\volt}. Der PIN, welcher auf \SI{-12}{\volt} liegt, ist üblicherweise rot gekennzeichnet.
 
 * Transistoren abgleichen
-Manchmal werden Transistoren benötigt welche einen möglichst gleichen internen Verstärkungsfaktor besitzen. Bereits aufeinander abgestimmte Transistorpaare sind zwar im Handel erhältlich, jedoch ist es einfach, das Abgleichen von Transistoren selbst vorzunehmen. Baut man den zu messenden Transistor in den folgenden Schaltkreis ein und legt man bei $V_{CC}$ eine Spannung an, kann man seinen internen Verstärkungsfaktor herausfinden, indem man das Potential zwischen Punkt A (beim Kollektor des Transistors) und der Masse misst:
+Manchmal werden Transistoren benötigt, welche einen möglichst gleichen internen Verstärkungsfaktor besitzen. Bereits aufeinander abgestimmte Transistorpaare sind zwar im Handel erhältlich, jedoch ist es einfach, das Abgleichen von Transistoren selbst vorzunehmen. Baut man den zu messenden Transistor in den folgenden Schaltkreis ein und legt man bei $V_{CC}$ eine Spannung an, kann man seinen internen Verstärkungsfaktor herausfinden, indem man das Potential zwischen Punkt A (beim Kollektor des Transistors) und der Masse misst:
 
 \begin{circuitikz}[european]
 \draw{
@@ -28,13 +28,13 @@ Manchmal werden Transistoren benötigt welche einen möglichst gleichen internen
 Diese Transistorenpaare sollten auf der Platine in unmittelbarer Nähe zueinander sein, da die Temperatur einen Einfluss auf die Eigenschaften eines Transistors hat.
 
 * Vactrols
-Ein Vactrol, auf Deutsch oft Optokoppler, ist ein simpler, jedoch etwas ungenauer, spannungskontrollierbarer Widerstand, welcher aus einer Leuchtdiode und einem \ac{LDR} besteht. Er kann benutzt werden, um als variable Widerstände geschaltene Potentiometer zu ersetzen, und somit den zugehörigen Parameter spannungskontrollierbar zu machen. Der am Vactrol entstehende Widerstand ist näherungsweise invers proportional zur angelegten Spannung.
+Ein Vactrol, auf Deutsch oft Optokoppler, ist ein simpler, jedoch etwas ungenauer, spannungskontrollierbarer Widerstand, welcher aus einer Leuchtdiode und einem Lichtabhängigen Wiederstand \acs{LDR} besteht. Er kann benutzt werden, um als variable Widerstände geschaltene Potentiometer zu ersetzen und somit den zugehörigen Parameter spannungskontrollierbar zu machen. Der am Vactrol entstehende Widerstand ist näherungsweise invers proportional zur angelegten Spannung.
 
 Während bereits gefertigte Vactrols im Handel erhältlich sind, ist es vor allem in DIY Kreisen üblich, sie selbst herzustellen. Dabei wird eine \ac{LED}, gemeinsam mit einem \ac{LDR} auf eine Art und Weise in ein lichtundurchlässiges Gehäuse (beispielsweise ein Schrumpfschlauch) gebaut, dass der \ac{LDR} von der \ac{LED} beleuchtet wird. 
 
 * Module
 
-Im Folgenden werden die Module, welche den Synthesizer ausmachen, beschrieben. Jedes dieser Module besteht aus einem Panel, welches als User Interface dient und einer Platine, welche mit den elektronischen Komponenten bestückt ist. Panels besitzen mindestens eine Audiobuchse um \ac{CV}, Audio, Triggersignale und andere Arten von Spannungssignalen auszugeben, eine beliebige Anzahl an Audioeingängen für Kontrollspannungen, Audio-Inputs und ähnlichem und weitere Interfacekomponenten wie beispielsweise Potentiometer, Schalter, Knöpfe und \acp{LED}.
+Im Folgenden werden die Module, welche den Synthesizer ausmachen, beschrieben. Jedes dieser Module besteht aus einem Panel, das als User Interface dient, und einer Platine, welche mit den elektronischen Komponenten bestückt ist. Panels besitzen mindestens eine Audiobuchse um \ac{CV}, Audio, Triggersignale und andere Arten von Spannungssignalen auszugeben, eine beliebige Anzahl an Audioeingängen für Kontrollspannungen, Audio-Inputs und ähnlichem und weitere Interfacekomponenten wie beispielsweise Potentiometer, Schalter, Knöpfe und \acp{LED}.
 
 Die elektronischen Komponenten können durch verschiedene Methoden zusammengeschalten werden, Beispiele dafür sind:
 + Breadboards:
@@ -42,22 +42,22 @@ Die elektronischen Komponenten können durch verschiedene Methoden zusammengesch
 + \ac{THT} Platinen:
   eine schnelle Methode, um eine einzelne Platine zu fertigen
 + Selbst geätzte oder vorgefertigte Platinen:
-  eine Methode mit relativ geringem Fehlerpotential, ideal wenn eine größere Anzahl gleichartiger Platinen gefertigt werden soll, beispielsweise für DIY-Kits
+  eine Methode mit relativ geringem Fehlerpotential; ideal wenn eine größere Anzahl gleichartiger Platinen gefertigt werden soll, beispielsweise für DIY-Kits
 + "`Deadbug"' Methode:
-  Eletronische Komponenten werden ohne Platine "`point to point"' miteinander verlötet. Resultiert meist in Spaghettiähnlichen Strukturen, kann bei gekonnter Ausführung jedoch in sehr ästhetischen Schaltkreisen resultieren.
+  Eletronische Komponenten werden ohne Platine "`point to point"' miteinander verlötet; resultiert meist in Spaghettiähnlichen Strukturen, bei gekonnter Ausführung können jedoch sehr ästhetische Schaltkreise entstehen.
 
-Die elektronischen Komponenten unserer Module sind auf \ac{THT} Platinen gelötet. Diese Platine wird im rechten Winkel in der Mitte des Panels befestigt. Interface-Komponenten, welche vom Benutzerpanel aus zugänglich sein sollen werden über längere Kabel und Schraubklemmen auf der Platine verbunden.
+Die elektronischen Komponenten unserer Module sind auf \ac{THT} Platinen gelötet. Diese Platine wird im rechten Winkel in der Mitte des Panels befestigt. Interface-Komponenten, welche vom Benutzerpanel aus zugänglich sein sollen, werden über längere Kabel und Schraubklemmen auf der Platine verbunden.
 
-Als Material für Panels sind Bleche, dünne Holz-/Plastikplatten oder ähnliches geeignet. Zu bedenken sind dabei:
+Als Material für Panels sind Bleche, dünne Holz- oder Plastikplatten oder ähnliches geeignet. Zu bedenken ist dabei:
 
 + Dicke des Materials:
   Zum Bestücken sollte eine bestimmte Dicke nicht überschritten werden (abhängig von den gewählten Potentiometern, Audiobuchsen, Schaltern und Knöpfen)
 + Bearbeitbarkeit:
   Es müssen Löcher für Interfacekomponenten gebohrt oder gestanzt werden, und das Material muss zugeschnitten werden
 + Beschriftbarkeit:
-  Für einfachere Zugänglichkeit und für bessere Ästhetik sollten die Panels bemalt und/oder beschriftet werden
+  Für einfachere Zugänglichkeit und für bessere Ästhetik sollten die Panels bemalt und beschriftet werden
 
-Wir benutzen eine dünne, schwarz lackierte Holzplatte als Material für unsere Panels, diese bekleben wir mit transparenter Folie welche mit weißem Permanentmarker beschriftet werden kann.
+Wir benutzen eine dünne, schwarz lackierte Holzplatte als Material für unsere Panels. Diese werden mit transparenter Folie beklebt, welche mit weißem Permanentmarker beschriftet werden kann.
 
 #+INCLUDE: modules/oscillator.org
 

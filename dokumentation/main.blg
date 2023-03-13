@@ -14,45 +14,46 @@ Warning--empty address in doepfer:A-100
 Warning--empty booktitle in moog1964
 Warning--there's an address but no publisher in moog1964
 Warning--empty pages in moog1964
-You've used 11 entries,
+Warning--empty title in routenote:adsr
+You've used 12 entries,
             4332 wiz_defined-function locations,
-            881 strings with 7120 characters,
-and the built_in function-call counts, 3654 in all, are:
-= -- 342
-> -- 77
-< -- 46
-+ -- 69
-- -- 23
-* -- 184
-:= -- 664
-add.period$ -- 18
-call.type$ -- 11
-change.case$ -- 33
+            885 strings with 7206 characters,
+and the built_in function-call counts, 3968 in all, are:
+= -- 371
+> -- 84
+< -- 47
++ -- 72
+- -- 25
+* -- 203
+:= -- 720
+add.period$ -- 19
+call.type$ -- 12
+change.case$ -- 36
 chr.to.int$ -- 0
-cite$ -- 16
-duplicate$ -- 133
-empty$ -- 355
-format.name$ -- 44
-if$ -- 783
+cite$ -- 18
+duplicate$ -- 146
+empty$ -- 389
+format.name$ -- 48
+if$ -- 853
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 39
-newline$ -- 72
-num.names$ -- 22
-pop$ -- 71
+int.to.str$ -- 12
+missing$ -- 42
+newline$ -- 77
+num.names$ -- 24
+pop$ -- 80
 preamble$ -- 1
-purify$ -- 33
+purify$ -- 36
 quote$ -- 0
-skip$ -- 184
+skip$ -- 197
 stack$ -- 0
-substring$ -- 148
-swap$ -- 16
-text.length$ -- 11
+substring$ -- 158
+swap$ -- 17
+text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 48
-warning$ -- 5
-while$ -- 33
-width$ -- 13
-write$ -- 149
-(There were 5 warnings)
+type$ -- 52
+warning$ -- 6
+while$ -- 36
+width$ -- 14
+write$ -- 161
+(There were 6 warnings)

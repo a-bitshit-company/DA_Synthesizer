@@ -14,37 +14,36 @@ Warning--empty address in doepfer:A-100
 Warning--empty booktitle in moog1964
 Warning--there's an address but no publisher in moog1964
 Warning--empty pages in moog1964
-Warning--empty title in routenote:adsr
 You've used 12 entries,
             4332 wiz_defined-function locations,
-            885 strings with 7206 characters,
-and the built_in function-call counts, 3968 in all, are:
-= -- 371
+            886 strings with 7218 characters,
+and the built_in function-call counts, 3969 in all, are:
+= -- 372
 > -- 84
 < -- 47
 + -- 72
 - -- 25
-* -- 203
-:= -- 720
-add.period$ -- 19
+* -- 200
+:= -- 721
+add.period$ -- 20
 call.type$ -- 12
 change.case$ -- 36
 chr.to.int$ -- 0
-cite$ -- 18
+cite$ -- 17
 duplicate$ -- 146
 empty$ -- 389
 format.name$ -- 48
-if$ -- 853
+if$ -- 854
 int.to.chr$ -- 0
 int.to.str$ -- 12
 missing$ -- 42
-newline$ -- 77
+newline$ -- 78
 num.names$ -- 24
-pop$ -- 80
+pop$ -- 78
 preamble$ -- 1
 purify$ -- 36
 quote$ -- 0
-skip$ -- 197
+skip$ -- 198
 stack$ -- 0
 substring$ -- 158
 swap$ -- 17
@@ -52,8 +51,8 @@ text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 52
-warning$ -- 6
+warning$ -- 5
 while$ -- 36
 width$ -- 14
-write$ -- 161
-(There were 6 warnings)
+write$ -- 163
+(There were 5 warnings)

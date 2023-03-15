@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.1)  13 MAR 2023 20:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.1)  15 MAR 2023 18:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1343,10 +1343,10 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              deprecated \float@addtolist interface.
 
 Package acronym Info: Label `acro:VCA' newly defined as it shall be overridden
-although it is yet undefined on input line 7.
+although it is yet undefined on input line 9.
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 8.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 10.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
 [1
 
@@ -1355,27 +1355,32 @@ Package pdftex.def Info: figures/htl-logo.png  used on input line 8.
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
-20.
+26.
  (/usr/share/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
-))
+)
+File: figures/htl-logo.png Graphic file (type png)
+<use figures/htl-logo.png>
+Package pdftex.def Info: figures/htl-logo.png  used on input line 38.
+(pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
+ [2])
 (./content/theoretische_grundlagen.tex
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [2]
+ [3] [4
+
+
+]
 chapter 2.
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 16.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
-[3
-
-
-]
+[5]
 </home/felixp/Documents/diplomarbeit/dokumentation/figures/decibel_scale.png, i
-d=134, 602.25pt x 552.0625pt>
+d=165, 602.25pt x 552.0625pt>
 File: /home/felixp/Documents/diplomarbeit/dokumentation/figures/decibel_scale.p
 ng Graphic file (type png)
 <use /home/felixp/Documents/diplomarbeit/dokumentation/figures/decibel_scale.pn
@@ -1384,7 +1389,7 @@ Package pdftex.def Info: /home/felixp/Documents/diplomarbeit/dokumentation/figu
 res/decibel_scale.png  used on input line 27.
 (pdftex.def)             Requested size: 219.00613pt x 200.75073pt.
 </home/felixp/Documents/diplomarbeit/dokumentation/figures/a_weighting.png, id=
-135, 602.25pt x 428.60126pt>
+168, 602.25pt x 428.60126pt>
 File: /home/felixp/Documents/diplomarbeit/dokumentation/figures/a_weighting.png
  Graphic file (type png)
 <use /home/felixp/Documents/diplomarbeit/dokumentation/figures/a_weighting.png>
@@ -1396,37 +1401,37 @@ File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 42.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [4]
+ [6]
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 42.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [5 </home/felixp/Documents/diplomarbeit/dokumentation/figures/decibel_scale.pn
+ [7 </home/felixp/Documents/diplomarbeit/dokumentation/figures/decibel_scale.pn
 g> </home/felixp/Documents/diplomarbeit/dokumentation/figures/a_weighting.png>]
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 54.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [6]
+ [8]
 Package acronym Info: Label `acro:LFO' newly defined as it shall be overridden
 although it is yet undefined on input line 55.
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 66.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [7]
+ [9]
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 76.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [8]
+ [10]
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 89.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [9]
+ [11]
 Package acronym Info: Label `acro:ADSR' newly defined as it shall be overridden
 
 although it is yet undefined on input line 92.
@@ -1435,15 +1440,15 @@ File: figures/htl-logo.png Graphic file (type png)
 Package pdftex.def Info: figures/htl-logo.png  used on input line 95.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
 
-[10]
+[12]
 Package acronym Info: Label `acro:VCF' newly defined as it shall be overridden
 although it is yet undefined on input line 106.
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 116.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [11]
-</home/felixp/Documents/diplomarbeit/dokumentation/figures/ADSR.jpg, id=217, 50
+ [13]
+</home/felixp/Documents/diplomarbeit/dokumentation/figures/ADSR.jpg, id=257, 50
 1.875pt x 228.855pt>
 File: /home/felixp/Documents/diplomarbeit/dokumentation/figures/ADSR.jpg Graphi
 c file (type jpg)
@@ -1462,13 +1467,13 @@ File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
-[12 </home/felixp/Documents/diplomarbeit/dokumentation/figures/ADSR.jpg>]
+[14 </home/felixp/Documents/diplomarbeit/dokumentation/figures/ADSR.jpg>]
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
 
-[13] [14
+[15] [16
 
 
 ]
@@ -1479,12 +1484,12 @@ File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 14.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
-[15]
+[17]
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 35.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [16]
+ [18]
 Package acronym Info: Label `acro:LED' newly defined as it shall be overridden
 although it is yet undefined on input line 36.
 Package acronym Info: Label `acro:LDR' newly defined as it shall be overridden
@@ -1507,44 +1512,38 @@ File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 51.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
-[17]
+[19]
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 80.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [18]
+ [20]
 Overfull \hbox (7.75206pt too wide) in paragraph at lines 136--137
 [] 
  []
-
-
-LaTeX Warning: Reference `frequenz' on page 19 undefined on input line 140.
-
-
-LaTeX Warning: Reference `amplitude' on page 19 undefined on input line 140.
 
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 141.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
-[19]
+[21]
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 155.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [20]
+ [22]
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 174.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [21]
+ [23]
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 198.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [22]
+ [24]
 </home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_Simple_Mix
-er.png, id=328, 1173.38374pt x 830.10126pt>
+er.png, id=375, 1173.38374pt x 830.10126pt>
 File: /home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_Simpl
 e_Mixer.png Graphic file (type png)
 <use /home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_Simple
@@ -1556,7 +1555,7 @@ File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 214.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [23 </home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_Simpl
+ [25 </home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_Simpl
 e_Mixer.png>]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
 23.
@@ -1571,16 +1570,16 @@ File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 226.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
-[24]
+[26]
 Package acronym Info: Label `acro:AR' newly defined as it shall be overridden
 although it is yet undefined on input line 235.
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 242.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [25]
+ [27]
 </home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_AR.png, id
-=374, 648.17157pt x 227.34938pt>
+=421, 648.17157pt x 227.34938pt>
 File: /home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_AR.pn
 g Graphic file (type png)
 <use /home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_AR.png
@@ -1588,37 +1587,56 @@ g Graphic file (type png)
 Package pdftex.def Info: /home/felixp/Documents/diplomarbeit/dokumentation/figu
 res/Schematic_AR.png  used on input line 246.
 (pdftex.def)             Requested size: 358.50232pt x 125.74675pt.
-)
+) (./content/schluss.tex
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 129.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [26 </home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_AR.pn
+ [28 </home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_AR.pn
 g (PNG copy)>]
+chapter 4.
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 129.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 24.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [27
+[29
 
 
-] [28] (./content/abkuerzungsverzeichnis.tex
+]
+File: figures/htl-logo.png Graphic file (type png)
+<use figures/htl-logo.png>
+Package pdftex.def Info: figures/htl-logo.png  used on input line 41.
+(pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
+ [30])
+File: figures/htl-logo.png Graphic file (type png)
+<use figures/htl-logo.png>
+Package pdftex.def Info: figures/htl-logo.png  used on input line 130.
+(pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
+ [31] [32
+
+
+]
+File: figures/htl-logo.png Graphic file (type png)
+<use figures/htl-logo.png>
+Package pdftex.def Info: figures/htl-logo.png  used on input line 130.
+(pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
+ [33] [34] (./content/abkuerzungsverzeichnis.tex
 chapter A.
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 45.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
-[29
+[35
 
 
 ])
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 135.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 136.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [30]
+ [36]
 Package tocbasic Info: character protrusion at lof deactivated on input line 13
-5.
+6.
  (./main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
@@ -1628,10 +1646,10 @@ File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
 Package pdftex.def Info: figures/htl-logo.png  used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
- [31
+ [37
 
 
-] [32
+] [38
 
 
 ]
@@ -1639,31 +1657,22 @@ chapter without number
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplj/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
-
-Underfull \hbox (badness 2012) in paragraph at lines 64--67
-[]\T1/pplj/m/sc/12 (+20) Routenote\T1/pplj/m/n/12 (+20) :  (2014).  [][]$\T1/lm
-tt/m/n/12 http : / / routenote . com / blog / wp-[]content /
- []
-
 ) 
 AED: lastpage setting LastPage
 File: figures/htl-logo.png Graphic file (type png)
 <use figures/htl-logo.png>
-Package pdftex.def Info: figures/htl-logo.png  used on input line 140.
+Package pdftex.def Info: figures/htl-logo.png  used on input line 141.
 (pdftex.def)             Requested size: 85.35826pt x 17.00815pt.
-[33] (./main.aux (./content/abstract.aux))
-
-LaTeX Warning: There were undefined references.
-
+[39] (./main.aux (./content/abstract.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 51400 strings out of 478238
- 1205484 string characters out of 5850457
- 1858797 words of memory out of 5000000
- 68289 multiletter control sequences out of 15000+600000
- 551928 words of font info for 419 fonts, out of 8000000 for 9000
+ 51443 strings out of 478238
+ 1205981 string characters out of 5850457
+ 1859355 words of memory out of 5000000
+ 68308 multiletter control sequences out of 15000+600000
+ 552329 words of font info for 424 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  118i,23n,113p,10683b,1166s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fo
@@ -1678,10 +1687,10 @@ ic/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></us
 r/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/f
 onts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palat
 ino/uplri8a.pfb>
-Output written on main.pdf (41 pages, 493475 bytes).
+Output written on main.pdf (47 pages, 500198 bytes).
 PDF statistics:
- 681 PDF objects out of 1000 (max. 8388607)
- 597 compressed objects within 6 object streams
- 186 named destinations out of 1000 (max. 500000)
- 76579 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 768 PDF objects out of 1000 (max. 8388607)
+ 674 compressed objects within 7 object streams
+ 200 named destinations out of 1000 (max. 500000)
+ 76643 words of extra memory for PDF output out of 89155 (max. 10000000)
 

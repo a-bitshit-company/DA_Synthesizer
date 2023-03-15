@@ -3,7 +3,7 @@
 \chapter{Praktische Umsetzung}
 
 * Gehäuse
-Das Gehäuse muss so dimensioniert sein, dass es Eurorack-kompatible Module beherbergen kann. Wichtig ist dabei vor allem der vertikale Abstand der Schienen, auf welchen die Module befestigt werden. Dieser misst laut dem /Doepfer System A100 Handbuch/ [cite:@doepfer:A-100] 3 \ac{HE}. 1 \ac{HE} beträgt dabei \SI{44.45}{\milli\meter}. Die Breite der Module beträgt ein Vielfaches von \SI{5.08}{\milli\meter}, beziehungsweise 0.2 Zoll. Manche Gehäuse, wie beispielsweise die von der Firma Intellijel können auch Module beherrbergen, die nur eine Höheneinheit hoch sind.
+Das Gehäuse muss so dimensioniert sein, dass es Eurorack-kompatible Module beherbergen kann. Wichtig ist dabei vor allem der vertikale Abstand der Schienen, auf welchen die Module befestigt werden. Dieser misst laut dem /Doepfer System A100 Handbuch/ \cite{doepfer:A-100} 3 \ac{HE}. 1 \ac{HE} beträgt dabei \SI{44.45}{\milli\meter}. Die Breite der Module beträgt ein Vielfaches von \SI{5.08}{\milli\meter}, beziehungsweise 0.2 Zoll. Manche Gehäuse, wie beispielsweise die von der Firma Intellijel können auch Module beherrbergen, die nur eine Höheneinheit hoch sind.
 
 * Spannungsquelle
 Eurorack-Synthesizer arbeiten mit Spannungen von \SI{24}{\volt} peak to peak, benötigen also eine Spannungsquelle, welche \SI{-12}{\volt} bis \SI{+12}{\volt} bereitstellen kann. Manche Module benötigen außerdem eine separate \SI{5}{\volt} Leitung, um zum Beispiel Microcontroller zu betreiben. Eine beliebte Wahl in der DIY-Szene ist die Mean Well RT65B PSU, da sie \SI{\pm 12}{\volt} und \SI{5}{\volt} mit einer Stromstärke/Leistung bereitstellt, welche ausreicht um ein Anfängersystem zu versorgen und verhältnismäßig günstig ist.

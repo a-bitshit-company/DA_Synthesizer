@@ -1,6 +1,5 @@
 #+bibliography: ../../references.bib
-\label{VCA}
-* Spannungskontrollierter Verstärker
+* Spannungskontrollierter Verstärker \label{VCA}
 Ein \acf{VCA} verstärkt ein angelegtes Signal um einen Faktor, welcher proportional zur angelegten \acl{CV} ist. \acp{VCA} sind essentiell, um den erzeugten Klängen einen Rhythmus zu verleihen, da ohne \ac{VCA} keine dynamische Lautstärkeänderung möglich ist. 
 ** Spezifikationen
 ** Elektronik

@@ -60,13 +60,8 @@ Als Material für Panels sind Bleche, dünne Holz- oder Plastikplatten oder ähn
 Wir benutzen eine dünne, schwarz lackierte Holzplatte als Material für unsere Panels. Diese werden mit transparenter Folie beklebt, welche mit weißem Permanentmarker beschriftet werden kann.
 
 #+INCLUDE: modules/oscillator.org
-
-#+INCLUDE: modules/lfo.org
-
 #+INCLUDE: modules/noise.org
-
 #+INCLUDE: modules/mixer.org
-
 #+INCLUDE: modules/vca.org
-
+#+INCLUDE: modules/lfo.org
 #+INCLUDE: modules/ar.org

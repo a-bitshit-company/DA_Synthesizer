@@ -1,6 +1,5 @@
 #+bibliography: ../../references.bib
-\label{Mixer}
-* Mixer
+* Mixer \label{Mixer}
 Das Mixer Modul dient dazu, Signale aus mehreren Quellen zu einem einzigen zusammenzuführen. Hierbei kann von jedem Eingang die Lautstärke reguliert werden. Es wird zwischen aktiven und passiven Mixern unterschieden, wobei ein aktiver Mixer die Amplitude der Eingänge nicht nur verkleinern, sondern auch vergrößern kann. Für unseren Synthesizer haben wir uns für eine passive Variante mit drei Eingängen, einem Ausgang und einem invertierenden Ausgang entschieden.
 
 ** Spezifikationen

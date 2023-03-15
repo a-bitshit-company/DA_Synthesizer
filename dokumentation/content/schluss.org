@@ -1,16 +1,16 @@
 #+TITLE: Schluss
 \chapter{Schluss}
 
-* Erreichung des gesetzten Ziels
-Es war möglich, die Zielsetzung der vorliegenden Diplomarbeit im Großteil zu erfüllen. Diese umfasst die Konstruktion eines Synthesizers im Eurorack-Format mit allen nötigen Modulen, um eine Signalverarbeitungskette, welche zur klassischen subtraktiven Klangsynthese fähig ist, zu bilden. Folgende Bestandteile dieses Synthesizers wurden recherchiert, geplant und als Modul fertiggestellt:
+* Erreichen der gesetzten Ziele
+Es war möglich, die Zielsetzung der vorliegenden Diplomarbeit zum Großteil zu erfüllen. Diese umfasst die Konstruktion eines Synthesizers im Eurorack-Format mit allen nötigen Modulen, um eine Signalverarbeitungskette, welche zur klassischen subtraktiven Klangsynthese fähig ist, zu bilden. Folgende Bestandteile dieses Synthesizers wurden recherchiert, geplant und als Modul fertiggestellt:
 
-+ Oszillator(-en) mit hörbarer Frequenz
-+ Oszillator(-en) mit niedriger Frequenz \ac{LFO}
-+ Mixer Modul (passiv)
-+ Generator von (weißem) Rauschen
-+ Attack-Release-Hüllkurvengenerator
++ Oszillator(-en) mit hörbarer Frequenz (siehe Abschnitt \ref{Osci})
++ Generator von (weißem) Rauschen (siehe Abschnitt \ref{Noise})
++ Mixer Modul (passiv) (siehe Abschnitt \ref{Mixer})
++ Oszillator(-en) mit niedriger Frequenz (siehe Abschnitt \ref{LFO})
++ Attack-Release-Hüllkurvengenerator (siehe Abschnitt \ref{AR})
 
-Vernachlässigt wurde, aufgrund des hohen Komplexitätsgrades und der eher nebensächlichen Relevanz, der Sequenzer. Dieser wird mit einem manuell betätigbaren Knopf, welcher bei Betätigung den Kontrollspannungseingang des Hüllkurvengenerators auf \SI{5}{\volt} legt, ersetzt.
+Vernachlässigt wurde, aufgrund des hohen Komplexitätsgrades und der eher nebensächlichen Relevanz, der Sequenzer. Dieser wird mit einem Knopf, welcher bei Betätigung den Kontrollspannungseingang des Hüllkurvengenerators auf \SI{5}{\volt} legt, ersetzt.
 
 * Erlangte Erkenntnisse 
 Es wurden einige weitere Erkenntnisse bei der Durchführung des Projektes erlangt, nämlich:
@@ -27,10 +27,10 @@ Da die Fehleranfälligkeit eines Schaltkreises bei höherer Komplexität stark s
 ** Reihenfolge der Konstruierten Module
 Die Module sollten, vor allem bei einem Projekt mit fixer Deadline wie es eine Diplomarbeit ist, in der Reihenfolge ihrer Wichtigkeit gebaut werden. So ist es beispielsweise nicht sinnvoll, einen Hüllkurvengenerator zu konstruieren, bevor ein anzusteuernder \ac{VCA} existiert.
 
-** Sonstiges 
+** Weiteres
 Gelernt und vertieft wurden außerdem:
 + Arbeiten mit \LaTeX
 + Löten und Arbeiten mit Elektronischen Bauteilen
 + Bearbeitung von Holz
-+ Recherche, Planung und Durchführung eines Projektes mit vielen Facetten
++ Recherche, Planung und Durchführung eines Facettenreichen Hardwareprojektes
 + Sinnvolle Arbeitsteilung je nach Stärken der Teammitglieder

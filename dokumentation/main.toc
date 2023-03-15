@@ -32,44 +32,44 @@
 \contentsline {section}{\numberline {3.4}Transistoren abgleichen}{18}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Vactrols}{19}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Module}{19}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Oszillator x2}{20}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.1}Oszillator x2 }{20}{subsection.3.6.1}%
 \contentsline {subsubsection}{\nonumberline Spezifikationen}{21}{subsubsection*.33}%
 \contentsline {subsubsection}{\nonumberline Elektronik}{21}{subsubsection*.35}%
 \contentsline {subsubsection}{\nonumberline Schematics}{21}{subsubsection*.37}%
 \contentsline {subsubsection}{\nonumberline Benutzung}{22}{subsubsection*.39}%
-\contentsline {subsection}{\numberline {3.6.2}Low Frequency Oscillator}{22}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.2}White Noise }{22}{subsection.3.6.2}%
 \contentsline {subsubsection}{\nonumberline Spezifikationen}{22}{subsubsection*.41}%
-\contentsline {subsubsection}{\nonumberline Elektronik}{22}{subsubsection*.43}%
+\contentsline {subsubsection}{\nonumberline Elektronik}{23}{subsubsection*.43}%
 \contentsline {subsubsection}{\nonumberline Schematics}{23}{subsubsection*.45}%
 \contentsline {subsubsection}{\nonumberline Benutzung}{23}{subsubsection*.47}%
-\contentsline {subsection}{\numberline {3.6.3}White Noise}{23}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.3}Mixer }{23}{subsection.3.6.3}%
 \contentsline {subsubsection}{\nonumberline Spezifikationen}{24}{subsubsection*.49}%
 \contentsline {subsubsection}{\nonumberline Elektronik}{24}{subsubsection*.51}%
 \contentsline {subsubsection}{\nonumberline Schematics}{24}{subsubsection*.53}%
 \contentsline {subsubsection}{\nonumberline Benutzung}{24}{subsubsection*.55}%
-\contentsline {subsection}{\numberline {3.6.4}Mixer}{24}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.4}Spannungskontrollierter Verstärker }{25}{subsection.3.6.4}%
 \contentsline {subsubsection}{\nonumberline Spezifikationen}{25}{subsubsection*.57}%
 \contentsline {subsubsection}{\nonumberline Elektronik}{25}{subsubsection*.59}%
-\contentsline {subsubsection}{\nonumberline Schematics}{25}{subsubsection*.61}%
+\contentsline {subsubsection}{\nonumberline Schematics}{26}{subsubsection*.61}%
 \contentsline {subsubsection}{\nonumberline Benutzung}{26}{subsubsection*.63}%
-\contentsline {subsection}{\numberline {3.6.5}Spannungskontrollierter Verstärker}{26}{subsection.3.6.5}%
+\contentsline {subsection}{\numberline {3.6.5}Low Frequency Oscillator }{26}{subsection.3.6.5}%
 \contentsline {subsubsection}{\nonumberline Spezifikationen}{26}{subsubsection*.65}%
 \contentsline {subsubsection}{\nonumberline Elektronik}{26}{subsubsection*.67}%
 \contentsline {subsubsection}{\nonumberline Schematics}{27}{subsubsection*.69}%
 \contentsline {subsubsection}{\nonumberline Benutzung}{27}{subsubsection*.71}%
-\contentsline {subsection}{\numberline {3.6.6}Attack-Release Hüllkurvengenerator}{27}{subsection.3.6.6}%
+\contentsline {subsection}{\numberline {3.6.6}Attack-Release Hüllkurvengenerator }{27}{subsection.3.6.6}%
 \contentsline {subsubsection}{\nonumberline Spezifikationen}{28}{subsubsection*.74}%
 \contentsline {subsubsection}{\nonumberline Elektronik}{28}{subsubsection*.76}%
 \contentsline {subsubsection}{\nonumberline Schematics}{28}{subsubsection*.78}%
 \contentsline {subsubsection}{\nonumberline Benutzung}{28}{subsubsection*.80}%
 \contentsline {chapter}{\numberline {4}Schluss}{29}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Erreichung des gesetzten Ziels}{29}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Erreichen der gesetzten Ziele}{29}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Erlangte Erkenntnisse}{29}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Material für Deckplatten}{30}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Material für Platinen}{30}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Recherche nach simplen Schaltkreisen}{30}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}Reihenfolge der Konstruierten Module}{30}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Sonstiges}{31}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.5}Weiteres}{31}{subsection.4.2.5}%
 \contentsline {chapter}{\numberline {A}Abkürzungsverzeichnis}{35}{appendix.A}%
 \contentsline {chapter}{\nonumberline Literaturverzeichnis}{39}{chapter*.84}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

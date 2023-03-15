@@ -1,6 +1,5 @@
 #+bibliography: ../../references.bib
-\label{AR}
-* Attack-Release Hüllkurvengenerator
+* Attack-Release Hüllkurvengenerator \label{AR}
 Hüllkurvengeneratoren sind Module, welche bei Eingang eines Gate-Signals eine Hüllkurve generieren. Diese kann beispielsweise dazu genutzt werden, einen \ac{VCA} anzusteuern, welcher einem Klang Rhythmus und Dynamik, also eine sich Ändernde Lautstärke verleiht. Aufgrund der Komplexität eines vollständigen \ac{ADSR} Hüllkurvengenerators haben wir uns dazu entschieden, einen simpleren \ac{AR} Hüllkurvengenerator zu bauen. Dieser besitzt einen Eingang für eine \acl{CV}, an welchen ein Gate-Signal angelegt werden kann und zwei Drehpotentiometer, mit denen die Parameter Attack und Release eingestellt werden können. Attack stellt dabei die Zeit dar, die das Signal nach dem Drücken einer Taste beziehungsweise nach dem Anfang eines eingehenden Gate-Signals benötigt, um seinen Maximalwert zu erreichen. Release stellt die Zeit dar, die die Spannung der Hüllkurve nach dem Schließen des Gates benötigt, um wieder \SI{0}{\volt} zu erreichen.
 
 ** Spezifikationen

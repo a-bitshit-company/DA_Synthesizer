@@ -7,74 +7,136 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[1]{at:decibels}
+\bibitem[1]{modularsynthlab:rt65b}
+Eurorack Power Supply, Mean Well RT65B.
+\newblock
+  \url{https://modularsynthlab.com/product/eurorack-power-supply-mean-well-rt65b/?v=fa868488740a}
+
+\bibitem[2]{soundtraining:synthesis}
+Synthesis : A Basic Understanding.
+\newblock   (2017).
+\newblock \url{https://soundtraining.com/synthesis-a-basic-understanding/}
+
+\bibitem[3]{at:decibels}
 \textsc{{Acoustic Today}}:
 \newblock The World Through Sound: Decibels.
 \newblock   (2023)
 
-\bibitem[2]{miaw:mixer}
+\bibitem[4]{delamar:synthesis}
+\textsc{Baarß}, F. :
+\newblock Einstieg in die Klangsynthese: Syntheseformen.
+\newblock   (2023).
+\newblock \url{https://www.delamar.de/faq/syntheseformen-klangsynthese-34050/}
+
+\bibitem[5]{miaw:mixer}
 \textsc{Blåsol}, K. :
 \newblock Simple mixer - Modular in a Week 3.1.
 \newblock   (2018).
 \newblock \url{https://www.youtube.com/watch?v=VemUjRizC5U}
 
-\bibitem[3]{miaw:noise}
+\bibitem[6]{miaw:noise}
 \textsc{Blåsol}, K. :
 \newblock Super simple White Noise Module.
 \newblock   (2018).
 \newblock \url{https://www.youtube.com/watch?v=cyQMa4U0Wfs}
 
-\bibitem[4]{doepfer:A-100}
+\bibitem[7]{120years:buchla}
+\textsc{Crab}, S. :
+\newblock ‘Buchla Synthesisers’, Donald Buchla. USA, 1966.
+\newblock   (2019).
+\newblock
+  \url{https://120years.net/wordpress/buchla-synthesisersdonald-buchlausa1963/}
+
+\bibitem[8]{120years:moog}
+\textsc{Crab}, S. :
+\newblock ‘Moog Synthesisers’ Robert Moog. USA, 1964.
+\newblock   (2019).
+\newblock
+  \url{https://120years.net/wordpress/moog-synthesisersrobert-moogusa1963-2/}
+
+\bibitem[9]{doepfer:A-100}
 \textsc{{Doepfer Musikelektronik Gmbh}}:
 \newblock \emph{{SYSTEM A-100 Bedienungsanleitung}}, 2001.
 \newblock \url{https://doepfer.de/a100_man/A100_Anleitung_komplett.pdf}
 
-\bibitem[5]{duden:synthese}
+\bibitem[10]{duden:synthese}
 \textsc{{Duden}}:
 \newblock \emph{{Rechtschreibung Synthese Duden}}.
 \newblock \url{https://www.duden.de/rechtschreibung/Synthese}.
 \newblock \,Version:\,2023
 
-\bibitem[6]{haillant:lfo}
+\bibitem[11]{thomann:theremin}
+\textsc{{Franziska @ t.blog}}:
+\newblock Das Theremin: 9 Fakten.
+\newblock   (2019).
+\newblock \url{https://www.thomann.de/blog/de/9-fakten-ueber-das-theremin/}
+
+\bibitem[12]{haillant:lfo}
 \textsc{Haillant}, D. :
 \newblock \emph{{Simple LFO V1.1 Documentation}}.
 \newblock \url{http://www.davidhaillant.com}.
 \newblock \,Version:\,2016
 
-\bibitem[7]{moog1964}
+\bibitem[13]{yamaha:history}
+\textsc{Kovarsky}, J. :
+\newblock History of the Synthesizer, Part 1.
+\newblock   (2022).
+\newblock
+  \url{https://hub.yamaha.com/keyboards/synthesizers/history-of-the-synthesizer-part-1/}
+
+\bibitem[14]{match_transistors}
+\textsc{{learnelectronics on youtube.com}}:
+\newblock \emph{How to match transistors}.
+\newblock \url{https://www.youtube.com/watch?v=TvTSaTItoFs}.
+\newblock \,Version:\,2019
+
+\bibitem[15]{moog1964}
 \textsc{Moog}, R.~A.:
 \newblock {VOLTAGE-CONTROLLED ELECTRONIC MUSIC MODULES}.
 \newblock Trumansburg, New York, Oktober 1964
 
-\bibitem[8]{raffaseder}
+\bibitem[16]{raffaseder}
 \textsc{Raffaseder}, H. :
 \newblock \emph{{Additive Klangsynthese}}.
 \newblock
   \url{http://www.raffaseder.com/sounddesign/klangsynthese/additiv.htm}.
 \newblock \,Version:\,2002
 
-\bibitem[9]{synthnerd:ar}
+\bibitem[17]{synthnerd:ar}
 \textsc{Ramsden}, N. :
 \newblock Envelope Circuits: a simple AR design using op amps.
 \newblock   (2016).
 \newblock
   \url{https://synthnerd.wordpress.com/2016/04/06/envelope-circuits-a-simple-ar-design-using-op-amps/}
 
-\bibitem[10]{routenote:adsr}
-\textsc{Routenote}:
-\newblock ADSR graphic.
-\newblock   (2014).
-\newblock \url{http://routenote.com/blog/wp-content/uploads/2014/06/ADSR.jpg}
+\bibitem[18]{obertoene}
+\textsc{Saus}, W. :
+\newblock Die Obertonreihe.
+\newblock
+  \url{https://www.oberton.org/obertongesang/die-obertonreihe/#obertonreihe_8211_frequenzverhaeltnisse}
 
-\bibitem[11]{noise}
+\bibitem[19]{vactrol}
+\textsc{{Sweetwater @ sweetwater.com}}:
+\newblock Vactrol.
+\newblock   (2015).
+\newblock \url{https://www.sweetwater.com/insync/vactrol/}
+
+\bibitem[20]{mt:noise}
 \textsc{Thompson}, M. :
 \newblock colored noise.
 \newblock   (1989)
 
-\bibitem[12]{envelopes}
+\bibitem[21]{envelopes}
 \textsc{Waugh}, I. :
 \newblock {Quick Guide to Envelopes}.
 \newblock   (2023).
 \newblock \url{https://making-music.com/quick-guides/envelopes}
+
+\bibitem[22]{swphonetics:waveforms}
+\textsc{Wood}, S. :
+\newblock Standard waveforms.
+\newblock   (2012).
+\newblock
+  \url{https://swphonetics.com/praat/tutorials/understanding-waveforms/standard-waveforms/}
 
 \end{thebibliography}

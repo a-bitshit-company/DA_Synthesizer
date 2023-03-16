@@ -1,36 +1,33 @@
-\section{Oszillator x2}
-\label{sec:org6af7247}
-\subsection{Einleitende Beschreibung}
-\label{sec:orgd7ce9b8}
-Das 2xSqr Modul ist ein simples Signalerzeugendes Modul, welches zwei voneinander unabhängige Rechteckswellen generiert. Es besitzt zwei Audiobuchsen am Panel an welchen die Spannung der generierten Wellen anliegt und vier Potentiometer als verstellbare Wiederstände, mit welchen jeweils Amplitude und Frequenz der beiden Oszillatoren angesteuert werden können. Diese Potentiometer können durch Vactrols ersetzt werden, um das Modul Spannungssteuerbar zu machen.
+\section{Oszillator x2 \label{Osci}}
+\label{sec:org425d810}
+Dieses Modul ist ein simples signalerzeugendes Modul, welches zwei voneinander unabhängige Rechteckswellen im hörbaren Bereich generiert.
 
-\begin{circuitikz}
-\ctikzset{bipoles/oscope/waveform=square}
-\draw{node[oscopeshape](){}};
-\end{circuitikz}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=120px]{/home/felixp/Documents/diplomarbeit/dokumentation/figures/modules/oscillator.jpg}
+\caption{Deckplatte unseres Oszillator-Moduls}
+\end{figure}
 
 \subsection{Spezifikationen}
-\label{sec:orge25b321}
+\label{sec:org0410079}
 Oszillator 1:
 \begin{itemize}
-\item Spannung: bis zu 10\href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/hauptteil.org}{Vpp}
-\item Frequenzbereich:
+\item Spannung: bis zu \SI{\pm10}{\volt}
+\item Frequenzbereich: \SI{40}{\hertz} bis \(\approx\)\SI{2000}{\hertz}
 \end{itemize}
 
 Oszillator 2:
 \begin{itemize}
-\item Spannung: bis zu 10\href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/hauptteil.org}{Vpp}
-\item Frequenzbereich
+\item Spannung: bis zu \SI{\pm10}{\volt}
+\item Frequenzbereich: \SI{25}{\hertz} bis \(\approx\)\SI{2000}{\hertz}
 \end{itemize}
 
 \subsection{Elektronik}
-\label{sec:org944eb6c}
-Resistor-Capacitor type Oszillator
+\label{sec:orgdf8aba6}
+Als Grundlage dient ein einfacher "`Resistor-Capacitor"' Schwingkreis, welcher einen Schmitt-Trigger nutzt. Das resultierende Signal wird durch einen Spannungsfolger gepuffert, da sonst die Oszillation zusammenbricht. Danach wird das Signal AC gekoppelt, um das positive Offset der Oszillation zu entfernen und ein weiteres Mal gepuffert. Darauf folgt ein einfacher variabler Spannungsteiler als Dämpfungsglied, um die Amplitude regulieren zu können.
 
 \subsection{Schematics}
-\label{sec:orgc972af9}
-
-Oscillator logisch:
+\label{sec:org45830e7}
 
 \begin{circuitikz}[european]
 \draw{
@@ -74,73 +71,6 @@ to[pR, name=R3, l_=R3] ++(0, 3.5)
 
 \end{circuitikz}
 
-2x sqr Oszillator Modul:
-
-\begin{circuitikz}[european]
-\draw{
-%% DIPs
-(0, -7) node[dipchip, num pins=14, rotate=0](OPAMP){TL074}
-(0, 0) node[dipchip, num pins=14, rotate=0](ST){CD1406}
-
-
-%% Input/Output Terminals
-(-4, 5) node[circ, name=+12V]{\SI{12}{V}}
-(-4.5, 4.25) node[circ, name=GND]{GND}
-(-5, 3.5) node[circ, name=-12V]{\SI{-12}{V}}
-
-
-%% Connections Schmitt trigger inputs to GND
-(ST.pin 3) -- (ST.pin 3 -| ST.center) -- (ST.south)
-(ST.pin 5) -- (ST.pin 5 -| ST.center) -- (ST.south)
-(ST.pin 7) -- (ST.pin 7 -| ST.center) -- (ST.south)
-(ST.pin 9) -- (ST.pin 9 -| ST.center) -- (ST.south)
-(ST.pin 11) -- (ST.pin 11 -| ST.center) -- (ST.south)
-(ST.south) -- ++(0, -1) coordinate (GND2) node[circ]{}
-
-
-(ST.pin 1) -- ++(-0.6, 0)
-to[pR, l_=R1A, name=R1A]
-++(0, -1.5)
-(ST.pin 2) -- (ST.pin 2 -| R1A.wiper) -- (R1A.wiper)
-(ST.pin 1 -| R1A) node[circ]{} -- ++(-1, 0)
-coordinate (T) -- (T |- OPAMP.pin 3) -- (OPAMP.pin 3)
-
-(ST.pin 13) -- ++(0.6, 0)
-to[pR, l=R1B, name=R1B, mirror]
-++(0, -1.5)
-(ST.pin 12) -- (ST.pin 12 -| R1B.wiper) -- (R1B.wiper)
-(ST.pin 13 -| R1B) node[circ]{} -- ++(1,0)
-coordinate (T) -- (T |- OPAMP.pin 12) -- (OPAMP.pin 12)
-
-
-(OPAMP.pin 2) -- (OPAMP.pin 1) node[circ]{} to[C, name=C2A, l=C2A] ++(-1,0)
-coordinate (T) node[circ]{} -- (T |- OPAMP.pin 5) -- (OPAMP.pin 5)
-(T) to[R, name=R2A] (T |- GND2) node[circ]{} -- (GND2)
-(OPAMP.pin 6) -- (OPAMP.pin 7)
-
-(OPAMP.pin 13) -- (OPAMP.pin 14) node[circ]{} to[C, name=C2B, l_=C2B] ++(1,0)
-coordinate (T) node[circ]{} -- (T |- OPAMP.pin 10) -- (OPAMP.pin 10)
-(T) to[R, name=R2B] (T |- GND2) node[circ]{} -- (GND2)
-(OPAMP.pin 9) -- (OPAMP.pin 8)
-
-
-(+12V) -- ++(1, 0) coordinate (T) to[nos] (T -| ST.pin 14) -- (ST.pin 14)
-(+12V) ++(0.8, 0) coordinate (T) -- (T |- OPAMP.pin 4) -- (OPAMP.pin 4)
-(-12V) -- ++(8.2, 0) coordinate (T) -- (T |- OPAMP.pin 11) -- (OPAMP.pin 11)
-
-(GND) -- (GND -| R1B) node[circ]{} to[cC, invert, name=C1A] (R1B |- ST.pin 13)
-(GND -| R1A) node[circ]{} to[cC, invert, name=C1B] (R1A |- ST.pin 1)
-
-(GND -| R1B) -- ++(2, 0) coordinate (T) -- (GND2 -| T) node[circ]{} -- (GND2)
-(T) -- (T |- OPAMP.pin 9) to[pR, mirror, name=R3B] ++(0, -1) -- ++(0, -1) node[draw]{OUT}
-(R3B.wiper) -- (R3B.wiper -| OPAMP.pin 9) node[circ]{}
-
-(GND2 -| R2A) -- ++(-1.5, 0) coordinate (T)
--- (T |- OPAMP.pin 6) to[pR, name=R3A] ++(0, -1) -- ++(0, -1) node[draw]{OUT}
-(R3A.wiper) -- (R3A.wiper -| OPAMP.pin 6) node[circ]{}
-};
-\end{circuitikz}
-
 \subsection{Benutzung}
-\label{sec:org3cb5577}
-Das Panel ist aufgeteilt in einen linken und rechten oszillator, alle Elemente auf einer Seite gehören zu jeweils einem Oszillator. Die oberen beiden Potentiometer dienen zur Steuerung der \href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/theoretische\_grundlagen.org}{Frequenz}, die unteren beiden dienen zur Steuerung der \href{file:///home/felixp/Documents/diplomarbeit/dokumentation/content/theoretische\_grundlagen.org}{Amplitude} des Signals. Die Audiobuchsen dienen als Output. Der Schalter links oben aktiviert das Modul, die Oszillatoren sind nicht seperat voneinander an/ausschaltbar.
+\label{sec:orgeb2b2bd}
+Das Panel ist aufgeteilt in einen linken und rechten Oszillator, alle Elemente auf einer Seite gehören zu jeweils einem Oszillator. Die oberen beiden Potentiometer dienen zur Steuerung der Frequenz (siehe Abschnitt \ref{frequenz}), die unteren beiden dienen zur Steuerung der Amplitude (siehe Abschnitt \ref{amplitude}) des Signals. Die Audiobuchsen dienen als Output. Der Schalter links oben aktiviert das Modul, die Oszillatoren sind nicht separat voneinander an- und ausschaltbar.

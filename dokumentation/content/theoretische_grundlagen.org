@@ -18,22 +18,24 @@ Die Lautstärke einer Klangwelle korrespondiert mit ihrer *Amplitude* und wird i
 
 Bei Schallwellen wird üblicherweise die Amplitude mit der kleinsten hörbaren Luftdruckänderung (\SI{20}{\micro\pascal}) verglichen. Dadurch wird aus der relativen Einheit (dezi)Bel die absolute Einheit \si{\dB}_{SPL} (SPL steht für Sound Pressure Level), welche umgangssprachlich oft fälschlicherweise als \si{\dB} bezeichnet wird.
 
-Da das menschliche Gehör Lautstärke auf eine logarithmische Art und Weise wahrnimmt, ist auch die Bel-Skala eine logarithmische. So bedeutet eine Steigerung der Lautstärke um 20 \si{\dB} eine verzehnfachung der Amplitude, also des Energieniveaus der Welle (siehe Abbildung unten).
+Da das menschliche Gehör Lautstärke auf eine logarithmische Art und Weise wahrnimmt, ist auch die Bel-Skala eine logarithmische. So bedeutet eine Steigerung der Lautstärke um 20 \si{\dB} eine verzehnfachung der Amplitude, also des Energieniveaus der Welle (siehe Abbildung [[decibel_scale]]).
 
 #+attr_latex: :height 200px
+#+NAME: decibel_scale
 #+CAPTION: Dezibelskala mit häufigen Lautstärken als Referenzpunkte und zugehörigen Luftdrucksänderungen in Pascal \cite{at:decibels}
 [[file:///home/felixp/Documents/diplomarbeit/dokumentation/figures/decibel_scale.png]]
 
-Auch nimmt der Mensch gewisse Frequenzen lauter wahr als andere, Frequenzen außerhalb des hörbaren Bereichs können beispielsweise gar nicht wahrgenommen werden. Deshalb kann eine Gewichtungsfunktion, genannt A-weighting, auf den Lautstärkewert angewendet werden. Dieser *bewertete Schalldruckpegel* wird als \si{\dB}_{A} bezeichnet und dient zum Ausdrücken der gefühlten Lautstärke (siehe Abbildung unten).
+Auch nimmt der Mensch gewisse Frequenzen lauter wahr als andere, Frequenzen außerhalb des hörbaren Bereichs können beispielsweise gar nicht wahrgenommen werden. Deshalb kann eine Gewichtungsfunktion, genannt A-weighting, auf den Lautstärkewert angewendet werden. Dieser *bewertete Schalldruckpegel* wird als \si{\dB}_{A} bezeichnet und dient zum Ausdrücken der gefühlten Lautstärke (siehe Abbildung [[a_weighting]]).
 
 #+attr_latex: :width 250px
+#+NAME: a_weighting
 #+CAPTION: Gewichtungsfunktion; Hörbare Frequenzen auf der Abszisse, Hörbarkeit durch das menschliche Gehör auf der Ordinate \cite{at:decibels}
 [[file:///home/felixp/Documents/diplomarbeit/dokumentation/figures/a_weighting.png]]
 
 *** Wellenform
-Klangwellen können verschiedene Formen besitzen, die grundlegende Form ist dabei eine *Sinuswelle*. Das menschliche Ohr empfindet eine sinusförmige Schallwelle als "`rein"', da sie eine einzelne Frequenz ohne *Obertöne* repräsentiert. Weitere einfache Formen sind Rechteckwellen, Sägezahnwellen und Dreieckwellen. Im Gegensatz zum Sinus besitzen diese Wellenformen viele Obertöne, welche dem Klang Farbe verleihen. Teilt die Frequenz eines solchen Obertons die Frequenz des Grundtones ganzzahlig, wird er als *harmonisch*, also wohlklingend empfunden.
+Klangwellen können verschiedene Formen besitzen, die grundlegende Form ist dabei eine *Sinuswelle*. Das menschliche Ohr empfindet eine sinusförmige Schallwelle als "`rein"', da sie eine einzelne Frequenz ohne *Obertöne* repräsentiert. Weitere einfache Formen sind Rechteckwellen, Sägezahnwellen und Dreieckwellen. Im Gegensatz zum Sinus besitzen diese Wellenformen viele Obertöne, welche dem Klang Farbe verleihen. Teilt die Frequenz eines solchen Obertons die Frequenz des Grundtones ganzzahlig, wird er als *harmonisch*, also wohlklingend empfunden \cite{obertoene}.
 
-Da Wellenformen wie Dreieck-, Rechteck- oder Sägezahnwellen viele Obertöne besitzen, eignen sie sich besonders gut als Grundtöne für die subtraktive Klangsynthese. 
+Da Wellenformen wie Dreieck-, Rechteck- oder Sägezahnwellen viele Obertöne besitzen \cite{swphonetics:waveforms}, eignen sie sich besonders gut als Grundtöne für die subtraktive Klangsynthese. 
 
 ** Klangerzeugung
 Die für die Klangsynthese benötigten grundlegenden Klangwellen können aus verschiedensten Quellen stammen. Die häufigste davon ist wohl ein *Oszillator*, welcher durchgehende Klangwellen mit einer einfachen Wellenform, wie zum Beispiel einem Sinus oder einer Rechteckwelle generiert. In Abschnitt \ref{Osci} werden Aufbau und Design eines solchen Oszillators beschrieben.
@@ -48,25 +50,25 @@ Nach einen solchen Filter wird oft ein \ac{VCA} (siehe Abschnitt \ref{VCA}) gesc
 Die meisten analogen Synthesizer basieren auf subtraktiver Klangsynthese. Üblicherweise wird dabei ein Grundton, meist aus einem Oszillator, über einen \ac{VCA} geschalten, welcher durch einen Hüllkurvengenerator angesteuert wird. Dieser Hüllkurvengenerator wird üblicherweise durch einen Sequenzer oder eine Tastatur angesteuert. Eine Abwandlung dieser grundlegenden *Signalverarbeitungskette* ist in den meisten kommerziell erhältlichen Synthesizersystemen fest verkabelt.
 
 ** Additive Klangsynthese
-Nach Fourier kann jegliche Art von Wellenform durch eine Serie von Sinuswellen ausgedrückt werden. Das Prinzip der additiven Klangsynthese besteht somit darin, eine Vielzahl von Sinuswellen mit unterschiedlichen Amplituden und Frequenzen zu kombinieren (beispielsweise durch einen Mixer, siehe Abschnitt \ref{Mixer}), um Klänge mit jeder erdenklichen Klangfarbe zu erzeugen. Idealerweise wird jede grundlegende Sinuswelle durch eine separate Hüllkurve moduliert, um einen Klang mit sich laufend verändernder Klangfarbe zu erzeugen \cite{raffaseder}. Da dies mit einer steigenden Anzahl an grundlegenden Sinuswellen eine technische Herausforderung darstellt, sind additive Synthesizer meist digital ausgeführt, ein analoges Beispiel für einen additiven Synthesizer wäre eine Orgel.
+Nach Fourier kann jegliche Art von Wellenform durch eine Serie von Sinuswellen ausgedrückt werden. Das Prinzip der additiven Klangsynthese besteht somit darin, eine Vielzahl von Sinuswellen mit unterschiedlichen Amplituden und Frequenzen zu kombinieren \cite{soundtraining:synthesis} (beispielsweise durch einen Mixer, siehe Abschnitt \ref{Mixer}), um Klänge mit jeder erdenklichen Klangfarbe zu erzeugen. Idealerweise wird jede grundlegende Sinuswelle durch eine separate Hüllkurve moduliert, um einen Klang mit sich laufend verändernder Klangfarbe zu erzeugen \cite{raffaseder}. Da dies mit einer steigenden Anzahl an grundlegenden Sinuswellen eine technische Herausforderung darstellt, sind additive Synthesizer meist digital ausgeführt, ein analoges Beispiel für einen additiven Synthesizer wäre eine *Hammond-Orgel* \cite{delamar:synthesis}.
 
 ** Vocoder
 Ein Vocoder basiert auf dem Prinzip, ein Signal (meist eine Stimme) mittels mehrerer Band-Pass Filter in seine Frequenzbestandteile aufzuteilen. Anschließend wird dieses Frequenzspektrum auf der Basis von weißem Rauschen (siehe Abschnitt \ref{Noise}) wieder aufgebaut, um einen als gesprochenes Wort zu erkennenden Klang zu erzeugen. Ein Vocoder arbeitet somit sowohl mit subtraktiver Soundsynthese bei der Analyse des Frequenzspektrums als auch mit additiver Soundsynthese beim Wiederzusammensetzen des analysierten Klangs.
 
 * Geschichte
-Bereits im frühen 20. Jahrhundert wurden elektronische Schaltkreise benutzt, um Klänge zu erzeugen. Damals noch mit Vakuumröhren statt Transistoren hergestellt, stellt das *Theremin* eines der ältesten heute noch verwendeten elektronischen Musikinstrumente dar.
+Bereits im frühen 20. Jahrhundert wurden elektronische Schaltkreise benutzt, um Klänge zu erzeugen. Damals noch mit Vakuumröhren statt Transistoren hergestellt, stellt das *Theremin* eines der ältesten heute noch verwendeten elektronischen Musikinstrumente dar \cite{thomann:theremin}. 
 
 Der erste vollwertige elektronische Synthesizer, welcher auch als solcher bezeichnet wurde, war der *RCA Music Synthesizer*, eine raumhohe Maschine, welche als Gemeinschaftsprojekt zwischen den amerikanischen Universitäten von Princeton und Columbia entstanden war. Statt mit einer Klaviertastatur spielte beziehungsweise programmierte man diesen Synthesizer erst mittels Lochkarten und konnte dann gewisse Aspekte des Klanges dynamisch - also während das Stück spielte - ändern.
 
-Das Konzept eines modularen Synthesizers und damit auch das Konzept der \acl{CV} wurde erstmals von Robert Moog in seiner Arbeit mit dem Titel "`VOLTAGE-CONTROLLED ELECTRONIC MUSIC MODULES"' dokumentiert \cite{moog1964}. Der auf diesen Prinzipien basierende *Moog Modular Synthesizer* führte viele heute noch aktuelle Standards ein, wie zum Beispiel die Kontrollspannungsarten Trigger und \SI{1}{\volt} pro Oktave, auf welche in Abschnitt \ref{CV} näher eingegangen wird. Spätestens mit dem 1968 erschienenen Album "`Switched-On Bach"' von Wendy Carlos wurde der Synthesizer als vollwertiges Instrument im Mainstream akzeptiert.
+Das Konzept eines modularen Synthesizers und damit auch das Konzept der \acl{CV} wurde erstmals von Robert Moog in seiner Arbeit mit dem Titel "`VOLTAGE-CONTROLLED ELECTRONIC MUSIC MODULES"' dokumentiert \cite{moog1964}. Der auf diesen Prinzipien basierende *Moog Modular Synthesizer* führte viele heute noch aktuelle Standards ein, wie zum Beispiel die Kontrollspannungsarten Trigger und \SI{1}{\volt} pro Oktave, auf welche in Abschnitt \ref{CV} näher eingegangen wird. Spätestens mit dem 1968 erschienenen Album "`Switched-On Bach"' von Wendy Carlos wurde der Synthesizer als vollwertiges Instrument im Mainstream akzeptiert \cite{yamaha:history} \cite{120years:moog}. 
 
-Während die Synthesizer von Moog mit dem Prinzip der subtraktiven Klangsynthese arbeiteten, wurden zur gleichen Zeit - auf der anderen Seite Amerikas - erste Synthesizer mit additiver Klangsynthese hergestellt. Die von *Donald Buchla* hergestellten Synthesizer boten dem Benutzer beinahe grenzenlose Freiheit über die Farbe der erzeugten Klänge. Dennoch blieb die subtraktive Klangsynthese wohl aufgrund größerer Intuitivität und besserer technischer Umsetzbarkeit das vorherrschende Prinzip.
+Während die Synthesizer von Moog mit dem Prinzip der subtraktiven Klangsynthese arbeiteten, wurden zur gleichen Zeit - auf der anderen Seite Amerikas - erste Synthesizer mit additiver Klangsynthese hergestellt. Die von *Donald Buchla* hergestellten Synthesizer boten dem Benutzer beinahe grenzenlose Freiheit über die Farbe der erzeugten Klänge. Dennoch blieb die subtraktive Klangsynthese wohl aufgrund größerer Intuitivität und besserer technischer Umsetzbarkeit das vorherrschende Prinzip \cite{120years:buchla}. 
 
-Obwohl Moog als Vater der modularen Klangsynthese gilt, ist eines der bekanntesten und beliebtesten Produkte der Firma Moog der fix verkabelte *Minimoog*. Dieser als Live-Instrument gedachte Synthesizer führte ein Lautstärkerad und ein Tonhöhenveränderungsrad ein, mit welchem Töne ähnlich wie beim Saitenziehen bei einer Gitarre verändert werden können.
+Obwohl Moog als Vater der modularen Klangsynthese gilt, ist eines der bekanntesten und beliebtesten Produkte der Firma Moog der fix verkabelte *Minimoog*. Dieser als Live-Instrument gedachte Synthesizer führte ein Lautstärkerad und ein Tonhöhenveränderungsrad ein, mit welchem Töne ähnlich wie beim Saitenziehen bei einer Gitarre verändert werden können \cite{120years:moog}.
 
-Die 1970er und 1980er Jahre waren vor allem von digitalen Synthesizern geprägt. Das von der Firma "`New England Digital"' hergestellte Synclavier I war der erste Synthesizer welcher Frequenzmodulation, eine Form der additiven Klangsynthese anbot. Der von Yamaha hergestellte *DX7* brachte dieses Konzept in den Mainstream. Die glockenartigen Klänge die charakteristisch für diese Art der Klangsynthese sind, prägten den Großteil der 80er Jahre und sind auch heute noch häufig in Pop und Schlager zu finden.
+Die 1970er und 1980er Jahre waren vor allem von digitalen Synthesizern geprägt. Das von der Firma "`New England Digital"' hergestellte Synclavier I war der erste Synthesizer welcher Frequenzmodulation, eine Form der additiven Klangsynthese anbot. Der von Yamaha hergestellte *DX7* brachte dieses Konzept in den Mainstream. Die glockenartigen Klänge die charakteristisch für diese Art der Klangsynthese sind, prägten den Großteil der 80er Jahre und sind auch heute noch häufig in Pop und Schlager zu finden \cite{yamaha:history}.
 
-Das Konzept der modularen Synthesizer schien beinahe vergessen, bis im Jahre 1992 Dieter Döpfer gemeinsam mit der Band Kraftwerk das modulare Synthesizersystem *A-100* entwarf. Die quelloffene Natur dieses Systems ermöglichte es anderen Herstellern wie auch der Firma Moog kompatible Module herzustellen, wodurch ein De-facto-Standard entstand, heute bekannt als Eurorack, was zu einer Renaissance der modularen Synthesizer führte.
+Das Konzept der modularen Synthesizer schien beinahe vergessen, bis im Jahre 1996 Dieter Döpfer das modulare Synthesizersystem *A-100* entwarf. Die quelloffene Natur dieses Systems ermöglichte es anderen Herstellern wie auch den Firmen Moog, Rohland und Behringer, kompatible Module herzustellen, wodurch ein De-facto-Standard, heute bekannt als Eurorack, entstand. Dieser Standard führte zu einer Renaissance der modularen Synthesizer, heutzutage basieren fast alle modularen Synthesizer auf dem Eurorack-Format.
 
 Die Dokumentation für diesen Synthesizer, den A-100, stellt auf direkte oder indirekte Weise die Grundlage für die meisten Aspekte des in der vorliegenden Arbeit beschriebenen Systems dar.
 
@@ -101,11 +103,11 @@ Im Unterschied zu den anderen Parametern ist der Sustain-Wert eine Amplitude ans
 Nach dem Loslassen der Taste benötigt der Ton eine gewisse Zeit, um vollständig abzuschwellen.  Diese Zeit wird über den Release-Parameter eingestellt.
 
 #+attr_latex: :width 250px
-#+CAPTION: Der zeitliche Verlauf einer ADSR Hüllkurve; die Amplitudenwerte auf der Ordinate entsprechen bei einem Hüllkurvengenerator den ausgegebenen Kontrollspannungswerten  \cite{routenote:adsr}
+#+CAPTION: Der zeitliche Verlauf einer ADSR Hüllkurve; die Amplitudenwerte auf der Ordinate entsprechen bei einem Hüllkurvengenerator den ausgegebenen Kontrollspannungswerten  \cite{envelopes}
 [[file:///home/felixp/Documents/diplomarbeit/dokumentation/figures/ADSR.jpg]]
 
 *** Volt per Octave
-Die meisten spannungskontrollierten Oszillatoren (VCO) folgen der von Moog eingeführten Konvention, dass ihre Frequenz auf eine logarithmische Art und Weise von der \acl{CV} abhängt. Dabei resultiert die Zunahme der \acl{CV} um \SI{1}{\volt} in der Verdoppelung der Frequenz des generierten Signals (1 Oktave).
+Die meisten \acsp{VCO} folgen der von Moog eingeführten Konvention, dass ihre Frequenz auf eine logarithmische Art und Weise von der \acl{CV} abhängt. Dabei resultiert die Zunahme der \acl{CV} um \SI{1}{\volt} in der Verdoppelung der Frequenz des generierten Signals (1 Oktave).
 
 *** Audio
 Audiosignale sind Spannungen, die meist zwischen \SI{-0.5}{\volt} und \SI{0.5}{\volt} schwingen. Sie können an einen Verstärker oder Lautsprecher angelegt werden, um Schall zu erzeugen oder zur Weiterverarbeitung von einem Modul zum anderen geschickt und sogar als \acl{CV} verwendet werden. 

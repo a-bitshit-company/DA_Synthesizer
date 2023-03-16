@@ -19,5 +19,6 @@ https://de.abcdef.wiki/wiki/Harmonic
 https://www.feynmanlectures.caltech.edu/I_50.html
 https://de.wikipedia.org/wiki/Bel_(Einheit)
 https://www.bonedo.de/artikel/synthesizer-und-sounddesign-2-filter/
+http://www.sengpielaudio.com/Rechner-harmonische.htm
 ** Fourier transformation und filter
 https://mathworld.wolfram.com/FourierTransform.html

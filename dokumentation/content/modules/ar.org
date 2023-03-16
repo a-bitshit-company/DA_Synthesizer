@@ -2,11 +2,15 @@
 * Attack-Release Hüllkurvengenerator \label{AR}
 Hüllkurvengeneratoren sind Module, welche bei Eingang eines Gate-Signals eine Hüllkurve generieren. Diese kann beispielsweise dazu genutzt werden, einen \ac{VCA} anzusteuern, welcher einem Klang Rhythmus und Dynamik, also eine sich Ändernde Lautstärke verleiht. Aufgrund der Komplexität eines vollständigen \ac{ADSR} Hüllkurvengenerators haben wir uns dazu entschieden, einen simpleren \ac{AR} Hüllkurvengenerator zu bauen. Dieser besitzt einen Eingang für eine \acl{CV}, an welchen ein Gate-Signal angelegt werden kann und zwei Drehpotentiometer, mit denen die Parameter Attack und Release eingestellt werden können. Attack stellt dabei die Zeit dar, die das Signal nach dem Drücken einer Taste beziehungsweise nach dem Anfang eines eingehenden Gate-Signals benötigt, um seinen Maximalwert zu erreichen. Release stellt die Zeit dar, die die Spannung der Hüllkurve nach dem Schließen des Gates benötigt, um wieder \SI{0}{\volt} zu erreichen.
 
+#+attr_latex: :width 120px
+#+CAPTION: Deckplatte unseres AR-Hüllkurvengenerator-Moduls
+[[file:///home/felixp/Documents/diplomarbeit/dokumentation/figures/modules/AR.jpg]]
+
 ** Spezifikationen
 ** Elektronik
 In unserer Umsetzung wird das Potential am Eingang für eine \acl{CV}, an welchem ein Gate-Signal erwartet wird, von einem Operationsverstärker auf 12V verstärkt. Durch den oberen Signalpfad füllt sich ein großer Kondensator. Die Spannung, welche am Kondensator anliegt, wird gleichzeitig von einem Spannungsfolger gepuffert, da diese auch die Ausgangsspannung darstellt. Wird das Gate geschlossen, fällt die Spannung über den unteren Signalpfad wieder ab. Durch die Potentiometer kann man die Geschwindigkeit dieser beiden Prozesse kontrollieren.
 ** Schematics
-#+CAPTION: Schaltkreis für einen simplen Attack Release Hüllkurvengenerator; Quelle: [cite:@synthnerd:ar]
+#+CAPTION: Schaltkreis für einen simplen Attack Release Hüllkurvengenerator; Quelle: \cite{synthnerd:ar}
 [[file:~/Documents/diplomarbeit/dokumentation/figures/Schematic_AR.png]]
 ** Benutzung
 Unser AR bietet einen Eingang für Kontrollspannung vom Typ Gate, welcher angibt, ob etwa eine Taste gedrückt oder nicht. Außerdem ist ein Ausgang für die Hüllkurve vorhanden, welcher als \acl{CV} für einen \ac{VCA} vorhergesehen ist.

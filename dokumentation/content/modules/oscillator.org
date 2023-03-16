@@ -2,20 +2,23 @@
 * Oszillator x2 \label{Osci}
 Dieses Modul ist ein simples signalerzeugendes Modul, welches zwei voneinander unabhängige Rechteckswellen im hörbaren Bereich generiert.
 
+#+attr_latex: :width 120px
+#+CAPTION: Deckplatte unseres Oszillator-Moduls
+[[file:///home/felixp/Documents/diplomarbeit/dokumentation/figures/modules/oscillator.jpg]]
+
 ** Spezifikationen
 Oszillator 1:
-+ Spannung: bis zu 10[[file:~/Documents/diplomarbeit/dokumentation/content/hauptteil.org::*Vpp][Vpp]]
++ Spannung: bis zu \SI{\pm10}{\volt}
 + Frequenzbereich: \SI{40}{\hertz} bis \approx\SI{2000}{\hertz}
 
 Oszillator 2:
-+ Spannung: bis zu 10[[file:~/Documents/diplomarbeit/dokumentation/content/hauptteil.org::*Vpp][Vpp]]
++ Spannung: bis zu \SI{\pm10}{\volt}
 + Frequenzbereich: \SI{25}{\hertz} bis \approx\SI{2000}{\hertz}
   
 ** Elektronik
 Als Grundlage dient ein einfacher "`Resistor-Capacitor"' Schwingkreis, welcher einen Schmitt-Trigger nutzt. Das resultierende Signal wird durch einen Spannungsfolger gepuffert, da sonst die Oszillation zusammenbricht. Danach wird das Signal AC gekoppelt, um das positive Offset der Oszillation zu entfernen und ein weiteres Mal gepuffert. Darauf folgt ein einfacher variabler Spannungsteiler als Dämpfungsglied, um die Amplitude regulieren zu können.
 
 ** Schematics
-
 #+INCLUDE: schematics/oscillator.org
 
 ** Benutzung

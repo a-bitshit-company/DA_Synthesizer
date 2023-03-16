@@ -2,12 +2,17 @@
 \babel@toc {ngerman}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Dezibelskala mit häufigen Lautstärken als Referenzpunkte und zugehörigen Luftdrucksänderungen in Pascal \cite {at:decibels}}}{7}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Gewichtungsfunktion; Hörbare Frequenzen auf der Abszisse, Hörbarkeit durch das menschliche Gehör auf der Ordinate \cite {at:decibels}}}{7}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Der zeitliche Verlauf einer ADSR Hüllkurve; die Amplitudenwerte auf der Ordinate entsprechen bei einem Hüllkurvengenerator den ausgegebenen Kontrollspannungswerten \cite {routenote:adsr}}}{14}{figure.2.3}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Dezibelskala mit häufigen Lautstärken als Referenzpunkte und zugehörigen Luftdrucksänderungen in Pascal \cite {at:decibels}}}{5}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Gewichtungsfunktion; Hörbare Frequenzen auf der Abszisse, Hörbarkeit durch das menschliche Gehör auf der Ordinate \cite {at:decibels}}}{5}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Der zeitliche Verlauf einer ADSR Hüllkurve; die Amplitudenwerte auf der Ordinate entsprechen bei einem Hüllkurvengenerator den ausgegebenen Kontrollspannungswerten \cite {envelopes}}}{12}{figure.2.3}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Schaltkreis für einen passiven Mixer; Quelle: (Kristian Blåsol, 2018a)}}{24}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Schaltkreis für einen simplen Attack Release Hüllkurvengenerator; Quelle: (Nathan Ramsden, 2016)}}{28}{figure.3.2}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Deckplatte unseres Oszillator-Moduls}}{19}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Deckplatte unseres Noise-Moduls}}{21}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Deckplatte unseres Mixer-Moduls}}{22}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Schaltkreis für einen passiven Mixer; Quelle: \cite {miaw:mixer}}}{23}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Deckplatte unseres LFO-Moduls}}{26}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Deckplatte unseres AR-Hüllkurvengenerator-Moduls}}{28}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Schaltkreis für einen simplen Attack Release Hüllkurvengenerator; Quelle: \cite {synthnerd:ar}}}{29}{figure.3.7}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

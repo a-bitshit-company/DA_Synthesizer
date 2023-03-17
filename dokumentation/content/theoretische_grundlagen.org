@@ -18,18 +18,18 @@ Die Lautstärke einer Klangwelle korrespondiert mit ihrer *Amplitude* und wird i
 
 Bei Schallwellen wird üblicherweise die Amplitude mit der kleinsten hörbaren Luftdruckänderung (\SI{20}{\micro\pascal}) verglichen. Dadurch wird aus der relativen Einheit (dezi)Bel die absolute Einheit \si{\dB}_{SPL} (SPL steht für Sound Pressure Level), welche umgangssprachlich oft fälschlicherweise als \si{\dB} bezeichnet wird.
 
-Da das menschliche Gehör Lautstärke auf eine logarithmische Art und Weise wahrnimmt, ist auch die Bel-Skala eine logarithmische. So bedeutet eine Steigerung der Lautstärke um 20 \si{\dB} eine verzehnfachung der Amplitude, also des Energieniveaus der Welle (siehe Abbildung [[decibel_scale]]).
+Da das menschliche Gehör Lautstärke auf eine logarithmische Art und Weise wahrnimmt, ist auch die Bel-Skala eine logarithmische. So bedeutet eine Steigerung der Lautstärke um 20 \si{\dB} eine verzehnfachung der Amplitude, also des Energieniveaus der Welle (siehe Abbildung [[fig:decibel_scale]]).
 
 #+attr_latex: :height 200px
-#+NAME: decibel_scale
 #+CAPTION: Dezibelskala mit häufigen Lautstärken als Referenzpunkte und zugehörigen Luftdrucksänderungen in Pascal \cite{at:decibels}
+#+NAME: fig:decibel_scale
 [[file:///home/felixp/Documents/diplomarbeit/dokumentation/figures/decibel_scale.png]]
 
-Auch nimmt der Mensch gewisse Frequenzen lauter wahr als andere, Frequenzen außerhalb des hörbaren Bereichs können beispielsweise gar nicht wahrgenommen werden. Deshalb kann eine Gewichtungsfunktion, genannt A-weighting, auf den Lautstärkewert angewendet werden. Dieser *bewertete Schalldruckpegel* wird als \si{\dB}_{A} bezeichnet und dient zum Ausdrücken der gefühlten Lautstärke (siehe Abbildung [[a_weighting]]).
+Auch nimmt der Mensch gewisse Frequenzen lauter wahr als andere, Frequenzen außerhalb des hörbaren Bereichs können beispielsweise gar nicht wahrgenommen werden. Deshalb kann eine Gewichtungsfunktion, genannt A-weighting, auf den Lautstärkewert angewendet werden. Dieser *bewertete Schalldruckpegel* wird als \si{\dB}_{A} bezeichnet und dient zum Ausdrücken der gefühlten Lautstärke (siehe Abbildung [[fig:a_weighting]]).
 
 #+attr_latex: :width 250px
-#+NAME: a_weighting
 #+CAPTION: Gewichtungsfunktion; Hörbare Frequenzen auf der Abszisse, Hörbarkeit durch das menschliche Gehör auf der Ordinate \cite{at:decibels}
+#+NAME: fig:a_weighting
 [[file:///home/felixp/Documents/diplomarbeit/dokumentation/figures/a_weighting.png]]
 
 *** Wellenform

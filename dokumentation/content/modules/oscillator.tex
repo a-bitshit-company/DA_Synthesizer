@@ -1,15 +1,15 @@
 \section{Oszillator x2 \label{Osci}}
-\label{sec:org425d810}
+\label{sec:org35e33d9}
 Dieses Modul ist ein simples signalerzeugendes Modul, welches zwei voneinander unabhängige Rechteckswellen im hörbaren Bereich generiert.
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=120px]{/home/felixp/Documents/diplomarbeit/dokumentation/figures/modules/oscillator.jpg}
+\includegraphics[height=100px]{/home/felixp/Documents/diplomarbeit/dokumentation/figures/modules/oscillator.jpg}
 \caption{Deckplatte unseres Oszillator-Moduls}
 \end{figure}
 
 \subsection{Spezifikationen}
-\label{sec:org0410079}
+\label{sec:orga58a8d5}
 Oszillator 1:
 \begin{itemize}
 \item Spannung: bis zu \SI{\pm10}{\volt}
@@ -23,12 +23,11 @@ Oszillator 2:
 \end{itemize}
 
 \subsection{Elektronik}
-\label{sec:orgdf8aba6}
+\label{sec:org34523ef}
 Als Grundlage dient ein einfacher "`Resistor-Capacitor"' Schwingkreis, welcher einen Schmitt-Trigger nutzt. Das resultierende Signal wird durch einen Spannungsfolger gepuffert, da sonst die Oszillation zusammenbricht. Danach wird das Signal AC gekoppelt, um das positive Offset der Oszillation zu entfernen und ein weiteres Mal gepuffert. Darauf folgt ein einfacher variabler Spannungsteiler als Dämpfungsglied, um die Amplitude regulieren zu können.
 
-\subsection{Schematics}
-\label{sec:org45830e7}
-
+\begin{figure}
+\centering
 \begin{circuitikz}[european]
 \draw{
 (0,0) node[ground, anchor=center, name=G]{}
@@ -70,7 +69,9 @@ to[pR, name=R3, l_=R3] ++(0, 3.5)
 };
 
 \end{circuitikz}
+\caption{Schaltkreis einem einzelnen Oszillator, TODO:besser beschreiben}
+\end{figure}
 
 \subsection{Benutzung}
-\label{sec:orgeb2b2bd}
+\label{sec:orga0940ea}
 Das Panel ist aufgeteilt in einen linken und rechten Oszillator, alle Elemente auf einer Seite gehören zu jeweils einem Oszillator. Die oberen beiden Potentiometer dienen zur Steuerung der Frequenz (siehe Abschnitt \ref{frequenz}), die unteren beiden dienen zur Steuerung der Amplitude (siehe Abschnitt \ref{amplitude}) des Signals. Die Audiobuchsen dienen als Output. Der Schalter links oben aktiviert das Modul, die Oszillatoren sind nicht separat voneinander an- und ausschaltbar.

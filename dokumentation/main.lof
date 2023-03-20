@@ -2,20 +2,20 @@
 \babel@toc {ngerman}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Dezibelskala mit häufigen Lautstärken als Referenzpunkte und zugehörigen Luftdrucksänderungen in Pascal \cite {at:decibels}}}{5}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Gewichtungsfunktion; Hörbare Frequenzen auf der Abszisse, Hörbarkeit durch das menschliche Gehör auf der Ordinate \cite {at:decibels}}}{5}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Der zeitliche Verlauf einer ADSR Hüllkurve; die Amplitudenwerte auf der Ordinate entsprechen bei einem Hüllkurvengenerator den ausgegebenen Kontrollspannungswerten \cite {envelopes}}}{12}{figure.2.3}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Dezibelskala mit häufigen Lautstärken als Referenzpunkte und zugehörigen Luftdrucksänderungen in Pascal \cite {at:decibels}}}{7}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Gewichtungsfunktion; Hörbare Frequenzen auf der Abszisse, Hörbarkeit durch das menschliche Gehör auf der Ordinate \cite {at:decibels}}}{7}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Der zeitliche Verlauf einer ADSR Hüllkurve; die Amplitudenwerte auf der Ordinate entsprechen bei einem Hüllkurvengenerator den ausgegebenen Kontrollspannungswerten \cite {envelopes}}}{14}{figure.2.3}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Schaltkreis zum Abgleichen des internen Verstärkungsfaktors von Transistoren }}{16}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Deckplatte unseres Oszillator-Moduls}}{20}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Schaltkreis einem einzelnen Oszillator, TODO:besser beschreiben }}{20}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Deckplatte unseres Noise-Moduls}}{22}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Schaltkreis zum Generieren eines Rausch-Signals. }}{23}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Deckplatte unseres Mixer-Moduls}}{23}{figure.3.6}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Schaltkreis für einen passiven Mixer; Quelle: \cite {miaw:mixer}}}{24}{figure.3.7}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Deckplatte unseres LFO-Moduls}}{27}{figure.3.8}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Deckplatte unseres AR-Hüllkurvengenerator-Moduls}}{30}{figure.3.9}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Schaltkreis für einen simplen Attack Release Hüllkurvengenerator; Quelle: \cite {synthnerd:ar}}}{31}{figure.3.10}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Schaltkreis zum Abgleichen des internen Verstärkungsfaktors von Transistoren }}{18}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Deckplatte unseres Oszillator-Moduls}}{22}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Schaltkreis einem einzelnen Oszillator, TODO:besser beschreiben }}{22}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Deckplatte unseres Noise-Moduls}}{24}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Schaltkreis zum Generieren eines Rausch-Signals. }}{25}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Schaltkreis für einen passiven Mixer; Quelle: \cite {miaw:mixer}}}{26}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Deckplatte unseres Mixer-Moduls}}{27}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Deckplatte unseres LFO-Moduls}}{30}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Deckplatte unseres AR-Hüllkurvengenerator-Moduls}}{31}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Schaltkreis für einen simplen Attack Release Hüllkurvengenerator; Quelle: \cite {synthnerd:ar}}}{32}{figure.3.10}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

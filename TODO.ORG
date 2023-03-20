@@ -1,29 +1,8 @@
-* Dokumentation
-+ Zitieren
-+ Vokabelliste
-+ Falch feedback umsetzen
-+ Bilder kleiner
-+ Bildunterschriften
-* Hardware
-** DONE Powerkabel, Litzen, Lötzinn bestellen
-** TODO 4x20 Senkschrauben kaufen
-** Panels
-*** LFO
-+ 2x Audio Out
-+ 1x Potti (Frequenz)
-+ 2x Potti (Amplituden)
-*** AR
-+ 1x TRIG IN
-+ 1x ENV Out
-+ 1x Potti (Attack)
-+ 1x Potti (Release)
-*** VCA
-+ 1x Audio In
-+ 1x CV In
-+ 1x Audio Out
-+ 1x Potti (Gain)
-*** QNOPF
-+ 1x CV Out
-+ 1x QNOPF
-
-* Software
+* Doku fertigstellen
++ abstract fertigstellen
++ Kontrollspannung einleitungssatz besser formulieren
++ Oszi schaltkreis besser beschreiben
++ mixer elektronik ausfüllen
++ VCA spezifikationen ausfüllen
++ voltge controlled gate
++ AR spezifikationen ausfüllen

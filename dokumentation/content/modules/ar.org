@@ -9,9 +9,10 @@ In unserer Umsetzung wird das Potential am Eingang für eine \acl{CV}, an welche
 ** Benutzung
 Unser AR bietet einen Eingang für Kontrollspannung vom Typ Gate, welcher angibt, ob etwa eine Taste gedrückt ist, oder nicht. Außerdem ist ein Ausgang für die Hüllkurve vorhanden, welcher als \acl{CV} für einen \ac{VCA} vorhergesehen ist.
 
-#+attr_latex: :options angle=90
+#+ATTR_LaTeX: :options angle=90 :placement [hp]
 #+CAPTION: Deckplatte unseres AR-Hüllkurvengenerator-Moduls
 [[file:///home/felixp/Documents/diplomarbeit/dokumentation/figures/modules/AR.jpg]]
 
+#+ATTR_LaTeX: :placement [hp]
 #+CAPTION: Schaltkreis für einen simplen Attack Release Hüllkurvengenerator; Quelle: \cite{synthnerd:ar}
 [[file:~/Documents/diplomarbeit/dokumentation/figures/Schematic_AR.png]]

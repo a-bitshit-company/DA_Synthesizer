@@ -6,3 +6,4 @@
 + VCA spezifikationen ausfüllen
 + voltge controlled gate
 + AR spezifikationen ausfüllen
++ 1.1 prozentangaben in neue Zeile jeweils, bei dir auch no prozente dazu

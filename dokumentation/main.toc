@@ -41,8 +41,8 @@
 \contentsline {subsubsection}{\nonumberline Elektronik}{23}{subsubsection*.40}%
 \contentsline {subsubsection}{\nonumberline Benutzung}{23}{subsubsection*.42}%
 \contentsline {subsection}{\numberline {3.6.3}Mixer }{24}{subsection.3.6.3}%
-\contentsline {subsubsection}{\nonumberline Spezifikationen}{24}{subsubsection*.44}%
-\contentsline {subsubsection}{\nonumberline Elektronik}{24}{subsubsection*.46}%
+\contentsline {subsubsection}{\nonumberline Spezifikationen}{25}{subsubsection*.44}%
+\contentsline {subsubsection}{\nonumberline Elektronik}{25}{subsubsection*.46}%
 \contentsline {subsubsection}{\nonumberline Benutzung}{25}{subsubsection*.48}%
 \contentsline {subsection}{\numberline {3.6.4}Spannungskontrollierter Verstärker }{25}{subsection.3.6.4}%
 \contentsline {subsubsection}{\nonumberline Spezifikationen}{28}{subsubsection*.50}%

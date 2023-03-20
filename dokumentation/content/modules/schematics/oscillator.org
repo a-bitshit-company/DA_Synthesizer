@@ -1,4 +1,4 @@
-\begin{figure}
+\begin{figure}[hp]
 \centering
 \begin{circuitikz}[european]
 \draw{
@@ -41,6 +41,6 @@ to[pR, name=R3, l_=R3] ++(0, 3.5)
 };
 
 \end{circuitikz}
-\caption{Schaltkreis einem einzelnen Oszillator, TODO:besser beschreiben \label{fig:schematic_oscillator}}
+\caption{Schaltkreis von einem einzelnen Oszillator \label{fig:schematic_oscillator}}
 \end{figure}
 

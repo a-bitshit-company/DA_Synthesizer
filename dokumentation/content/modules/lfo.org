@@ -10,11 +10,11 @@ Typische Oszillationsbereiche für \acp{LFO} liegen bei \SI{0.1}{\hertz} bis \SI
 Wir verzichten bei unserer Ausführung des Moduls auf die vorgesehene Leuchtdiode, welche einen visuellen Indikator für die Frequenz des Ausgangssignals bieten würde. Dadurch wird am verwendeten TL074 ein Operationsverstärker frei. Dieser wird als zweiter Puffer benutzt, um beide Wellenformen parallel ausgeben zu können. Die Frequenz beider Wellenformen ist gekoppelt und wird über ein einzelnes Potentiometer gesteuert, die Amplituden sind separat anzusteuern.
 
 ** Benutzung
-\acp{LFO} können für viele verschiedene Zwecke genutzt werden, der simpelste davon ist, das erzeugte Signal direkt als Audio auszugeben. Häufiger wird die Spannung eines \acp{LFO}s als \acl{CV} genutzt, beispielsweise als Trigger für einen Hüllkurvengenerator oder zum Ansteuern eines \acp{VCA}, um eine Funktion ähnlich eines Arpeggiators zu erfüllen.
+\acp{LFO} können für viele verschiedene Zwecke genutzt werden, der simpelste davon ist, das erzeugte Signal direkt als Audio auszugeben. Häufiger wird die Spannung eines \ac{LFO}s als \acl{CV} genutzt, beispielsweise als Trigger für einen Hüllkurvengenerator oder zum Ansteuern eines \acp{VCA}, um eine Funktion ähnlich eines Arpeggiators zu erfüllen.
 
 Der mittig oben platzierte Drehknopf steuert die Frequenz der beiden Signale, die zwei Drehknöpfe und Buchsen dienen zur Lautstärkeregelung und Signalausgabe.
 
-#+attr_latex: :options angle=90
+#+ATTR_LaTeX: :options angle=90 :placement [hp]
 #+CAPTION: Deckplatte unseres LFO-Moduls
 [[file:///home/felixp/Documents/diplomarbeit/dokumentation/figures/modules/LFO.jpg]]
 

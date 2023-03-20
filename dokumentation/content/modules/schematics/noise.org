@@ -1,4 +1,4 @@
-\begin{figure}
+\begin{figure}[hp]
 \centering
 \begin{circuitikz}[european]
 \draw{

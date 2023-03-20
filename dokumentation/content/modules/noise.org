@@ -11,7 +11,7 @@ Als Vorlage für das Noise-Modul dient das "`Super simple White Noise Module"' v
 ** Benutzung
 Weißes Rauschen kann für eine große Anzahl von Zwecken verwendet werden, beispielsweise als \acl{CV} für einen \ac{VCA} oder als Audiosignal. Weißes Rauschen kann dafür benutzt werden, Rauschen anderer "`Farben"' zu erzeugen. Beispielsweise kann rosa Rauschen erzeugt werden, indem dem White Noise Modul ein Tiefpassfilter nachgeschalten wird.
 
-#+attr_latex: :options angle=90
+#+ATTR_LaTeX: :options angle=90 :placement [hp]
 #+CAPTION: Deckplatte unseres Noise-Moduls
 #+NAME: fig:noise
 [[file:///home/felixp/Documents/diplomarbeit/dokumentation/figures/modules/noise.jpg]]

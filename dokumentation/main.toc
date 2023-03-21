@@ -20,16 +20,16 @@
 \contentsline {section}{\numberline {2.2}Geschichte}{10}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Das Eurorack-Format}{12}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Kontrollspannung }{12}{subsection.2.3.1}%
-\contentsline {subsubsection}{\nonumberline Trigger}{13}{subsubsection*.18}%
-\contentsline {subsubsection}{\nonumberline Gate}{13}{subsubsection*.20}%
-\contentsline {subsubsection}{\nonumberline Hüllkurve}{13}{subsubsection*.22}%
+\contentsline {subsubsection}{\nonumberline Trigger}{13}{subsubsection*.17}%
+\contentsline {subsubsection}{\nonumberline Gate}{13}{subsubsection*.19}%
+\contentsline {subsubsection}{\nonumberline Hüllkurve}{13}{subsubsection*.21}%
 \contentsline {subsubsection}{\nonumberline Volt per Octave}{14}{subsubsection*.24}%
 \contentsline {subsubsection}{\nonumberline Audio}{15}{subsubsection*.26}%
 \contentsline {chapter}{\numberline {3}Praktische Umsetzung}{17}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Gehäuse}{17}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Spannungsquelle}{17}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Spannungsverteilung}{18}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Transistoren abgleichen}{18}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Transistoren abgleichen }{18}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Vactrols}{19}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Module}{19}{section.3.6}%
 \contentsline {subsection}{\numberline {3.6.1}Oszillator x2 }{20}{subsection.3.6.1}%
@@ -45,25 +45,24 @@
 \contentsline {subsubsection}{\nonumberline Elektronik}{25}{subsubsection*.46}%
 \contentsline {subsubsection}{\nonumberline Benutzung}{25}{subsubsection*.48}%
 \contentsline {subsection}{\numberline {3.6.4}Spannungskontrollierter Verstärker }{25}{subsection.3.6.4}%
-\contentsline {subsubsection}{\nonumberline Spezifikationen}{28}{subsubsection*.50}%
-\contentsline {subsubsection}{\nonumberline Elektronik}{28}{subsubsection*.52}%
-\contentsline {subsubsection}{\nonumberline Benutzung}{28}{subsubsection*.54}%
+\contentsline {subsubsection}{\nonumberline Elektronik}{28}{subsubsection*.50}%
+\contentsline {subsubsection}{\nonumberline Benutzung}{29}{subsubsection*.52}%
 \contentsline {subsection}{\numberline {3.6.5}Low Frequency Oscillator }{29}{subsection.3.6.5}%
-\contentsline {subsubsection}{\nonumberline Spezifikationen}{29}{subsubsection*.56}%
-\contentsline {subsubsection}{\nonumberline Elektronik}{29}{subsubsection*.58}%
-\contentsline {subsubsection}{\nonumberline Benutzung}{29}{subsubsection*.60}%
+\contentsline {subsubsection}{\nonumberline Spezifikationen}{29}{subsubsection*.54}%
+\contentsline {subsubsection}{\nonumberline Elektronik}{30}{subsubsection*.56}%
+\contentsline {subsubsection}{\nonumberline Benutzung}{30}{subsubsection*.58}%
 \contentsline {subsection}{\numberline {3.6.6}Attack-Release Hüllkurvengenerator }{30}{subsection.3.6.6}%
-\contentsline {subsubsection}{\nonumberline Spezifikationen}{31}{subsubsection*.63}%
-\contentsline {subsubsection}{\nonumberline Elektronik}{31}{subsubsection*.65}%
-\contentsline {subsubsection}{\nonumberline Benutzung}{31}{subsubsection*.67}%
-\contentsline {chapter}{\numberline {4}Schluss}{33}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Erreichen der gesetzten Ziele}{33}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Erlangte Erkenntnisse}{33}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Material für Deckplatten}{34}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Material für Platinen}{34}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Verwendung von simpleren Schaltkreisen}{34}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Reihenfolge der Konstruierten Module}{34}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Weiteres}{35}{subsection.4.2.5}%
-\contentsline {chapter}{\numberline {A}Abkürzungsverzeichnis}{39}{appendix.A}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{43}{chapter*.71}%
+\contentsline {subsubsection}{\nonumberline Spezifikationen}{31}{subsubsection*.61}%
+\contentsline {subsubsection}{\nonumberline Elektronik}{31}{subsubsection*.63}%
+\contentsline {subsubsection}{\nonumberline Benutzung}{31}{subsubsection*.65}%
+\contentsline {chapter}{\numberline {4}Schluss}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Erreichte Ziele }{35}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Erlangte Erkenntnisse}{36}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Material für Deckplatten}{36}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Material für Platinen}{36}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Verwendung von simpleren Schaltkreisen}{36}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Reihenfolge der Konstruierten Module}{37}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Weiteres}{37}{subsection.4.2.5}%
+\contentsline {chapter}{\numberline {A}Abkürzungsverzeichnis}{41}{appendix.A}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{45}{chapter*.70}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

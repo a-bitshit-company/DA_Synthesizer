@@ -1,7 +1,7 @@
 #+TITLE: Schluss
 \chapter{Schluss}
 
-* Erreichen der gesetzten Ziele
+* Erreichte Ziele \label{goals}
 Es war möglich, die Zielsetzung der vorliegenden Diplomarbeit zum Großteil zu erfüllen. Diese umfasst die Konstruktion eines Synthesizers im Eurorack-Format mit allen nötigen Modulen, um eine Signalverarbeitungskette, welche zur klassischen subtraktiven Klangsynthese fähig ist, zu bilden. Folgende Bestandteile dieses Synthesizers wurden recherchiert, geplant und als Modul fertiggestellt:
 
 + Oszillator(-en) mit hörbarer Frequenz (siehe Abschnitt \ref{Osci})
@@ -10,6 +10,8 @@ Es war möglich, die Zielsetzung der vorliegenden Diplomarbeit zum Großteil zu 
 + Oszillator(-en) mit niedriger Frequenz (siehe Abschnitt \ref{LFO})
 + Attack-Release-Hüllkurvengenerator (siehe Abschnitt \ref{AR})
 
+Der geplante \ac{VCA} wurde aufgrund technischer Schwierigkeiten mit einer robusteren Schaltung, nämlich einem \ac{VCG} (siehe Abschnitt \ref{VCG}) ersetzt.
+  
 Vernachlässigt wurde, aufgrund des hohen Komplexitätsgrades und der eher nebensächlichen Relevanz, der Sequenzer. Dieser wird mit einem Knopf, welcher bei Betätigung den Kontrollspannungseingang des Hüllkurvengenerators auf \SI{5}{\volt} legt, ersetzt.
 
 * Erlangte Erkenntnisse 

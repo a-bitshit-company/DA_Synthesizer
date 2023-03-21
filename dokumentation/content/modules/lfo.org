@@ -4,7 +4,7 @@
 Ein \ac{LFO} generiert ein Signal, welches in einem niedrigen Frequenzbereich oszilliert. Wir benutzen als Vorlage für unseren \ac{LFO} den "`Simple LFO"' von David Haillant \cite{haillant:lfo}. Dieses Modul erzeugt langsam oszillierende Spannungen in Form einer Rechteckwelle und einer Dreieckwelle.
 
 ** Spezifikationen
-Typische Oszillationsbereiche für \acp{LFO} liegen bei \SI{0.1}{\hertz} bis \SI{10}{\hertz}. Das  von uns gewählte Design erzeugt jeweils einen Rechteck- und Dreiecksausgang. Da beide Signale aus dem selben Schwingkreis stammen, kann die Frequenz nicht unabhängig geändert werden, die Amplituden der beiden Signale sind jedoch individuell einstellbar.
+Der Oszillationsbereich des konstruierten \ac{LFO}s liegt bei \SIrange{0.1}{10}{\hertz}. Das gewählte Design erzeugt jeweils einen Rechteck- und Dreiecksausgang. Da beide Signale aus dem selben Schwingkreis stammen, kann die Frequenz nicht unabhängig geändert werden, die Amplituden der beiden Signale sind jedoch individuell einstellbar.
 
 ** Elektronik
 Wir verzichten bei unserer Ausführung des Moduls auf die vorgesehene Leuchtdiode, welche einen visuellen Indikator für die Frequenz des Ausgangssignals bieten würde. Dadurch wird am verwendeten TL074 ein Operationsverstärker frei. Dieser wird als zweiter Puffer benutzt, um beide Wellenformen parallel ausgeben zu können. Die Frequenz beider Wellenformen ist gekoppelt und wird über ein einzelnes Potentiometer gesteuert, die Amplituden sind separat anzusteuern.

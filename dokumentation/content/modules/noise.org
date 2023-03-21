@@ -3,7 +3,7 @@
 Noise beziehungsweise Rauschen ist eine Art von Spannungssignal, das auf eine nicht oder schwer vorherzusehende Art und Weise schwingt. Dabei entsteht ein Klang mit einer Vielzahl an Teilfrequenzen. Eine häufige Art von Rauschen ist ""weißes"" Rauschen, bei welchem in einem kleinen Zeitraum alle Frequenzen in einem gegebenen Frequenzspektrum mit annähernd gleicher Amplitude vorhanden sind. Der Name entspringt einer Analogie zu sichtbarem Licht, Beispielsweise deckt weißes Licht alle Frequenzen des sichtbaren Lichtspektrums in gleicher Intensität ab. Eine weitere häufige Art von Rauschen ist rosa Rauschen, bei welchem alle Frequenzen des hörbaren Spektrums abgedeckt werden, jedoch niedrigere Frequenzen in höherer Amplitude vorhanden sind \cite{mt:noise}.
 
 ** Spezifikationen
-Das Noise-Modul stellt weißes Rauschen in einem Bereich \SI{-3}{\volt} bs \SI{3}{\volt} bereit.
+Das Noise-Modul stellt weißes Rauschen in einem Bereich von \SIrange{-3}{+3}{\volt} bereit.
 
 ** Elektronik
 Als Vorlage für das Noise-Modul dient das "`Super simple White Noise Module"' von Kristian Blåsol \cite{miaw:noise}. Dieser Schaltkreis basiert darauf, den Kollektor eines Transistors nicht zu verbinden (siehe Abbildung \ref{fig:schematic_noise} => [n.c]). Dadurch entsteht ein sogenannter Lawineneffekt, welcher üblicherweise ungewünscht ist, in diesem Fall jedoch die Grundlage für unser Rausch-Signal bildet.

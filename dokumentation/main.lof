@@ -13,9 +13,10 @@
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Schaltkreis zum Generieren eines Rausch-Signals. }}{24}{figure.3.5}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Schaltkreis für einen passiven Mixer; Quelle: \cite {miaw:mixer}}}{26}{figure.3.6}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Deckplatte unseres Mixer-Moduls}}{27}{figure.3.7}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Deckplatte unseres LFO-Moduls}}{30}{figure.3.8}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Deckplatte unseres AR-Hüllkurvengenerator-Moduls}}{31}{figure.3.9}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Schaltkreis für einen simplen Attack Release Hüllkurvengenerator; Quelle: \cite {synthnerd:ar}}}{32}{figure.3.10}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Schaltkreis für einen Vactrol-VCA \cite {miaw:vca}}}{29}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Deckplatte unseres LFO-Moduls}}{32}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Deckplatte unseres AR-Hüllkurvengenerator-Moduls}}{32}{figure.3.10}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Schaltkreis für einen simplen Attack Release Hüllkurvengenerator; Quelle: \cite {synthnerd:ar}}}{33}{figure.3.11}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

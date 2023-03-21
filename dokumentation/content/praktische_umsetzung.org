@@ -11,8 +11,8 @@ Eurorack-Synthesizer arbeiten mit Spannungen von \SI{24}{\volt} peak to peak, be
 * Spannungsverteilung
 Die Module werden über ein 10 Pin IDC-Flachbandkabel mit Strom versorgt. Dabei sind die mittleren 6 Pins durchverbunden und geerdet. Die äußeren vier Pins sind paarweise verbunden und liefern jeweils \SI{+12}{\volt} und \SI{-12}{\volt}. Der PIN, welcher auf \SI{-12}{\volt} liegt, ist üblicherweise rot gekennzeichnet.
 
-* Transistoren abgleichen
-Manchmal werden Transistoren benötigt, welche einen möglichst gleichen internen Verstärkungsfaktor besitzen. Bereits aufeinander abgestimmte Transistorpaare sind zwar im Handel erhältlich, jedoch ist es einfach, das Abgleichen von Transistoren selbst vorzunehmen. Baut man den zu messenden Transistor in Schaltkreis \ref{fig:schematic_match} ein, und legt bei $V_{CC}$ eine Spannung an, kann man seinen internen Verstärkungsfaktor herausfinden, indem man das Potential zwischen Punkt A (beim Kollektor des Transistors) und der Masse misst \cite{match_transistors}:
+* Transistoren abgleichen \label{Match_Transistors}
+Manchmal werden Transistoren benötigt, welche einen möglichst gleichen internen Verstärkungsfaktor besitzen. Bereits aufeinander abgestimmte Transistorpaare sind zwar im Handel erhältlich, jedoch sind diese oft kostspielig. Deshalb ist es üblich, das Abgleichen von Transistoren selbst vorzunehmen. Baut man den zu messenden Transistor in Schaltkreis \ref{fig:schematic_match} ein, und legt bei $V_{CC}$ eine Spannung an, kann man seinen internen Verstärkungsfaktor herausfinden, indem man das Potential zwischen Punkt A (beim Kollektor des Transistors) und der Masse misst \cite{match_transistors}:
 
 \begin{figure}[hp]
 \centering

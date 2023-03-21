@@ -4,15 +4,15 @@ Dieses Modul ist ein simples signalerzeugendes Modul, welches zwei voneinander u
 
 ** Spezifikationen
 Oszillator 1:
-+ Spannung: bis zu \SI{\pm10}{\volt}
-+ Frequenzbereich: \SI{40}{\hertz} bis \approx\SI{2000}{\hertz}
++ Spannungsbereich: \SIrange{-10}{+10}{\volt}
++ Frequenzbereich: \SIrange{40}{2000}{\hertz}
 
 Oszillator 2:
-+ Spannung: bis zu \SI{\pm10}{\volt}
-+ Frequenzbereich: \SI{25}{\hertz} bis \approx\SI{2000}{\hertz}
++ Spannungsbereich: \SIrange{-10}{+10}{\volt}
++ Frequenzbereich: \SIrange{25}{2000}{\hertz}
   
 ** Elektronik
-Als Grundlage dient ein einfacher "`Resistor-Capacitor"' Schwingkreis, welcher einen Schmitt-Trigger nutzt. Das resultierende Signal wird durch einen Spannungsfolger gepuffert, da sonst die Oszillation zusammenbricht. Danach wird das Signal AC gekoppelt, um das positive Offset der Oszillation zu entfernen und ein weiteres Mal gepuffert. Darauf folgt ein einfacher variabler Spannungsteiler als Dämpfungsglied, um die Amplitude regulieren zu können. \ref{fig:schematic_oscillator}
+Als Grundlage dient ein einfacher "`Resistor-Capacitor"' Schwingkreis, welcher einen Schmitt-Trigger nutzt. Das resultierende Signal wird durch einen Spannungsfolger gepuffert, da sonst die Oszillation zusammenbricht. Danach wird das Signal AC gekoppelt, um das positive Offset der Oszillation zu entfernen und ein weiteres Mal gepuffert. Darauf folgt ein einfacher variabler Spannungsteiler als Dämpfungsglied, um die Amplitude regulieren zu können (siehe Abbildung \ref{fig:schematic_oscillator}) \cite{klein:osci}. 
 
 ** Benutzung
 Wie auf Abbildung [[fig:oscillator]] zu erkennen ist, ist das Panel in einen linken und rechten Oszillator aufgeteilt. Alle Elemente auf einer Seite gehören zu jeweils einem Oszillator. Die oberen beiden Potentiometer dienen zur Steuerung der Frequenz (siehe Abschnitt \ref{frequenz}), die unteren beiden dienen zur Steuerung der Amplitude (siehe Abschnitt \ref{amplitude}) des Signals. Die Audiobuchsen dienen als Output. Der Schalter links oben aktiviert das Modul, die Oszillatoren sind nicht separat voneinander an- und ausschaltbar.

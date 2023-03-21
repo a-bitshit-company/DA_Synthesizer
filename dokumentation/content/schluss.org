@@ -7,10 +7,11 @@ Es war möglich, die Zielsetzung der vorliegenden Diplomarbeit zum Großteil zu 
 + Oszillator(-en) mit hörbarer Frequenz (siehe Abschnitt \ref{Osci})
 + Generator von (weißem) Rauschen (siehe Abschnitt \ref{Noise})
 + Mixer Modul (passiv) (siehe Abschnitt \ref{Mixer})
++ Spannungskontrollierter Verstärker auf Basis eines JFETs (siehe Abschnitt \ref{VCA})
 + Oszillator(-en) mit niedriger Frequenz (siehe Abschnitt \ref{LFO})
 + Attack-Release-Hüllkurvengenerator (siehe Abschnitt \ref{AR})
 
-Der geplante \ac{VCA} wurde aufgrund technischer Schwierigkeiten mit einer robusteren Schaltung, nämlich einem \ac{VCG} (siehe Abschnitt \ref{VCG}) ersetzt.
+Der geplante \ac{VCA} auf Basis von zwei NPN-Transistoren wurde aufgrund technischer Schwierigkeiten mit einer robusteren Schaltung auf Basis eines JFETs ersetzt.
   
 Vernachlässigt wurde, aufgrund des hohen Komplexitätsgrades und der eher nebensächlichen Relevanz, der Sequenzer. Dieser wird mit einem Knopf, welcher bei Betätigung den Kontrollspannungseingang des Hüllkurvengenerators auf \SI{5}{\volt} legt, ersetzt.
 

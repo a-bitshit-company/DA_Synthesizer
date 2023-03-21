@@ -30,7 +30,7 @@
 \contentsline {section}{\numberline {3.2}Spannungsquelle}{17}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Spannungsverteilung}{18}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Transistoren abgleichen }{18}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Vactrols}{19}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Vactrols }{19}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Module}{19}{section.3.6}%
 \contentsline {subsection}{\numberline {3.6.1}Oszillator x2 }{20}{subsection.3.6.1}%
 \contentsline {subsubsection}{\nonumberline Spezifikationen}{21}{subsubsection*.32}%
@@ -64,5 +64,5 @@
 \contentsline {subsection}{\numberline {4.2.4}Reihenfolge der Konstruierten Module}{39}{subsection.4.2.4}%
 \contentsline {subsection}{\numberline {4.2.5}Weiteres}{39}{subsection.4.2.5}%
 \contentsline {chapter}{\numberline {A}Abkürzungsverzeichnis}{43}{appendix.A}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{47}{chapter*.70}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{47}{chapter*.69}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

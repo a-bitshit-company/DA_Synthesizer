@@ -1,7 +1,6 @@
 * Doku fertigstellen
 + abstract fertigstellen
 + Kontrollspannung einleitungssatz besser formulieren
-+ Oszi schaltkreis besser beschreiben
 + mixer elektronik ausfüllen
 + VCA spezifikationen ausfüllen
 + voltge controlled gate

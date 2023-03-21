@@ -9,7 +9,7 @@ Sowohl beim Output als auch bei den Inputs ist der volle Spannungsbereich von \S
 Als vorlage dient der "'Simple Mixer"' von Kristian Blåsol \cite{miaw:mixer}. Bei diesem Design führt jeder Eingang durch ein Potentiometer, welches als Spannungsteiler geschalten ist. Dadurch kann die Lautstärke der Kanäle unabhängig voneinander reguliert werden. Die danach zusammengeführten Signale werden zunächst mithilfe eines Operationsverstärker invertiert und gepuffert, an den invertierten Ausgang geführt und ein weiteres mal invertiert um einen nicht invertierten gepufferten Ausgang zu erhalten.
 
 ** Benutzung
-Es können bis zu drei zu mixende Signale an die oberen Audiobuchsen angeschlossen werden. Die unteren beiden Audiobuchsen liefern das Ausgangssignal, wobei der rechte der invertierende Ausgang ist. Als einfachen Patch könnte man die beiden Signale des Oszillator-Moduls (siehe Abschnitt \ref{Osci}) zusammenführen, um beide Oszillatoren auf einmal zu hören.
+Es können bis zu drei zu mixende Signale an die oberen Audiobuchsen angeschlossen werden, die drei Potentiometer dienen zum Verringern der Lautstärke des jeweiligen Eingangs. Die unteren beiden Audiobuchsen liefern das Ausgangssignal, wobei der rechte der invertierende Ausgang ist. Als einfachen Patch könnte man die beiden Signale des Oszillator-Moduls (siehe Abschnitt \ref{Osci}) zusammenführen, um beide Oszillatoren auf einmal zu hören.
 
 #+ATTR_LaTeX: :placement [hp]
 #+CAPTION: Schaltkreis für einen passiven Mixer; Quelle: \cite{miaw:mixer}

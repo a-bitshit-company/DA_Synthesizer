@@ -45,24 +45,24 @@
 \contentsline {subsubsection}{\nonumberline Elektronik}{25}{subsubsection*.46}%
 \contentsline {subsubsection}{\nonumberline Benutzung}{25}{subsubsection*.48}%
 \contentsline {subsection}{\numberline {3.6.4}Spannungskontrollierter Verstärker }{25}{subsection.3.6.4}%
-\contentsline {subsubsection}{\nonumberline Elektronik}{28}{subsubsection*.50}%
-\contentsline {subsubsection}{\nonumberline Benutzung}{29}{subsubsection*.52}%
-\contentsline {subsection}{\numberline {3.6.5}Low Frequency Oscillator }{29}{subsection.3.6.5}%
-\contentsline {subsubsection}{\nonumberline Spezifikationen}{29}{subsubsection*.54}%
-\contentsline {subsubsection}{\nonumberline Elektronik}{30}{subsubsection*.56}%
-\contentsline {subsubsection}{\nonumberline Benutzung}{30}{subsubsection*.58}%
-\contentsline {subsection}{\numberline {3.6.6}Attack-Release Hüllkurvengenerator }{30}{subsection.3.6.6}%
-\contentsline {subsubsection}{\nonumberline Spezifikationen}{31}{subsubsection*.61}%
-\contentsline {subsubsection}{\nonumberline Elektronik}{31}{subsubsection*.63}%
-\contentsline {subsubsection}{\nonumberline Benutzung}{31}{subsubsection*.65}%
-\contentsline {chapter}{\numberline {4}Schluss}{35}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Erreichte Ziele }{35}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Erlangte Erkenntnisse}{36}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Material für Deckplatten}{36}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Material für Platinen}{36}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Verwendung von simpleren Schaltkreisen}{36}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Reihenfolge der Konstruierten Module}{37}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Weiteres}{37}{subsection.4.2.5}%
-\contentsline {chapter}{\numberline {A}Abkürzungsverzeichnis}{41}{appendix.A}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{45}{chapter*.70}%
+\contentsline {subsubsection}{\nonumberline Elektronik}{26}{subsubsection*.50}%
+\contentsline {subsubsection}{\nonumberline Benutzung}{27}{subsubsection*.52}%
+\contentsline {subsection}{\numberline {3.6.5}Low Frequency Oscillator }{27}{subsection.3.6.5}%
+\contentsline {subsubsection}{\nonumberline Spezifikationen}{27}{subsubsection*.54}%
+\contentsline {subsubsection}{\nonumberline Elektronik}{28}{subsubsection*.56}%
+\contentsline {subsubsection}{\nonumberline Benutzung}{28}{subsubsection*.58}%
+\contentsline {subsection}{\numberline {3.6.6}Attack-Release Hüllkurvengenerator }{28}{subsection.3.6.6}%
+\contentsline {subsubsection}{\nonumberline Spezifikationen}{29}{subsubsection*.61}%
+\contentsline {subsubsection}{\nonumberline Elektronik}{29}{subsubsection*.63}%
+\contentsline {subsubsection}{\nonumberline Benutzung}{29}{subsubsection*.65}%
+\contentsline {chapter}{\numberline {4}Schluss}{37}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Erreichte Ziele }{37}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Erlangte Erkenntnisse}{38}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Material für Deckplatten}{38}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Material für Platinen}{38}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Verwendung von simpleren Schaltkreisen}{38}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Reihenfolge der Konstruierten Module}{39}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Weiteres}{39}{subsection.4.2.5}%
+\contentsline {chapter}{\numberline {A}Abkürzungsverzeichnis}{43}{appendix.A}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{47}{chapter*.70}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

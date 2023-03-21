@@ -22,45 +22,45 @@ Warning--empty booktitle in moog1964
 Warning--there's an address but no publisher in moog1964
 Warning--empty pages in moog1964
 Warning--there's no year in obertoene
-You've used 26 entries,
+You've used 27 entries,
             4332 wiz_defined-function locations,
-            944 strings with 9022 characters,
-and the built_in function-call counts, 8405 in all, are:
-= -- 802
-> -- 164
-< -- 94
-+ -- 146
-- -- 47
-* -- 413
-:= -- 1468
-add.period$ -- 46
-call.type$ -- 26
-change.case$ -- 75
+            947 strings with 9143 characters,
+and the built_in function-call counts, 8748 in all, are:
+= -- 836
+> -- 171
+< -- 99
++ -- 153
+- -- 49
+* -- 429
+:= -- 1529
+add.period$ -- 48
+call.type$ -- 27
+change.case$ -- 78
 chr.to.int$ -- 0
-cite$ -- 39
-duplicate$ -- 323
-empty$ -- 863
-format.name$ -- 92
-if$ -- 1855
+cite$ -- 40
+duplicate$ -- 336
+empty$ -- 897
+format.name$ -- 96
+if$ -- 1930
 int.to.chr$ -- 0
-int.to.str$ -- 26
-missing$ -- 87
-newline$ -- 157
-num.names$ -- 46
-pop$ -- 179
+int.to.str$ -- 27
+missing$ -- 90
+newline$ -- 163
+num.names$ -- 48
+pop$ -- 186
 preamble$ -- 1
-purify$ -- 75
+purify$ -- 78
 quote$ -- 0
-skip$ -- 427
+skip$ -- 445
 stack$ -- 0
-substring$ -- 336
-swap$ -- 29
-text.length$ -- 23
+substring$ -- 350
+swap$ -- 30
+text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 108
+type$ -- 112
 warning$ -- 13
-while$ -- 69
-width$ -- 28
-write$ -- 348
+while$ -- 72
+width$ -- 29
+write$ -- 362
 (There were 13 warnings)

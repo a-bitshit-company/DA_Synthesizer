@@ -7,6 +7,8 @@ Es gibt eine Vielzahl von möglichen Ansätzen für die technische Umsetzung ein
 
 Ein weiterer Ansatz nutzt den linearen Reaktionsbereich zweier NPN-Transistoren mit möglich gleichem Verstärkungsfaktor (siehe Abschnitt \ref{Match_Transistors}), wobei diese so beschalten werden, dass auf einem der Transistoren genau das gegenteilige Signal, allerdings mit dem gleichen positiven Offset erzeugt wird. Diese zwei Signale werden dann von einem Operationsverstärker voneinander abgezogen, wodurch der positive Offset eliminiert wird und das modulierte Signal übrig bleibt. Eine Vielzahl von selbstregelnden Rückkopplungsschleifen trägt dazu bei, dass diese Art von \ac{VCA} besonders stabil und schnell auf Änderungen in der angelegten Kontrollspannung reagieren kann. Ein Nachteil eines solchen Schaltkreises ist die verhältnismäßig hohe Komplexität und die Fehleranfälligkeit bei schlecht gewählten Bauteilen.
 
+\newpage
+
 Es wurden zwei Versuche unternommen, diese Art von Transistor-basierten VCA \cite{klein:vca} zu bauen, leider erzielte keine der beiden Versionen zufriedenstellende Ergebnisse. Dies könnte auf folgende Fehlerquellen zurückgeführt werden:
 + Fehler beim Abgleichen der Transistoren (siehe Abschnitt \ref{Match_Transistors}):
   + Aufgrund von Ungenauigkeiten der Widerstände im Messschaltkreis
@@ -14,7 +16,7 @@ Es wurden zwei Versuche unternommen, diese Art von Transistor-basierten VCA \cit
 + Zu hohe Toleranz der im Schaltkreis des Moduls verwendeten Widerstände
 + Fragilität des Schaltkreises und der zugrundeliegenden Effekte
 
-Letztendlich wurde sich für simple, jedoch robustere Schaltung entschieden. Die Basis für diesen bildet ein JFET Transistor welcher mit nur minimaler Beschaltung (siehe Abbildung [[fig:I-AM-O_schematic]]) ein \ac{VCA}-ähnliches verhalten erzeugen kann \cite{miaw:vcg}. 
+Letztendlich wurde sich für eine simple, jedoch robustere Schaltung entschieden. Die Basis für diese bildet ein JFET Transistor welcher mit nur minimaler Beschaltung (siehe Abbildung [[fig:I-AM-O_schematic]]) ein \ac{VCA}-ähnliches verhalten erzeugen kann \cite{miaw:vcg}. 
 
 ** Benutzung
 \acp{VCA} können durch eine Vielzahl an Modulen angesteuert werden. Am häufigsten ist wohl eine Art von Hüllkurvengenerator, um die Lautstärkeänderung bei einem Tastenanschlag zu simulieren. Ein einfacheres Beispiel wäre eine Rechteckswelle von einem LFO, um eine Art Stakkato zu erzeugen, oder ein langsam schwingender Sinus für eine Art Wobbel-Effekt.
@@ -25,7 +27,7 @@ Letztendlich wurde sich für simple, jedoch robustere Schaltung entschieden. Die
 [[file:///home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_Vactrol_VCA.png]]
 
 #+ATTR_LaTeX: :placement [hp]
-#+CAPTION: Schaltkreis für eine JFET-VCA approximation
+#+CAPTION: Schaltkreis für eine JFET-VCA Annäherung
 #+NAME: fig:I-AM-O_schematic
 [[file:///home/felixp/Documents/diplomarbeit/dokumentation/figures/Schematic_I-AM-O.png]]
 

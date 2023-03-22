@@ -6,15 +6,20 @@ Das Mixer Modul dient dazu, Signale aus mehreren Quellen zu einem einzigen zusam
 Sowohl beim Output als auch bei den Inputs ist der volle Spannungsbereich von \SIrange{-12}{+12}{\volt} möglich.
 
 ** Elektronik
-Als vorlage dient der "'Simple Mixer"' von Kristian Blåsol \cite{miaw:mixer}. Bei diesem Design führt jeder Eingang durch ein Potentiometer, welches als Spannungsteiler geschalten ist. Dadurch kann die Lautstärke der Kanäle unabhängig voneinander reguliert werden. Die danach zusammengeführten Signale werden zunächst mithilfe eines Operationsverstärker invertiert und gepuffert, an den invertierten Ausgang geführt und ein weiteres mal invertiert um einen nicht invertierten gepufferten Ausgang zu erhalten.
+Als vorlage dient der "'Simple Mixer"' von Kristian Blåsol \cite{miaw:mixer} (siehe Abbildung [[fig:mixer_schaltkreis]]). Bei diesem Design führt jeder Eingang durch ein Potentiometer, welches als Spannungsteiler geschalten ist. Dadurch kann die Lautstärke der Kanäle unabhängig voneinander reguliert werden. Die danach zusammengeführten Signale werden zunächst mithilfe eines Operationsverstärker invertiert und gepuffert, an den invertierten Ausgang geführt und ein weiteres mal invertiert um einen nicht invertierten gepufferten Ausgang zu erhalten.
+
+\newpage
 
 ** Benutzung
-Es können bis zu drei zu mixende Signale an die oberen Audiobuchsen angeschlossen werden, die drei Potentiometer dienen zum Verringern der Lautstärke des jeweiligen Eingangs. Die unteren beiden Audiobuchsen liefern das Ausgangssignal, wobei der rechte der invertierende Ausgang ist. Als einfachen Patch könnte man die beiden Signale des Oszillator-Moduls (siehe Abschnitt \ref{Osci}) zusammenführen, um beide Oszillatoren auf einmal zu hören.
+Es können bis zu drei zu mixende Signale an die oberen Audiobuchsen angeschlossen werden, die drei Potentiometer dienen zum Verringern der Lautstärke des jeweiligen Eingangs. Die unteren beiden Audiobuchsen liefern das Ausgangssignal, wobei der invertierende Ausgang rechts ist (siehe Abbildung [[fig:mixer_panel]])). Als einfachen Patch könnte man die beiden Signale des Oszillator-Moduls (siehe Abschnitt \ref{Osci}) zusammenführen, um beide Oszillatoren auf einmal zu hören.
 
-#+ATTR_LaTeX: :placement [hp]
+#+ATTR_LaTeX: :placement :width 300px
 #+CAPTION: Schaltkreis für einen passiven Mixer; Quelle: \cite{miaw:mixer}
+#+NAME: fig:mixer_schaltkreis
 [[file:~/Documents/diplomarbeit/dokumentation/figures/Schematic_Simple_Mixer.png]]
 
-#+ATTR_LaTeX: :options angle=90 :placement [hp]
+#+ATTR_LaTeX: :options angle=90 :placement :width 150px
 #+CAPTION: Deckplatte unseres Mixer-Moduls
+#+NAME: fig:mixer_panel
 [[file:///home/felixp/Documents/diplomarbeit/dokumentation/figures/modules/mixer.jpg]]
+

@@ -2,14 +2,14 @@
 #+bibliography: ../references.bib
 \chapter{Praktische Umsetzung}
 
-* Gehäuse
-Das Gehäuse muss so dimensioniert sein, dass es Eurorack-kompatible Module beherbergen kann. Wichtig ist dabei vor allem der vertikale Abstand der Schienen, auf welchen die Module befestigt werden. Dieser misst laut dem /Doepfer System A100 Handbuch/ \cite{doepfer:A-100} 3 \acp{HE}. 1 \ac{HE} beträgt dabei \SI{44.45}{\milli\meter}. Die Breite der Module beträgt ein Vielfaches von \SI{5.08}{\milli\meter}, beziehungsweise 0.2 Zoll. Manche Gehäuse, wie beispielsweise die von der Firma Intellijel können auch Module beherrbergen, die nur eine Höheneinheit hoch sind.
-
 * Spannungsquelle
 Eurorack-Synthesizer arbeiten mit Spannungen von \SI{24}{\volt} peak to peak, benötigen also eine Spannungsquelle, welche \SI{-12}{\volt} bis \SI{+12}{\volt} bereitstellen kann. Manche Module benötigen außerdem eine separate \SI{5}{\volt} Leitung, um zum Beispiel Microcontroller zu betreiben. Eine beliebte Wahl in der DIY-Szene ist die Mean Well RT65B PSU, da sie sowohl \SI{\pm 12}{\volt} als auch \SI{5}{\volt} mit einer Stromstärke/Leistung bereitstellt, welche ausreicht um ein Anfängersystem zu versorgen und verhältnismäßig günstig ist \cite{modularsynthlab:rt65b}.
 
 * Spannungsverteilung
 Die Module werden über ein 10 Pin IDC-Flachbandkabel mit Strom versorgt. Dabei sind die mittleren 6 Pins durchverbunden und geerdet. Die äußeren vier Pins sind paarweise verbunden und liefern jeweils \SI{+12}{\volt} und \SI{-12}{\volt}. Der PIN, welcher auf \SI{-12}{\volt} liegt, ist üblicherweise rot gekennzeichnet.
+
+* Gehäuse
+Das Gehäuse ist aus Holz gefertigt, die Module werden auf Aluminiumschienen befestigt.
 
 * Transistoren abgleichen \label{Match_Transistors}
 Manchmal werden Transistoren benötigt, welche einen möglichst gleichen internen Verstärkungsfaktor besitzen. Bereits aufeinander abgestimmte Transistorpaare sind zwar im Handel erhältlich, jedoch sind diese oft kostspielig. Deshalb ist es üblich, das Abgleichen von Transistoren selbst vorzunehmen. Baut man den zu messenden Transistor in Schaltkreis \ref{fig:schematic_match} ein, und legt bei $V_{CC}$ eine Spannung an, kann man seinen internen Verstärkungsfaktor herausfinden, indem man das Potential zwischen Punkt A (beim Kollektor des Transistors) und der Masse misst \cite{match_transistors}:
@@ -31,6 +31,8 @@ Manchmal werden Transistoren benötigt, welche einen möglichst gleichen interne
 
 Diese Transistorenpaare sollten auf der Platine in unmittelbarer Nähe zueinander sein, da auch die Temperatur einen Einfluss auf die Eigenschaften eines Transistors hat.
 
+\newpage
+
 * Vactrols \label{Vactrols}
 Ein Vactrol, auf Deutsch oft Optokoppler, ist ein simpler, jedoch etwas ungenauer, spannungskontrollierbarer Widerstand, welcher aus einer Leuchtdiode und einem Lichtabhängigen Wiederstand (\acsu{LDR}) besteht \cite{vactrol}. Er kann benutzt werden, um als variable Widerstände geschaltene Potentiometer zu ersetzen und somit den zugehörigen Parameter spannungskontrollierbar zu machen. Der am Vactrol entstehende Widerstand ist näherungsweise invers proportional zur angelegten Spannung.
 
@@ -39,6 +41,8 @@ Während bereits gefertigte Vactrols im Handel erhältlich sind, ist es vor alle
 * Module
 
 Im Folgenden werden die Module, welche den Synthesizer ausmachen, beschrieben. Jedes dieser Module besteht aus einem Panel, das als User Interface dient, und einer Platine, welche mit den elektronischen Komponenten bestückt ist. Panels besitzen mindestens eine Audiobuchse um \ac{CV}, Audio, Triggersignale und andere Arten von Spannungssignalen auszugeben, eine beliebige Anzahl an Audioeingängen für Kontrollspannungen, Audio-Inputs und ähnlichem und weitere Interfacekomponenten wie beispielsweise Potentiometer, Schalter, Knöpfe und \acp{LED}.
+
+\newpage
 
 Es gibt verschiedene Möglichkeiten, die elektronischen Komponenten zu verlöten. Beispiele dafür sind:
 + Breadboards:
@@ -50,7 +54,14 @@ Es gibt verschiedene Möglichkeiten, die elektronischen Komponenten zu verlöten
 + "`Deadbug"' Methode:
   Eletronische Komponenten werden ohne Platine "`point to point"' miteinander verlötet; resultiert meist in Spaghettiähnlichen Strukturen, bei gekonnter Ausführung können jedoch sehr ästhetische Schaltkreise entstehen.
 
-Die elektronischen Komponenten unserer Module sind auf \ac{THT} Platinen gelötet. Diese Platine wird im rechten Winkel in der Mitte des Panels befestigt. Interface-Komponenten, welche vom Benutzerpanel aus zugänglich sein sollen, werden über längere Kabel und Schraubklemmen auf der Platine verbunden.
+Die elektronischen Komponenten unserer Module sind auf \ac{THT} Platinen gelötet. Diese Platine wird im rechten Winkel in der Mitte des Panels befestigt (siehe Abbildung [[fig:modul_seite]]). Interface-Komponenten, welche vom Benutzerpanel aus zugänglich sein sollen, werden über längere Kabel und Schraubklemmen auf der Platine verbunden.
+
+#+ATTR_LaTeX: :placement [hb]
+#+CAPTION: Seitenansicht eines Moduls
+#+NAME: fig:modul_seite
+[[file:~/Documents/diplomarbeit/dokumentation/figures/seitenansicht_modul.jpg]]
+
+\newpage
 
 Als Material für Panels sind Bleche, dünne Holz- oder Plastikplatten oder ähnliches geeignet. Zu bedenken ist dabei:
 
@@ -64,8 +75,23 @@ Als Material für Panels sind Bleche, dünne Holz- oder Plastikplatten oder ähn
 Wir benutzen eine dünne, schwarz lackierte Holzplatte als Material für unsere Panels. Diese werden mit transparenter Folie beklebt, welche mit weißem Permanentmarker beschriftet werden kann.
 
 #+INCLUDE: modules/oscillator.org
+
+\newpage
+
 #+INCLUDE: modules/noise.org
+
+\newpage
+
 #+INCLUDE: modules/mixer.org
+
+\newpage
+
 #+INCLUDE: modules/vca.org
+
+\newpage
+
 #+INCLUDE: modules/lfo.org
+
+\newpage
+
 #+INCLUDE: modules/ar.org

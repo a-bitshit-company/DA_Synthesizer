@@ -80,9 +80,9 @@ Synthesis : A Basic Understanding.
 
 \bibitem[13]{duden:synthese}
 \textsc{{Duden}}:
-\newblock \emph{{Rechtschreibung Synthese Duden}}.
-\newblock \url{https://www.duden.de/rechtschreibung/Synthese}.
-\newblock \,Version:\,2023
+\newblock {Rechtschreibung Synthese Duden}.
+\newblock   (2023).
+\newblock \url{https://www.duden.de/rechtschreibung/Synthese}
 
 \bibitem[14]{thomann:theremin}
 \textsc{{Franziska @ t.blog}}:
@@ -92,9 +92,9 @@ Synthesis : A Basic Understanding.
 
 \bibitem[15]{haillant:lfo}
 \textsc{Haillant}, D. :
-\newblock \emph{{Simple LFO V1.1 Documentation}}.
-\newblock \url{http://www.davidhaillant.com}.
-\newblock \,Version:\,2016
+\newblock {Simple LFO V1.1 Documentation}.
+\newblock   (2016).
+\newblock \url{http://www.davidhaillant.com}
 
 \bibitem[16]{klein:osci}
 \textsc{Klein}, M. :
@@ -117,9 +117,9 @@ Synthesis : A Basic Understanding.
 
 \bibitem[19]{match_transistors}
 \textsc{{learnelectronics on youtube.com}}:
-\newblock \emph{How to match transistors}.
-\newblock \url{https://www.youtube.com/watch?v=TvTSaTItoFs}.
-\newblock \,Version:\,2019
+\newblock How to match transistors.
+\newblock   (2019).
+\newblock \url{https://www.youtube.com/watch?v=TvTSaTItoFs}
 
 \bibitem[20]{moog1964}
 \textsc{Moog}, R.~A.:
@@ -128,10 +128,9 @@ Synthesis : A Basic Understanding.
 
 \bibitem[21]{raffaseder}
 \textsc{Raffaseder}, H. :
-\newblock \emph{{Additive Klangsynthese}}.
-\newblock
-  \url{http://www.raffaseder.com/sounddesign/klangsynthese/additiv.htm}.
-\newblock \,Version:\,2002
+\newblock {Additive Klangsynthese}.
+\newblock {In: }\emph{{Elektronische Klangsynthese}}  (2002).
+\newblock \url{http://www.raffaseder.com/sounddesign/klangsynthese/additiv.htm}
 
 \bibitem[22]{synthnerd:ar}
 \textsc{Ramsden}, N. :

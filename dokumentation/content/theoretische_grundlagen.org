@@ -42,6 +42,8 @@ Die für die Klangsynthese benötigten grundlegenden Klangwellen können aus ver
 
 Des weiteren kann ein breites Spektrum von elektronischen Musikinstrumenten und Klangquellen wie E-Gitarren, Thereminen, Radios und Kassettenspielern die zu modifizierenden Klangwellen für einen Synthesizer bereitstellen.
 
+\pagebreak
+
 ** Subtraktive Klangsynthese \label{subKS}
 Das Prinzip der subtraktiven Klangsynthese besteht darin, Grundtöne mit vielen Obertönen zu filtern, um Töne mit einer gewünschten Klangfarbe zu erzeugen. Durch einen *Filter* wird die Amplitude von Teilwellen unter einer bestimmten Frequenz (=> high-pass Filter) oder über einer bestimmten Frequenz (=> low-pass Filter) verringert, wodurch zum Beispiel unangenehme hohe Obertöne gefiltert werden können.
 
@@ -50,7 +52,11 @@ Nach einen solchen Filter wird oft ein \ac{VCA} (siehe Abschnitt \ref{VCA}) gesc
 Die meisten analogen Synthesizer basieren auf subtraktiver Klangsynthese. Üblicherweise wird dabei ein Grundton, meist aus einem Oszillator, über einen \ac{VCA} geschalten, welcher durch einen Hüllkurvengenerator angesteuert wird. Dieser Hüllkurvengenerator wird üblicherweise durch einen Sequenzer oder eine Tastatur angesteuert. Eine Abwandlung dieser grundlegenden *Signalverarbeitungskette* ist in den meisten kommerziell erhältlichen Synthesizersystemen fest verkabelt.
 
 ** Additive Klangsynthese
-Nach Fourier kann jegliche Art von Wellenform durch eine Serie von Sinuswellen ausgedrückt werden. Das Prinzip der additiven Klangsynthese besteht somit darin, eine Vielzahl von Sinuswellen mit unterschiedlichen Amplituden und Frequenzen zu kombinieren \cite{soundtraining:synthesis} (beispielsweise durch einen Mixer, siehe Abschnitt \ref{Mixer}), um Klänge mit jeder erdenklichen Klangfarbe zu erzeugen. Idealerweise wird jede grundlegende Sinuswelle durch eine separate Hüllkurve moduliert, um einen Klang mit sich laufend verändernder Klangfarbe zu erzeugen \cite{raffaseder}. Da dies mit einer steigenden Anzahl an grundlegenden Sinuswellen eine technische Herausforderung darstellt, sind additive Synthesizer meist digital ausgeführt, ein analoges Beispiel für einen additiven Synthesizer wäre eine *Hammond-Orgel* \cite{delamar:synthesis}.
+Nach Fourier kann jegliche Art von Wellenform durch eine Serie von Sinuswellen ausgedrückt werden. Das Prinzip der additiven Klangsynthese besteht somit darin, eine Vielzahl von Sinuswellen mit unterschiedlichen Amplituden und Frequenzen zu kombinieren \cite{soundtraining:synthesis} (beispielsweise durch einen Mixer, siehe Abschnitt \ref{Mixer}), um Klänge mit jeder erdenklichen Klangfarbe zu erzeugen.
+
+\pagebreak
+
+Idealerweise wird jede grundlegende Sinuswelle durch eine separate Hüllkurve moduliert, um einen Klang mit sich laufend verändernder Klangfarbe zu erzeugen \cite{raffaseder}. Da dies mit einer steigenden Anzahl an grundlegenden Sinuswellen eine technische Herausforderung darstellt, sind additive Synthesizer meist digital ausgeführt, ein analoges Beispiel für einen additiven Synthesizer wäre eine *Hammond-Orgel* \cite{delamar:synthesis}.
 
 ** Vocoder
 Ein Vocoder basiert auf dem Prinzip, ein Signal (meist eine Stimme) mittels mehrerer Band-Pass Filter in seine Frequenzbestandteile aufzuteilen. Anschließend wird dieses Frequenzspektrum auf der Basis von weißem Rauschen (siehe Abschnitt \ref{Noise}) wieder aufgebaut, um einen als gesprochenes Wort zu erkennenden Klang zu erzeugen. Ein Vocoder arbeitet somit sowohl mit subtraktiver Soundsynthese bei der Analyse des Frequenzspektrums als auch mit additiver Soundsynthese beim Wiederzusammensetzen des analysierten Klangs.
@@ -60,6 +66,8 @@ Bereits im frühen 20. Jahrhundert wurden elektronische Schaltkreise benutzt, um
 
 Der erste vollwertige elektronische Synthesizer, welcher auch als solcher bezeichnet wurde, war der *RCA Music Synthesizer*, eine raumhohe Maschine, welche als Gemeinschaftsprojekt zwischen den amerikanischen Universitäten von Princeton und Columbia entstanden war. Statt mit einer Klaviertastatur spielte beziehungsweise programmierte man diesen Synthesizer erst mittels Lochkarten und konnte dann gewisse Aspekte des Klanges dynamisch - also während das Stück spielte - ändern \cite{adafruit:RCA}.
 
+\pagebreak
+
 Das Konzept eines modularen Synthesizers und damit auch das Konzept der \acl{CV} wurde erstmals von Robert Moog in seiner Arbeit mit dem Titel "`VOLTAGE-CONTROLLED ELECTRONIC MUSIC MODULES"' dokumentiert \cite{moog1964}. Der auf diesen Prinzipien basierende *Moog Modular Synthesizer* führte viele heute noch aktuelle Standards ein, wie zum Beispiel die Kontrollspannungsarten Trigger und \SI{1}{\volt} pro Oktave, auf welche in Abschnitt \ref{CV} näher eingegangen wird. Spätestens mit dem 1968 erschienenen Album "`Switched-On Bach"' von Wendy Carlos wurde der Synthesizer als vollwertiges Instrument im Mainstream akzeptiert \cite{yamaha:history} \cite{120years:moog}. 
 
 Während die Synthesizer von Moog mit dem Prinzip der subtraktiven Klangsynthese arbeiteten, wurden zur gleichen Zeit - auf der anderen Seite Amerikas - erste Synthesizer mit additiver Klangsynthese hergestellt. Die von *Donald Buchla* hergestellten Synthesizer boten dem Benutzer beinahe grenzenlose Freiheit über die Farbe der erzeugten Klänge. Dennoch blieb die subtraktive Klangsynthese wohl aufgrund größerer Intuitivität und besserer technischer Umsetzbarkeit das vorherrschende Prinzip \cite{120years:buchla}. 
@@ -67,6 +75,8 @@ Während die Synthesizer von Moog mit dem Prinzip der subtraktiven Klangsynthese
 Obwohl Moog als Vater der modularen Klangsynthese gilt, ist eines der bekanntesten und beliebtesten Produkte der Firma Moog der fix verkabelte *Minimoog*. Dieser als Live-Instrument gedachte Synthesizer führte ein Lautstärkerad und ein Tonhöhenveränderungsrad ein, mit welchem Töne ähnlich wie beim Saitenziehen bei einer Gitarre verändert werden können \cite{120years:moog}.
 
 Die 1970er und 1980er Jahre waren vor allem von digitalen Synthesizern geprägt. Das von der Firma "`New England Digital"' hergestellte Synclavier I war der erste Synthesizer welcher Frequenzmodulation, eine Form der additiven Klangsynthese anbot. Der von Yamaha hergestellte *DX7* brachte dieses Konzept in den Mainstream. Die glockenartigen Klänge die charakteristisch für diese Art der Klangsynthese sind, prägten den Großteil der 80er Jahre und sind auch heute noch häufig in Pop und Schlager zu finden \cite{yamaha:history}.
+
+\pagebreak
 
 Das Konzept der modularen Synthesizer schien beinahe vergessen, bis im Jahre 1996 Dieter Döpfer das modulare Synthesizersystem *A-100* entwarf. Die quelloffene Natur dieses Systems ermöglichte es anderen Herstellern wie auch den Firmen Moog, Rohland und Behringer, kompatible Module herzustellen, wodurch ein De-facto-Standard, heute bekannt als Eurorack, entstand. Dieser Standard führte zu einer Renaissance der modularen Synthesizer, heutzutage basieren fast alle modularen Synthesizer auf dem Eurorack-Format.
 
@@ -76,6 +86,8 @@ Die Dokumentation für diesen Synthesizer, den A-100, stellt auf direkte oder in
 
 Der 1996 von der Doepfer Musikelektronik GmbH veröffentlichte A-100 Synthesizer benutzte für viele Zwecke bereits etablierte Maße und Werte. Beispielweise werden die durch den Moog Modular Synthesizer popularisierten Kontrollspannungsarten benutzt. Auch die physischen Dimensionen der Module basierten auf einem bereits vorhandenen Standard, dem Eurocard-Standard (IEEE 1101.1). Der Begriff Eurorack stammt wohl vom Namen dieses Standards ab. Bald nach der Veröffentlichung des A-100 wurden kompatible Module von anderen Herstellern veröffentlicht, wodurch das Eurorack-Format zum De-facto-Standard für modulare Synthesizer wurde. Heute gibt es tausende von Eurorack-Modulen, hergestellt von bekannten Firmen wie Moog, Roland, Behringer und auf Eurorack spezialisierten Herstellern wie Make Noise und Intellijel. Des Weiteren gibt es eine lebendige DIY-Szene mit vielen öffentlichen und quelloffenen Designs, Anleitungen, Schematics und vorgefertigten Kits zum Zusammenbauen.
 
+\newpage
+
 ** Kontrollspannung \label{CV}
 \acl{CV}, im englischen als Controll Voltage oder \acs{CV} bezeichnet, wird benutzt, wenn bestimmte Parameter eines Moduls nicht nur vom Benutzer (etwa durch Knöpfe, Potentiometer, etc.), sondern auch durch andere Module ansteuerbar sein sollen. So kann beispielsweise die Frequenz eines \acs{VCO}, der Cutoff eines \ac{VCF} oder Attack- und Releaselänge einer Hüllkurve mithilfe von \acl{CV} festgelegt werden. \aclp{CV} können aus verschiedensten Quellen stammen, dabei gibt es viele Module, welche auf das generieren von \aclp{CV} spezialisiert sind, beispielsweise Hüllkurvengeneratoren und \acp{LFO}. Doch auch klassische Audiosignale können als \acl{CV} benutzt werden.
 
@@ -83,6 +95,8 @@ Besonders für Eurorack und für modulare Synthesizer im Generellen hat dieses K
 
 *** Trigger
 Triggersignale sind steigende Flanken, meist direkt gefolgt von einer fallenden Flanke, zwischen \SI{0}{\volt} und \SI{5}{\volt}. Ihr Zweck ist es, Prozesse, wie etwa das Fortschreiten eines Sequencers, auszulösen.
+
+\newpage
 
 *** Gate
 Ähnlich wie ein Triggersignal ist ein Gate eine steigende Flanke gefolgt von einer fallenden Flanke zwsichen \SI{0}{\volt} und \SI{5}{\volt}. Im Unterschied zum Trigger ist jedoch der zeitliche Abstand zwischen steigender und fallender Flanke oft beträchtlich länger und spielt eine wichtige Rolle. Gate-Signale werden oft verwendet, um den Zustand einer Keyboardtaste zu beschreiben.
@@ -112,3 +126,10 @@ Die meisten \acsp{VCO} folgen der 1964 von Moog eingeführten Konvention, dass i
 
 *** Audio
 Audiosignale sind Spannungen, die meist zwischen \SI{-0.5}{\volt} und \SI{0.5}{\volt} schwingen. Sie können an einen Verstärker oder Lautsprecher angelegt werden, um Schall zu erzeugen oder zur Weiterverarbeitung von einem Modul zum anderen geschickt und sogar als \acl{CV} verwendet werden. 
+
+
+\newpage
+
+** Gehäuse
+Das Gehäuse muss so dimensioniert sein, dass es Eurorack-Module beherbergen kann. Diese basieren, wie bereits erwähnt, auf dem Eurocard Standard. Wichtig ist dabei vor allem der vertikale Abstand der Schienen, auf welchen die Module befestigt werden. Dieser misst laut der System A100 Anleitung von Doepfer 3 \acp{HE} \cite{doepfer:A-100}. 1 \ac{HE} beträgt dabei \SI{44.45}{\milli\meter} oder $1\frac{3}{4}$ Zoll. Die Breite der Module beträgt ein Vielfaches von \SI{5.08}{\milli\meter}, beziehungsweise 0.2 Zoll. Manche Gehäuse, wie beispielsweise die von der Firma Intellijel können auch Module beherrbergen, die nur eine Höheneinheit hoch sind.
+

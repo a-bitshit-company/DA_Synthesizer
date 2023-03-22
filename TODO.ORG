@@ -1,8 +1,7 @@
 * Doku fertigstellen
-+ abstract fertigstellen
-+ Kontrollspannung einleitungssatz besser formulieren
-+ mixer elektronik ausfüllen
-+ VCA spezifikationen ausfüllen
-+ voltge controlled gate
-+ AR spezifikationen ausfüllen
-+ 1.1 prozentangaben in neue Zeile jeweils, bei dir auch no prozente dazu
++ Datum dazuschreiben wann aufgerufen bei quellen
++ bild von fertigem synthi (eingebaut in gehäuse) im projektergebnis
+  + referenz auf bild in abschnitt 3.3
++ panel bild einfügen vca (wenns kleiner wird als der mixer dass passt vactrol schematic löschen)
++ formatieren
++ eidesstaatliche erklärung

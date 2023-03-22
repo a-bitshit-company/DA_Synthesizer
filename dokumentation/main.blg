@@ -25,36 +25,36 @@ Warning--there's no year in obertoene
 You've used 27 entries,
             4332 wiz_defined-function locations,
             947 strings with 9143 characters,
-and the built_in function-call counts, 8748 in all, are:
-= -- 836
+and the built_in function-call counts, 8828 in all, are:
+= -- 860
 > -- 171
 < -- 99
 + -- 153
 - -- 49
-* -- 429
-:= -- 1529
+* -- 436
+:= -- 1545
 add.period$ -- 48
 call.type$ -- 27
 change.case$ -- 78
 chr.to.int$ -- 0
 cite$ -- 40
-duplicate$ -- 336
-empty$ -- 897
+duplicate$ -- 345
+empty$ -- 906
 format.name$ -- 96
-if$ -- 1930
+if$ -- 1945
 int.to.chr$ -- 0
 int.to.str$ -- 27
-missing$ -- 90
+missing$ -- 80
 newline$ -- 163
 num.names$ -- 48
-pop$ -- 186
+pop$ -- 190
 preamble$ -- 1
 purify$ -- 78
 quote$ -- 0
-skip$ -- 445
+skip$ -- 449
 stack$ -- 0
 substring$ -- 350
-swap$ -- 30
+swap$ -- 28
 text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 0
@@ -62,5 +62,5 @@ type$ -- 112
 warning$ -- 13
 while$ -- 72
 width$ -- 29
-write$ -- 362
+write$ -- 366
 (There were 13 warnings)

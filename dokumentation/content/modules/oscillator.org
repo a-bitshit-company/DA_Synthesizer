@@ -1,6 +1,6 @@
 #+bibliography: ../../references.bib
 * Oszillator x2 \label{Osci}
-Dieses Modul ist ein simples signalerzeugendes Modul, welches zwei voneinander unabhängige Rechteckswellen im hörbaren Bereich generiert.
+Dieses Modul ist ein simples signalerzeugendes Modul, welches zwei voneinander unabhängige Rechteckswellen (siehe Abbildung [[fig:OSC_osci]]) im hörbaren Bereich generiert.
 
 ** Spezifikationen
 Oszillator 1:
@@ -17,9 +17,16 @@ Als Grundlage dient ein einfacher "`Resistor-Capacitor"' Schwingkreis, welcher e
 ** Benutzung
 Wie auf Abbildung [[fig:oscillator]] zu erkennen ist, ist das Panel in einen linken und rechten Oszillator aufgeteilt. Alle Elemente auf einer Seite gehören zu jeweils einem Oszillator. Die oberen beiden Potentiometer dienen zur Steuerung der Frequenz (siehe Abschnitt \ref{frequenz}), die unteren beiden dienen zur Steuerung der Amplitude (siehe Abschnitt \ref{amplitude}) des Signals. Die Audiobuchsen dienen als Output. Der Schalter links oben aktiviert das Modul, die Oszillatoren sind nicht separat voneinander an- und ausschaltbar.
 
+#+ATTR_LaTeX: :placement [hp] :width 250px
+#+CAPTION: Spannungsverlauf eines Oszillators
+#+NAME: fig:OSC_osci
+[[file:~/Documents/diplomarbeit/dokumentation/figures/OSC_osci.jpg]]
+
+
 #+ATTR_LaTeX: :options angle=90 :placement [hp]
 #+CAPTION: Deckplatte unseres Oszillator-Moduls
 #+NAME: fig:oscillator
 [[file:///home/felixp/Documents/diplomarbeit/dokumentation/figures/modules/oscillator.jpg]]
 
 #+INCLUDE: schematics/oscillator.org
+

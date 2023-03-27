@@ -1,5 +1,5 @@
-#+TITLE: Schluss
-\chapter{Schluss}
+#+TITLE: Schlussfolgerung/Projekterfahrung
+\chapter{Schlussfolgerung/Projekterfahrung}
 
 * Erreichte Ziele \label{goals}
 Es war möglich, die Zielsetzung der vorliegenden Diplomarbeit zum Großteil zu erfüllen. Diese umfasst die Konstruktion eines Synthesizers im Eurorack-Format mit allen nötigen Modulen, um eine Signalverarbeitungskette, welche zur klassischen subtraktiven Klangsynthese fähig ist, zu bilden. Folgende Bestandteile dieses Synthesizers wurden recherchiert, geplant und als Modul fertiggestellt:
@@ -27,13 +27,13 @@ THT-Platinen eignen sich sehr gut für simple Schaltkreise, jedoch werden sie sc
 ** Verwendung von simpleren Schaltkreisen
 Da die Fehleranfälligkeit eines Schaltkreises bei höherer Komplexität exponentiell steigt und auch ein höherer Aufwand für die Konstruktion benötigt wird, sollten möglich simple Schaltkreise gewählt werden. Die Klangerzeugung ist keine exakte Wissenschaft, sondern eher eine Kunst, und so dürfen bestimmte Module durchaus eine etwas ungenaue Funktionsweise haben, oder einen eigenen Charakter aufweisen.
 
-** Reihenfolge der Konstruierten Module
+** Reihenfolge der konstruierten Module
 Die Module sollten, vor allem bei einem Projekt mit fixer Deadline wie es eine Diplomarbeit ist, in der Reihenfolge ihrer Wichtigkeit gebaut werden. So ist es beispielsweise nicht sinnvoll, einen Hüllkurvengenerator zu konstruieren, bevor ein anzusteuernder \ac{VCA} existiert.
 
 ** Weiteres
 Gelernt und vertieft wurden außerdem:
 + Arbeiten mit \LaTeX
-+ Löten und Arbeiten mit Elektronischen Bauteilen
++ Löten und Arbeiten mit elektronischen Bauteilen
 + Bearbeitung von Holz
-+ Recherche, Planung und Durchführung eines Facettenreichen Hardwareprojektes
++ Recherche, Planung und Durchführung eines facettenreichen Hardwareprojektes
 + Sinnvolle Arbeitsteilung je nach Stärken der Teammitglieder

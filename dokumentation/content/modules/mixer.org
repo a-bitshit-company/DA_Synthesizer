@@ -6,12 +6,12 @@ Das Mixer Modul dient dazu, Signale aus mehreren Quellen zu einem einzigen zusam
 Sowohl beim Output als auch bei den Inputs ist der volle Spannungsbereich von \SIrange{-12}{+12}{\volt} möglich.
 
 ** Elektronik
-Als vorlage dient der "'Simple Mixer"' von Kristian Blåsol \cite{miaw:mixer} (siehe Abbildung [[fig:mixer_schaltkreis]]). Bei diesem Design führt jeder Eingang durch ein Potentiometer, welches als Spannungsteiler geschalten ist. Dadurch kann die Lautstärke der Kanäle unabhängig voneinander reguliert werden. Die danach zusammengeführten Signale werden zunächst mithilfe eines Operationsverstärker invertiert und gepuffert, an den invertierten Ausgang geführt und ein weiteres mal invertiert um einen nicht invertierten gepufferten Ausgang zu erhalten.
+Als Vorlage dient der "'Simple Mixer"' von Kristian Blåsol \cite{miaw:mixer} (siehe Abbildung [[fig:mixer_schaltkreis]]). Bei diesem Design führt jeder Eingang durch ein Potentiometer, welches als Spannungsteiler geschaltet ist. Dadurch kann die Lautstärke der Kanäle unabhängig voneinander reguliert werden. Die danach zusammengeführten Signale werden zunächst mithilfe eines Operationsverstärker invertiert und gepuffert, an den invertierenden Ausgang geführt und ein weiteres mal invertiert um einen nicht invertierenden, gepufferten Ausgang zu erhalten.
 
 \newpage
 
 ** Benutzung
-Es können bis zu drei zu mixende Signale an die oberen Audiobuchsen angeschlossen werden, die drei Potentiometer dienen zum Verringern der Lautstärke des jeweiligen Eingangs. Die unteren beiden Audiobuchsen liefern das Ausgangssignal, wobei der invertierende Ausgang rechts ist (siehe Abbildung [[fig:mixer_panel]])). Als einfachen Patch könnte man die beiden Signale des Oszillator-Moduls (siehe Abschnitt \ref{Osci}) zusammenführen, um beide Oszillatoren auf einmal zu hören.
+Es können bis zu drei zu mixende Signale an die oberen Audiobuchsen angeschlossen werden, die drei Potentiometer dienen zum Verringern der Lautstärke des jeweiligen Eingangs. Die unteren beiden Audiobuchsen liefern das Ausgangssignal, wobei der invertierende Ausgang rechts ist (siehe Abbildung [[fig:mixer_panel]]). Als einfachen Patch könnte man die beiden Signale des Oszillator-Moduls (siehe Abschnitt \ref{Osci}) zusammenführen, um beide Oszillatoren auf einmal zu hören.
 
 #+ATTR_LaTeX: :placement :width 300px
 #+CAPTION: Schaltkreis für einen passiven Mixer; Quelle: \cite{miaw:mixer}

@@ -50,7 +50,7 @@
 
 %% ... it's OK to put here your own usepackage commands ...
 
-
+\usepackage[nottoc]{tocbibind}
 \usepackage{circuitikz}
 \usepackage{siunitx}
 \usepackage[printonlyused,withpage]{acronym}
@@ -104,7 +104,6 @@
 %%\let\cleardoublepage\clearpage
 \phantomsection
 \addcontentsline{toc}{chapter}{Abstract}
-   
 \include{content/abstract}              %% Abstract
 \input{template/affirmation} %%EIDESSTATTLICHE ERKLÄRUNG  
 
@@ -124,14 +123,12 @@
 \input{content/einleitung}
 \input{content/theoretische_grundlagen}
 \input{content/praktische_umsetzung}
-\input{content/schluss}
 
 \appendix                       %% closes main document, appendix follows until end; only available in book-classes
 
 \addpart*{Appendix}             %% adding Appendix to tableofcontents
 
-
-
+\input{content/schluss}
 \input{content/abkuerzungsverzeichnis}
 %\listoftables
 \listoffigures

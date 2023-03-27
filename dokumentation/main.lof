@@ -1,5 +1,6 @@
 \babel@toc {ngerman}{}\relax 
 \babel@toc {ngerman}{}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces Der fertiggestellte Synthesizer mit allen Modulen, Spannungsquelle und Gehäuse}}{v}{figure.0.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Dezibelskala mit häufigen Lautstärken als Referenzpunkte und zugehörigen Luftdrucksänderungen in Pascal \cite {at:decibels}}}{6}{figure.2.1}%
@@ -25,6 +26,3 @@
 \contentsline {figure}{\numberline {3.17}{\ignorespaces Schaltkreis für einen simplen Attack-Release Hüllkurvengenerator; Quelle: \cite {synthnerd:ar}}}{35}{figure.3.17}%
 \contentsline {figure}{\numberline {3.18}{\ignorespaces Spannungsverlauf (Hüllkurve) des Attack-Release Hüllkurvengenerators}}{35}{figure.3.18}%
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

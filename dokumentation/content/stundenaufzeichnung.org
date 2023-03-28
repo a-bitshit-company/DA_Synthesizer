@@ -1,0 +1,75 @@
+#+TITLE: Stundenaufzeichnung
+\chapter{Stundenaufzeichnung}
+
+* Felix Perktold
+|--------+---------+---------------------------------------------------|
+|  Datum | Stunden | Aufgabe                                           |
+|--------+---------+---------------------------------------------------|
+|   26.6 |       8 | Gehäuse bauen, recherche, LaTeX Vorlage studieren |
+|  30.6. |       3 | Abstract, Struktur der Dokumentation              |
+|  25.07 |       8 | Recherche Schaltkreise                            |
+| 26.07. |       5 | Recherche Schaltkreise                            |
+| 30.07. |       5 | Dokumentation, Anfang des Hauptteils              |
+|  07.09 |       5 | Dokumentation                                     |
+| 13.09. |       5 | Dokumentation, Schaltkreise zeichnen              |
+| 19.10. |       8 | Dokumentation                                     |
+|  4.11. |       3 | Dokumentation                                     |
+|  16.11 |       4 | Recherche                                         |
+|  23.11 |       5 | Löten/Konstruktion der Hardware                   |
+|  30.11 |       5 | Löten/Konstruktion der Hardware                   |
+|   7.12 |       5 | Dokumentation                                     |
+|  14.12 |       9 | Recherche/Dokumentation                           |
+|  21.12 |       5 | Dokumentation                                     |
+|  27.12 |       4 | Dokumentation                                     |
+|  29.12 |       4 | Dokumentation                                     |
+|  11.01 |       4 | Löten/Konstruktion der Hardware                   |
+|  18.01 |       4 | Löten/Konstruktion der Hardware                   |
+|  25.01 |       4 | Dokumentation                                     |
+|  01.02 |       4 | Dokumentation/Recherche                           |
+|  08.02 |       4 | Dokumentation/Recherche                           |
+|  15.02 |       4 | Dokumentation/Recherche                           |
+|  22.02 |       4 | Doku                                              |
+| 28.02. |       3 | Abkürzungsverzeichnis erstellen                   |
+|  01.03 |       4 | Dokumentation                                     |
+| 08.03. |       5 | Dokumentation                                     |
+| 15.03. |       4 | Dokumentation Formatierung                        |
+| 22.03. |       3 | Dokumentation Formatierung                        |
+|--------+---------+---------------------------------------------------|
+
+* Matteo Kastler:
+|--------+---------+-----------------------------|
+|  Datum | Stunden | Aufgabe                     |
+|--------+---------+-----------------------------|
+|   26.6 |       8 | Gehäuse bauen, erstes Modul |
+|   30.6 |     2,5 | löten/modul bauen           |
+|    1.7 |       7 | löten/modul bauen           |
+|    2.7 |     4,5 | löten/modul bauen           |
+|  26.07 |       5 | löten/modul bauen           |
+|  21.08 |       5 | löten/modul bauen           |
+|  27.08 |       7 | löten/modul bauen           |
+|  07.09 |       5 | troubleshooting modul       |
+|  18.09 |       8 | löten/modul bauen           |
+|  25.09 |       5 | löten/modul bauen           |
+|  16.10 |       5 | löten/modul bauen           |
+|   6.11 |       7 | troubleshooting modul       |
+|  16.11 |       9 | löten/modul bauen           |
+|  23.11 |       5 | löten/modul bauen           |
+|  30.11 |       5 | löten/modul bauen           |
+|   7.12 |       5 | löten/modul bauen           |
+|  14.12 |       5 | löten/modul bauen           |
+|  21.12 |       5 | troubleshooting modul       |
+|  27.12 |       4 | dokumentation               |
+|  29.12 |       4 | dokumentation               |
+|  11.01 |       4 | löten/modul bauen           |
+|  18.01 |       9 | löten/modul bauen           |
+|  25.01 |       4 | löten/modul bauen           |
+|  01.02 |       9 | dokumenation                |
+|  08.02 |       4 | dokumentation               |
+|  11.02 |       6 | dokumentation               |
+|  15.02 |       4 | dokumentation               |
+|  22.02 |       4 | dokumentation               |
+|  01.03 |       4 | dokumentation               |
+| 08.03. |       3 | löten/modul bauen           |
+| 15.03. |       3 | löten/modul bauen           |
+| 22.03. |       3 | Dokumentation Formatierung  |
+|--------+---------+-----------------------------|

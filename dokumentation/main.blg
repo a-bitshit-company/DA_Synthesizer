@@ -2,6 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2022/Arch Linux)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: abbrvdin.bst
+A level-1 auxiliary file: content/gendererklaerung.aux
 A level-1 auxiliary file: content/abstract.aux
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
@@ -24,7 +25,7 @@ Warning--empty pages in moog1964
 Warning--there's no year in obertoene
 You've used 27 entries,
             4332 wiz_defined-function locations,
-            947 strings with 9143 characters,
+            948 strings with 9171 characters,
 and the built_in function-call counts, 8828 in all, are:
 = -- 860
 > -- 171

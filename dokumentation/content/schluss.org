@@ -1,5 +1,7 @@
+#+OPTIONS: num:nil
 #+TITLE: Schlussfolgerung/Projekterfahrung
-\chapter{Schlussfolgerung/Projekterfahrung}
+\chapter*{Schlussfolgerung/Projekterfahrung}
+\addcontentsline{toc}{chapter}{Schlussfolgerung/Projekterfahrung}
 
 * Erreichte Ziele \label{goals}
 Es war möglich, die Zielsetzung der vorliegenden Diplomarbeit zum Großteil zu erfüllen. Diese umfasst die Konstruktion eines Synthesizers im Eurorack-Format mit allen nötigen Modulen, um eine Signalverarbeitungskette, welche zur klassischen subtraktiven Klangsynthese fähig ist, zu bilden. Folgende Bestandteile dieses Synthesizers wurden recherchiert, geplant und als Modul fertiggestellt:

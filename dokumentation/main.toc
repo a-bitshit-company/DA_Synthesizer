@@ -57,18 +57,9 @@
 \contentsline {subsubsection}{\nonumberline Spezifikationen}{33}{subsubsection*.65}%
 \contentsline {subsubsection}{\nonumberline Elektronik}{33}{subsubsection*.67}%
 \contentsline {subsubsection}{\nonumberline Benutzung}{34}{subsubsection*.69}%
-\contentsline {chapter}{\numberline {A}Schlussfolgerung/Projekterfahrung}{38}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Erreichte Ziele }{38}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Erlangte Erkenntnisse}{39}{section.A.2}%
-\contentsline {subsection}{\numberline {A.2.1}Material für Deckplatten}{39}{subsection.A.2.1}%
-\contentsline {subsection}{\numberline {A.2.2}Material für Platinen}{39}{subsection.A.2.2}%
-\contentsline {subsection}{\numberline {A.2.3}Verwendung von simpleren Schaltkreisen}{39}{subsection.A.2.3}%
-\contentsline {subsection}{\numberline {A.2.4}Reihenfolge der konstruierten Module}{40}{subsection.A.2.4}%
-\contentsline {subsection}{\numberline {A.2.5}Weiteres}{40}{subsection.A.2.5}%
-\contentsline {chapter}{Abkürzungsverzeichnis}{42}{chapter*.72}%
-\contentsline {chapter}{\numberline {B}Stundenaufzeichnung}{44}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Felix Perktold}{45}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Matteo Kastler:}{46}{section.B.2}%
-\contentsline {chapter}{Abbildungsverzeichnis}{48}{chapter*.73}%
-\contentsline {chapter}{Literaturverzeichnis}{50}{chapter*.74}%
+\contentsline {chapter}{Schlussfolgerung/Projekterfahrung}{38}{chapter*.72}%
+\contentsline {chapter}{Stundenaufzeichnung}{42}{chapter*.80}%
+\contentsline {chapter}{Abkürzungsverzeichnis}{46}{chapter*.83}%
+\contentsline {chapter}{Abbildungsverzeichnis}{48}{chapter*.84}%
+\contentsline {chapter}{Literaturverzeichnis}{50}{chapter*.85}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

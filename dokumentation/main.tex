@@ -103,13 +103,11 @@
 
 %% include the abstract without chapter number but include it on table of contents:
 %%\let\cleardoublepage\clearpage
-\phantomsection
-\addcontentsline{toc}{chapter}{Gendererklärung}
-\include{content/gendererklaerung}
+%%\phantomsection
+\input{content/gendererklaerung}
 
-\phantomsection
-\addcontentsline{toc}{chapter}{Abstract}
-\include{content/abstract}              %% Abstract
+%%\phantomsection
+\input{content/abstract}              %% Abstract
 \input{template/affirmation} %%EIDESSTATTLICHE ERKLÄRUNG  
 
 \tableofcontents                %% this produces the table of contents - you might have guessed :-)
